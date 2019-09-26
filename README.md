@@ -1,4 +1,4 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 # Jeffrey Je-Uei Kuo  
 
