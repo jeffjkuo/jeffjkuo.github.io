@@ -1,11 +1,11 @@
 .column1of2 {
 float: left ;
 width: 300px;
-margin: 10px;
+margin: 20px;
 }
 
 .column2of2 {
 float: left;
-width: 600px
-margin: 10px;
+width: 620px
+margin: 20px;
 }
