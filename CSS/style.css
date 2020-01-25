@@ -36,3 +36,14 @@ a:hover {
 a:active {
   color: indigo;
 }
+
+a{text-decoration: none; }
+
+/*Definition list*/
+dl {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
