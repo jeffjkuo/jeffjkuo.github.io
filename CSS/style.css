@@ -17,13 +17,6 @@ width: 620px
 margin: 20px;
 }
 
-a {
-    background-color: red;
-    color: white;
-    padding: 1em 1em;
-    text-decoration: none;
-}
-
 a:hover {
   background-color: #555;
 }
