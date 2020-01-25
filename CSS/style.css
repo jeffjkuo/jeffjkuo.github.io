@@ -19,12 +19,12 @@ margin: 20px;
 
 /* unvisited link */
 a:link {
-  color: navy;
+  color: blue;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: navy;
 }
 
 /* mouse over link */
@@ -43,7 +43,7 @@ a{text-decoration: none;}
 dd {
   display: block;
   margin-top: 0em;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   margin-left: 0;
   margin-right: 0;
 }
