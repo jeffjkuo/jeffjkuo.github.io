@@ -29,12 +29,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: dodgerblue;
+  color: navy;
 }
 
 /* selected link */
 a:active {
-  color: indigo;
+  color: dodgerblue;
 }
 
 /*Definition list*/
