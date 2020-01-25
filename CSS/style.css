@@ -16,3 +16,23 @@ float: left;
 width: 620px
 margin: 20px;
 }
+
+/* unvisited link */
+a:link {
+  color: navy;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: navy;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
