@@ -1,4 +1,5 @@
-#wesite{
+#website{
+  width:1000px;
   margin:auto;
   padding:2em;
   box-sizing:border-box;
@@ -18,10 +19,10 @@ margin: 20px;
 
 a {
     background-color: red;
-  color: white;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:hover {
