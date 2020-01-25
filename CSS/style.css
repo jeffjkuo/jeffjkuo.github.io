@@ -20,9 +20,8 @@ margin: 20px;
 a {
     background-color: red;
     color: white;
-    padding: 1em 1.5em;
+    padding: 1em 1em;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 a:hover {
