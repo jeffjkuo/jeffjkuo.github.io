@@ -24,7 +24,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: none;
+  color: black;
 }
 
 /* mouse over link */
@@ -37,13 +37,13 @@ a:active {
   color: indigo;
 }
 
-a{text-decoration: none; }
+a{text-decoration: none;}
 
 /*Definition list*/
-dl {
+dd {
   display: block;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 0em;
+  margin-bottom: 4em;
   margin-left: 0;
   margin-right: 0;
 }
