@@ -24,15 +24,15 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: grey;
+  color: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: navy;
+  color: dodgerblue;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: indigo;
 }
