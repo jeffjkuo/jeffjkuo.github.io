@@ -24,7 +24,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: navy;
+  color: blue;
 }
 
 /* mouse over link */
@@ -36,8 +36,6 @@ a:hover {
 a:active {
   color: indigo;
 }
-
-a{text-decoration: none;}
 
 /*Definition list*/
 dd {
