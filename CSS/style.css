@@ -17,6 +17,10 @@ width: 620px
 margin: 20px;
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 /* unvisited link */
 a:link {
   color: blue;
