@@ -22,7 +22,7 @@ margin: 0px 20px 20px;
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+/*  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
