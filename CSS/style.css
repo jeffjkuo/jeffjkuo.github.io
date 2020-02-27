@@ -26,10 +26,8 @@ margin: 0px 20px 20px;
 }
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
 }
 
 
