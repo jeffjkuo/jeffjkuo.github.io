@@ -61,6 +61,22 @@ a:active {
   color: dodgerblue;
 }
 
+
+a1:link {
+  text-decoration: inherit;
+}
+
+a1:visited {
+  text-decoration: none;
+}
+
+a1:hover {
+  text-decoration: none;
+}
+
+a1:active {
+  text-decoration: none;
+}
 /*Definition list*/
 /*dd {
   display: block;
