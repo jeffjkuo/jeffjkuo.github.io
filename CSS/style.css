@@ -37,7 +37,7 @@ width: 620px
 margin: 20px;
 }
 
-.button {
+button {
        background-color: pink;
        border: none;
        color: black;
