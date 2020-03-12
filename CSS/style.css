@@ -62,21 +62,19 @@ a:active {
 }
 
 
-a1:link {
-  text-decoration: inherit;
-}
+.button {
+         background-color: pink;
+         border: none;
+         color: black;
+         padding: 10px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 2px 4px;
+         cursor: pointer;
+         }
 
-a1:visited {
-  text-decoration: none;
-}
-
-a1:hover {
-  text-decoration: none;
-}
-
-a1:active {
-  text-decoration: none;
-}
 /*Definition list*/
 /*dd {
   display: block;
