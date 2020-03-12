@@ -37,9 +37,26 @@ width: 620px
 margin: 20px;
 }
 
+.button {
+       background-color: pink;
+       border: none;
+       color: black;
+       padding: 10px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 15px;
+       margin: 4px 2px;
+       cursor: pointer;
+ }
+
+
+
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
 
 /* unvisited link */
 a:link {
@@ -62,18 +79,7 @@ a:active {
 }
 
 
-.button {
-       background-color: pink;
-       border: none;
-       color: black;
-       padding: 10px 20px;
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
-       font-size: 20px;
-       margin: 4px 2px;
-       cursor: pointer;
-       }
+
 
 /*Definition list*/
 /*dd {
