@@ -51,10 +51,9 @@ margin: 20px;
  }
 
 
-
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
 }
 
 nav{
