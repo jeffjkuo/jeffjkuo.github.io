@@ -57,20 +57,39 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+nav{
+color:#283747;
+background-color:#F9F6F5;
+}
+
+nav ul{
+margin: 0px;
+padding: 5px 0px 5px 80px;
+}
+
+nav li{
+  display: inline;
+  margin-right:50px;
+}
+
+nav li a{
+text-decoration: none;
+color: red;
+}
 
 /* unvisited link */
 a:link {
-  color: blue;
+  color: #0C3BDA ;
 }
 
 /* visited link */
 a:visited {
-  color: blue;
+  color: #0C3BDA ;
 }
 
 /* mouse over link */
 a:hover {
-  color: navy;
+  color: #CF6534;
 }
 
 /* selected link */
