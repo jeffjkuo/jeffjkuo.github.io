@@ -80,7 +80,8 @@ color: red;
 
 /* unvisited link */
 a:link {
-  color: #0C3BDA ;
+  color: #0C3BDA;
+  text-decoration: none;
 }
 
 /* visited link */
