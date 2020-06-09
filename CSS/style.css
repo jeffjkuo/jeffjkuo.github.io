@@ -82,6 +82,7 @@ color: red;
 a:link {
   color: #0C3BDA;
   text-decoration: none;
+  target:_blank; 
 }
 
 /* visited link */
