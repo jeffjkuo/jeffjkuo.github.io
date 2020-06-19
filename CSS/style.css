@@ -99,7 +99,15 @@ a:active {
   color: dodgerblue;
 }
 
+.cv{
+  float:left;
+  width:50%
+}
 
+.contact{
+  float:left;
+  width:50%
+}
 
 
 /*Definition list*/
