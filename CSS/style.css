@@ -78,10 +78,12 @@ text-decoration: none;
 color: red;
 }
 
+
 /* unvisited link */
 a:link {
   color: #0C3BDA;
   text-decoration: none;
+
 }
 
 /* visited link */
@@ -101,12 +103,17 @@ a:active {
 
 .cv{
   float:left;
-  width:50%
+  width:33%
+}
+
+.email {
+  float:left;
+  width:30%
 }
 
 .contact{
   float:left;
-  width:50%
+  width:37%
 }
 
 
