@@ -61,7 +61,7 @@ body {
   position: fixed;
   right:290px;
   top: 3%;
-  width:600px;
+  width:650px;
   margin-top: -1.5em;
 }
 
@@ -76,14 +76,14 @@ background-color:#F9F6F5;
 
 nav ul{
 margin: 0px;
-padding: 5px 0px 5px 0px;
+padding: 0px 0px 0px 0px;
 text-align:center
 }
 
 nav li{
   display: inline;
-  margin-left:5px;
-  margin-right:5px;
+  margin-left:10px;
+  margin-right:10px;
   text-align:center;
 }
 
