@@ -58,21 +58,19 @@ body {
 
 #menu {
   position: fixed;
-  left: 19%;
+  left:290px;
   top: 5%;
-  width:59em;
+  width:1000px;
   margin-top: -2.5em;
 }
 
 nav{
 margin: 0 auto;
-/*position:fixed;*/
 left:50%
 top:50%
 overflow:hidden;
 color:#283747;
 background-color:#F9F6F5;
-/*text-align: center;*/
 }
 
 nav ul{
