@@ -58,10 +58,10 @@ body {
 
 #menu {
   position: fixed;
-  left:290px;
+  right:0%;
   top: 5%;
-  width:1000px;
-  margin-top: -2.5em;
+  width:500px;
+  margin-top: -1.5em;
 }
 
 nav{
@@ -81,8 +81,8 @@ text-align:center
 
 nav li{
   display: inline;
-  margin-left:15px;
-  margin-right:15px;
+  margin-left:5px;
+  margin-right:5px;
   text-align:center;
 }
 
