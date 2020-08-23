@@ -57,8 +57,9 @@ body {
 }
 
 .menu {
+  overflow: hidden;
   position: fixed;
-  right:20%;
+  right:290px;
   top: 3%;
   width:35%;
   margin-top: -1.5em;
