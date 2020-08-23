@@ -13,7 +13,7 @@ margin: 0px;
 
 .picture{
   float:left;
-  width: auto;
+  width: 35%;
   margin: 0px 20px 20px;
 }
 
@@ -58,9 +58,9 @@ body {
 
 .menu {
   position: fixed;
-  right:auto;
+  right:20%;
   top: 3%;
-  width:700px;
+  width:35%;
   margin-top: -1.5em;
 }
 
