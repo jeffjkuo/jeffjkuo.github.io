@@ -56,10 +56,23 @@ body {
     line-height: 1.5;
 }
 
+#menu {
+  position: fixed;
+  left: 19%;
+  top: 5%;
+  width:59em;
+  margin-top: -2.5em;
+}
+
 nav{
+margin: 0 auto;
+/*position:fixed;*/
+left:50%
+top:50%
+overflow:hidden;
 color:#283747;
 background-color:#F9F6F5;
-
+/*text-align: center;*/
 }
 
 nav ul{
@@ -70,7 +83,9 @@ text-align:center
 
 nav li{
   display: inline;
-  margin-right:30px;
+  margin-left:15px;
+  margin-right:15px;
+  text-align:center;
 }
 
 nav li a{
