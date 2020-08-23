@@ -58,9 +58,9 @@ body {
 
 .menu {
   position: fixed;
-  right:18%;
+  right:auto;
   top: 3%;
-  width:500px;
+  width:700px;
   margin-top: -1.5em;
 }
 
