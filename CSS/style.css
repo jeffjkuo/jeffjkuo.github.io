@@ -60,7 +60,7 @@ body {
   overflow: hidden;
   display: flex;
   position: fixed;
-  left:500px;
+  right:250px;
   top: 3%;
   width:550px;
   margin-top: -1.5em;
@@ -77,7 +77,7 @@ background-color:#F9F6F5;
 }
 
 nav ul{
-margin: 1px;
+margin: 2px;
 padding: 0px 0px 0px 0px;
 text-align:center;
 }
