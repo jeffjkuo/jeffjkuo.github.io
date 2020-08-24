@@ -61,9 +61,9 @@ body {
   display: flex;
   position: fixed;
   left:auto;
-  top: 3%;
+  top: 2%;
   width:950px;
-  margin-top: -1.5em;
+  margin-top: -1em;
 }
 
 nav{
