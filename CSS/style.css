@@ -60,9 +60,9 @@ body {
   overflow: hidden;
   display: flex;
   position: fixed;
-  right:250px;
+  left:290px;
   top: 3%;
-  width:750px;
+  width:950px;
   margin-top: -1.5em;
 }
 
