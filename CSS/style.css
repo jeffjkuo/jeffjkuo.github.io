@@ -8,7 +8,7 @@
 .logo {
 float: left;
 width: 35%;
-margin: 5px 20px 20px;
+margin: 5px 20px 10px;
 }
 
 .picture{
@@ -77,7 +77,7 @@ background-color:#F9F6F5;
 }
 
 nav ul{
-margin: 1px;
+margin: 0px;
 padding: 0px 0px 0px 0px;
 text-align:center;
 }
