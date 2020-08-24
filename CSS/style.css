@@ -58,10 +58,11 @@ body {
 
 .menu {
   overflow: hidden;
+  display: flex;
   position: fixed;
-  left:600px;
+  left:700px;
   top: 3%;
-  width:680px;
+  width:550px;
   margin-top: -1.5em;
 }
 
@@ -77,14 +78,14 @@ background-color:#F9F6F5;
 nav ul{
 margin: 0px;
 padding: 0px 0px 0px 0px;
-text-align:center
+text-align:right;
 }
 
 nav li{
   display: inline;
   margin-left:10px;
   margin-right:10px;
-  text-align:center;
+  text-align:left;
 }
 
 nav li a{
