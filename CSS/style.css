@@ -8,13 +8,13 @@
 .logo {
 float: left;
 width: 35%;
-margin: 0px;
+margin: 5px 20px 20px;
 }
 
 .picture{
   float:left;
   width: 35%;
-  margin: 0px 20px 20px;
+  margin: 5px 20px 20px;
 }
 
 /* Create two equal columns that floats next to each other */
