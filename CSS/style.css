@@ -60,7 +60,7 @@ body {
   overflow: hidden;
   display: flex;
   position: fixed;
-  left:700px;
+  left:500px;
   top: 3%;
   width:550px;
   margin-top: -1.5em;
@@ -68,6 +68,7 @@ body {
 
 nav{
 margin: 0 auto;
+text-align: center;
 /*left:10%
 top:10%
 overflow:hidden;*/
@@ -76,16 +77,16 @@ background-color:#F9F6F5;
 }
 
 nav ul{
-margin: 0px;
+margin: 1px;
 padding: 0px 0px 0px 0px;
-text-align:right;
+text-align:center;
 }
 
 nav li{
   display: inline;
   margin-left:10px;
   margin-right:10px;
-  text-align:left;
+  text-align:center;
 }
 
 nav li a{
