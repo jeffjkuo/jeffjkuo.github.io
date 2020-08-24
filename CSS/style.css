@@ -60,7 +60,7 @@ body {
   overflow: hidden;
   display: flex;
   position: fixed;
-  left:290px;
+  left:auto;
   top: 3%;
   width:950px;
   margin-top: -1.5em;
