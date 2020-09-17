@@ -5,16 +5,22 @@
   box-sizing:border-box;
 }
 
-.logo {
-float: left;
-width: 35%;
-margin: 5px 20px 10px;
-}
-
 .picture{
   float:left;
-  width: 35%;
-  margin: 5px 20px 20px;
+  width: 25%;
+  margin: 5px 10px 10px;
+}
+
+
+.logo {
+float: left;
+width: 30%;
+margin: 5px 15px 10px;
+}
+
+.contact{
+  float: left;
+  width:70%
 }
 
 /* Create two equal columns that floats next to each other */
@@ -97,14 +103,14 @@ color: red;
 
 /* unvisited link */
 a:link {
-  color: #0C3BDA;
+  color: #0000A0;
   text-decoration: none;
 
 }
 
 /* visited link */
 a:visited {
-  color: #0C3BDA ;
+  color: #0000A0 ;
 }
 
 /* mouse over link */
@@ -114,7 +120,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: dodgerblue;
+  color: ##0000A0;
 }
 
 .cv{
