@@ -7,7 +7,7 @@
 
 .picture{
   float:left;
-  width: 25%;
+  width: 28%;
   margin: 5px 10px 10px;
 }
 
@@ -19,7 +19,7 @@ margin: 5px 15px 10px;
 }
 
 .contact{
-  float: left;
+  float: right;
   width:70%
 }
 
