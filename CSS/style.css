@@ -149,6 +149,9 @@ th {
   text-align: left;
 }
 
+tr.noBorder td {
+  border: 0;
+}
 
 /*Definition list*/
 /*dd {
