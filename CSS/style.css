@@ -19,8 +19,8 @@ margin: 5px 15px 10px;
 }
 
 .contact{
-  float: right;
-  width:70%
+  float:left;
+  width:70%;
 }
 
 /* Create two equal columns that floats next to each other */
