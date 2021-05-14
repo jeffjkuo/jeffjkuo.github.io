@@ -44,7 +44,7 @@ margin: 20px;
 }
 
 .button {
-       background-color: pink;
+       background-color: slateblue;
        border: none;
        color: black;
        padding: 10px 20px;
@@ -103,14 +103,14 @@ color: red;
 
 /* unvisited link */
 a:link {
-  color: #0000A0;
+  color: #0D2166;
   text-decoration: none;
 
 }
 
 /* visited link */
 a:visited {
-  color: #0000A0;
+  color: #0D2166;
 }
 
 /* mouse over link */
@@ -120,7 +120,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: ##0000A0;
+  color: #0D2166;
 }
 
 .cv{
