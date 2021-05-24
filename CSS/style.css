@@ -8,20 +8,20 @@
 .picture{
   float:left;
   width: 28%;
-  margin: 5px 10px 10px;
+  margin: 10px 50px 10px 20px;
 }
 
 
 .logo {
-float: left;
-width: 30%;
-margin: 5px 15px 10px;
+float: right;
+width: 10%;
+margin: 10px 15px 10px;
 }
 
 .contact{
   float:left;
-  width:70%;
-}
+  width: 70%;
+  }
 
 /* Create two equal columns that floats next to each other */
 .column {
