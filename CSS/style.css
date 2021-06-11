@@ -153,6 +153,8 @@ tr.noBorder td {
   border: 0;
 }
 
+.tab { text-indent:40px }
+
 /*Definition list*/
 /*dd {
   display: block;
