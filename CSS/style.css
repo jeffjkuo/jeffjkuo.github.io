@@ -7,13 +7,13 @@
 
 .picture{
   float:left;
-  width: 28%;
+  width: 32%;
   margin: 10px 50px 10px 20px;
 }
 
 
 .logo {
-float: right;
+float: left;
 width: 10%;
 margin: 10px 15px 10px;
 }
@@ -155,6 +155,22 @@ tr.noBorder td {
 
 .tab { text-indent:40px }
 
+ul.b {
+  list-style-type: square;
+  margin-top: -1px;
+  margin-left: 10px;
+}
+
+ul.n {
+  margin-top: -10px;
+  margin-left: 0px;
+}
+
+.grey {
+  -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+    font-size: 0.75em;
+}
 /*Definition list*/
 /*dd {
   display: block;
