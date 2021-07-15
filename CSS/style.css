@@ -171,6 +171,11 @@ ul.n {
    filter: grayscale(100%);
     font-size: 0.75em;
 }
+
+.boxed {
+  border: 1.5px dashed navy ;
+  padding: 0.7em
+}
 /*Definition list*/
 /*dd {
   display: block;
