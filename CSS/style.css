@@ -67,9 +67,9 @@ body {
   display: flex;
   position: fixed;
   left:auto;
-  top: 2%;
+  top: 3%;
   width:950px;
-  margin-top: -1em;
+  margin-top: 3px;
 }
 
 nav{
@@ -80,7 +80,7 @@ top:10%
 overflow:hidden;*/
 color:#283747;
 background-color:#F9F6F5;
-font-size: 18px
+font-size: 20px;
 }
 
 nav ul{
