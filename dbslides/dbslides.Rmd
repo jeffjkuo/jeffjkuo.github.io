@@ -1,0 +1,120 @@
+---
+title: | 
+    | Distance is the Soul of Beauty: 
+    | How Open Border Policies Realign Ideology in Taiwan? 
+author: | 
+    | Jeffrey Kuo
+    |
+    | George Washington University
+    | 
+    | Webpage: https://jeffjkuo.github.io 
+    | Email: jeffkuo@gwu.edu
+    | Slides: https://rpubs.com/jeffkuo/NOV21TERP 
+    | 
+    | Taiwan Education and Research Program Initiative Meeting
+date: "`r format(Sys.time(), '%A, %B %d, %Y')`"
+toc: yes
+output:
+  slidy_presentation:
+    footer: Jeffrey Kuo, Taiwan Education and Research Program Orientation, November 12
+    font_adjustment: 1
+    incremental: yes
+    widescreen: yes
+    smaller: yes
+    transition: slower
+    theme: lumen
+    highlight: pygments
+    center: true
+    df_print: paged
+  beamer_presentation:
+    incremental: yes
+    highlight: pygments
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About Me
+
+* Academic 
+  + Ph.D. Candidate in Economics
+  + Primary Fields: International Trade, Political Economy, Econometrics
+  + Secondary Fields: International Finance, Taiwan Studies, Environmental Economics
+  + Before GW: 
+    + [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, '16)
+    + [Institute of Economics, Academia Sinica](http://www.econ.sinica.edu.tw/english) (Research Assistant, '14) 
+    + R.O.C. Army (Army Officer, Second Lieutenant, '13) 
+    + [National Chengchi University](https://www.nccu.edu.tw/app/home.php) (B.A + M.S. Honor Degree in International Trade, '12)
+  + Website: https://jeffjkuo.github.io ; Email: jeffkuo@gwu.edu
+
+* Personal 
+  + From the City of Kaohsiung: Southern Pride!
+  + Generation of Sunflower Movement... 
+
+# Overview of My Current Work
+
+  + "Distance is the Soul of the Beauty"
+    + Question 1: "Do open border policies help the political integration?"
+    + Question 2: "Does the heterogeneous exposure to Chinese visitors realign the ideology?"
+    + Question 3: "Does China-Taiwan case violate the "progressive integration theory?"
+  
+  + Preview of results
+    + Answer 1: No
+    + Answer 2: Yes (Visited by more Chinese tourists, the districts vote more to DPP)
+    + Answer 3: Yes
+    
+  + Contributions
+    + New dataset: Election Results + GIS
+    + RD models: Different local polynomial
+    + Counter-example of B. Belassa's Integration Theory
+    
+# Presidential Elections: Pre- v.s. Post- ECFA 
+<center> ![2008 Presidential Election Result](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/2008sharediff.png){height=50% width=30%}
+![2016 Presidential Election Result](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/2016sharediff.png){height=50% width=30%}</center>
+  + Pattern? Which regions switch their party the most?
+
+
+# Policy Shock 
+ <center> ![Inbound Visitors to Taiwan, 2001-2020](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/statagrph/tourist.png){width=50% height=50%}</center>
+
+  + ECFA 
+  + Chinese Visitors to Taiwan 
+
+# Empirics  
+  + Data
+    + Central Election Committee (CEC)
+    + Geographical Information (Ministry of Interior)
+    + Chinese Tourists (Tourism Bureau, Ministry of Transportation)
+    
+  + Methodology: Sharp Regression Discontinuity Design
+  
+  + Identification 
+    
+  + Algorithm 
+    1.  Calculate the distance between the municipalities and the tourists attractions.
+    2.  Calculate the mean of distances, set the municipalities into control and treatment group.
+    3.  Set the mean of the distance as the cutoff to the close and away regions.
+    4.  Run the regression discontinuity using the 2004, 2008, 2012, 2016, 2020 presidential electoral data.
+    5.  Compare the treatment effects across the different
+    6.  Regression those treatment effects on the importing number of the Chinese tourists.
+
+# RD Graphs
+
+<center>![Linear](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/16linear.png){width=30%}
+![Quadratic](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/16quadratic.png){width=30%}</center> 
+\vspace{2cm}
+
+<center>![Cubic](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/16cubic.png){width=30%}
+![Linear](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/16quartic.png){width=30%}</center> 
+
+
+# End
++ Future work
+  + A modern trade theorectical model is needed
+  + Explore the potential mechanism
+
++ Thank YOU! 
+  + It's really nice to see you (on zoom).
+  + Please contact me anytime if you have question. 
+  + Look forward to have more academic interactions with you.
