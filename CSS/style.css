@@ -58,6 +58,7 @@ margin: 20px;
 
 body {
   font-family: 'Candara';
+  font-style: normal;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -75,7 +76,7 @@ body {
   left:auto;
   top: 2%;
   width:950px;
-  margin-top: 2px;
+  margin: 2px;
 }
 
 nav{
