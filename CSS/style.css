@@ -58,6 +58,7 @@ margin: 20px;
 
 body {
   font-family: 'Comic Sans MS';
+  src: url("comic-sans-ms/comici.ttf");
   font-style: normal;
   font-size: 20px;
   line-height: 1.5;
