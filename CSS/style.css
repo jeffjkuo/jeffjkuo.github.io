@@ -57,8 +57,8 @@ margin: 20px;
 }
 
 body {
-  font-family: 'Comic Sans MS';
-  src: url("comic-sans-ms/comici.ttf");
+  font-family: 'Comic Sans MS', 'Marker Felt', sans-serif;
+  src: url("comic.ttf");
   font-style: normal;
   font-size: 20px;
   line-height: 1.5;
