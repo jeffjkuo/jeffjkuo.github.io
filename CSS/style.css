@@ -57,7 +57,7 @@ margin: 20px;
 }
 
 body {
-  font-family: 'Comic Sans MS', 'Chalkboard', sans-serif;
+  font-family: 'Comic Sans MS', 'ChalkboardSE-Light', sans-serif;
   src: url("comic.ttf");
   font-style: normal;
   font-size: 20px;
