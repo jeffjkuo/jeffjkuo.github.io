@@ -149,7 +149,7 @@ knitr::include_graphics("GTAPAggregation.png")
 
 # GTAP Model Simulation Results
 
-<img src="EV.png" width="240" height="300" />
+<img src="ev.png" width="240" height="300" />
 <img src="vgdp.png" width="240" height="300" />
 <img src="qxwreg.png" width="240" height="300" />
 
@@ -169,7 +169,7 @@ knitr::include_graphics("EVchange.png")
 
 
 ```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'GDP Growth Rate in Experimental Shocks'}
-knitr::include_graphics("gdpchange.png")
+knitr::include_graphics("GDPchange.png")
 ``` 
 
 ---
