@@ -71,13 +71,14 @@ body {
 } */
 
 .menu {
+  font-size: 30px;
   overflow: hidden;
   display: flex;
   position: fixed;
   left:auto;
   top: 2%;
   width:950px;
-  margin: 2px;
+  margin: 5px;
 }
 
 nav{
