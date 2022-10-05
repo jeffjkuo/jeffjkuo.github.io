@@ -76,20 +76,20 @@ body {
   display: flex;
   position: fixed;
   left:auto;
-  top: 2%;
+  top: 1.5%;
   width:950px;
   margin: 5px;
 }
 
 nav{
-margin: 0 auto;
+margin: 10em;
 text-align: center;
 /*left:10%
 top:10%
 overflow:hidden;*/
 color:#283747;
 background-color:#F9F6F5;
-font-size: 20px;
+font-size: 25px;
 }
 
 nav ul{
