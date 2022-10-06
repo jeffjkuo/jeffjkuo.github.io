@@ -56,19 +56,21 @@ margin: 20px;
        cursor: pointer;
 }
 
-body {
+/* body {
   font-family: 'Comic Sans MS', 'ChalkboardSE-Light', sans-serif;
   src: url("comic.ttf");
   font-style: normal;
   font-size: 20px;
   line-height: 1.5;
 }
+*/
 
-
-/* body {
+body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-size: 20px;
     line-height: 1.5;
-} */
+}
 
 .menu {
   font-size: 25px;
