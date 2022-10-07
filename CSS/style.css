@@ -56,22 +56,37 @@ margin: 20px;
        cursor: pointer;
 }
 
+
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.ttf') format('truetype'),
+         url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.woff') format('woff'),
+         url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fjallaone';
+    src: url('/CSS/fonts/Fjallaone/fjallaone.ttf') format('truetype'),
+         url('/CSS/fonts/Fjallaone/fjallaone.woff') format('woff'),
+         url('/CSS/fonts/Fjallaone/fjallaone.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.bolded { font-weight: bold; }
+
 body {
-  font-family: 'arvoregular', sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'fjallaone', Arial, sans-serif;
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
   font-size: 20px;
   line-height: 1.5;
 }
 
-@font-face {
-    font-family: 'arvoregular';
-    src: url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.ttf') format('ttf'),
-         url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.woff') format('woff'),
-         url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /* Comic Fonts */
 /* body {
@@ -224,7 +239,7 @@ ul.n {
 .button1 {
   display: inline-block;
   padding: 5px 15px;
-  font-family: 'Comic Sans MS', 'ChalkboardSE-Light', sans-serif;
+  font-family: 'fjallaone', sans-serif;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
