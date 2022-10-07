@@ -56,6 +56,17 @@ margin: 20px;
        cursor: pointer;
 }
 
+body {
+  font-family: 'Arvo-Regular', sans-serif;
+  src: url("https://jeffjkuo.github.io/CSS/fonts/Arvo/Arvo-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+/* Comic Fonts */
 /* body {
   font-family: 'Comic Sans MS', 'ChalkboardSE-Light', sans-serif;
   src: url("comic.ttf");
@@ -65,12 +76,14 @@ margin: 20px;
 }
 */
 
-body {
+/* Apple-Style Font */
+/* body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 1.5;
 }
+*/
 
 .menu {
   font-size: 25px;
