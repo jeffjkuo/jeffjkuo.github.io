@@ -57,14 +57,21 @@ margin: 20px;
 }
 
 body {
-  font-family: 'Arvo-Regular', sans-serif;
-  src: url("https://jeffjkuo.github.io/CSS/fonts/Arvo/Arvo-Regular.ttf");
+  font-family: 'arvoregular', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
   line-height: 1.5;
 }
 
+@font-face {
+    font-family: 'arvoregular';
+    src: url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.ttf') format('ttf'),
+         url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.woff') format('woff'),
+         url('https://jeffjkuo.github.io/CSS/fonts/Arvo/arvoregular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Comic Fonts */
 /* body {
