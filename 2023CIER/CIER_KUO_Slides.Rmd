@@ -1,0 +1,261 @@
+---
+title: "Pacification Cost:"
+subtitle: "Trade Bloc's Cost for Easing Tensions"
+author: "Jeffrey Kuo"
+institute: "George Washington University"
+date: "CIER Job Talk, Feb-2-2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+# Hello! 
+
+---
+
+# About me
+- Academic
+  - Ph.D. Candidate in Economics at [GW](https://gwu.edu)
+  - Primary Field: International Economics
+  - Secondary Fields: Applied Econometrics
+  - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io); Email: <jeffkuo@gwu.edu>
+
+- Before GW
+  - [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, ’16)
+  - [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/) (Research Assistant, ’14)
+  - R.O.C. Army (Reserved Military Officer, Second Lieutenant, ’13)
+  - [National Chengchi University](https://nccu.edu.tw) (B.A + M.S. in International Trade, ’12)
+
+- Personal
+  - Hometown: City of Kaohsiung (Southern Pride!)
+  - Generation: **Sunflower Movement**
+
+---
+class: inverse, center, middle
+
+# Outline
+
+---
+# Outline
+1. Introduction
+
+2. Methodology -> [Global Trade Analysis Project (GTAP)](https://www.gtap.agecon.purdue.edu/)
+
+3. Data 
+
+4. Model (CGE Model Literature)
+
+5. Simulation 
+  - Region Aggregation
+  - Policy Shocks
+  - Key Variables 
+  
+6. Graphical Results
+
+7. Policy Implication 
+  - Future Work 
+  - Other Projects
+
+---
+
+class: inverse, center, middle
+
+# Housekeeping
+
+---
+# Today's Talk
+
+- Scan to view today's slides 
+    
+```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
+knitr::include_graphics("CIERtalkQRcode.png")
+```
+    
+- Full paper link -> <https://jeffjkuo.github.io/CGE1>
+
+- My webpage -> <https://jeffjkuo.github.io>
+  
+- Questions or Comments, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+
+---
+
+# Introduction - Main Questions
+
+- From the World's perspective
+  - How much does it cost for a protective trade policy? 
+  - i.e. blocking out a good economic entity
+
+- From Taiwan's perspective
+  - If Taiwan joins [RCEP (Regional Comprehensive Economic Partnership)](https://rcepsec.org/), how does it affect China, the U.S., and the rest of world?
+
+- Some Relating Literature
+
+    1.  Precarious Triangle (2000\~)
+        -   [Murray Weidenbaum 2000. "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
+
+    2.  China Syndrome (2010\~)
+        -   [Autor, David H., David Dorn, and Gordon H. Hanson. 2013. "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
+        
+
+---
+class: inverse, left, middle
+
+# Introduction - Contribution(s) 
+
+
+1. Estimate the **Cost** of **Political Compromise**
+
+  - How much is the potential loss of the RCEP for **NOT** letting Taiwan in? 
+  
+2. Re-evaluate Taiwan's Role in US-China competition, _Counter-factually_ 
+
+    - If Taiwan joins RCEP, will the U.S. hurt? Will China benefit?
+    
+---
+
+# Literature Review
+
+---
+
+# Model 
+
+---
+
+# Key Variable
+
+- EV 
+- VGDP 
+
+---
+
+# Price Linkage 
+
+
+
+---
+# Data and Model: GTAP
+
+-   Global Trade Analysis Project (GTAP)
+    -   [GTAP Book (Thomas Hertel, 1997)](https://www.gtap.agecon.purdue.edu/products/gtap_book.asp)
+
+    -   [GTAP Data Base](https://www.gtap.agecon.purdue.edu/databases/default.asp)
+
+-   Data
+    -   GTAP users upload each country's Input-Output (I-O) Tables
+
+-   CGE Model
+    -   General Equilibrium (Walrasian Equilibrium)
+        - Definition
+        - How supply and demand interact and tend toward a balance in an economy of multiple markets working at once.
+        
+    -   CGE: **C**omputational **G**eneral **E**quilibrium
+        -  Using computers to solve GE
+        -  We use the default model in the GTAP
+
+
+---
+
+# RunGTAP: A GUI for Controlling GTAP
+
+![GTAP System](gtapflow.png){width="55%"}
+
+
+---
+
+# RunGTAP
+
+RunGTAP is a simulator of the (trade) world.
+
+```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'Rehoboam (Westworld Season 3, HBO)'}
+knitr::include_graphics("Rehoboam.gif")
+``` 
+
+---
+
+# RunGTAP Interface
+
+![RunGTAP Interface](rungtapinterface.png)
+
+---
+
+# RunGTAP Setting
+
+-   Regional Aggregation
+```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'GDP Growth Rate in Experimental Shocks'}
+knitr::include_graphics("GTAPAggregation.png")
+``` 
+
+---
+# GTAP Model Setting - Shock Experiment
+
+![Policy Shock - Set Target Import Tariff = 0](shock.png)
+---
+
+# GTAP Model Simulation Results
+
+<img src="ev.png" width="240" height="300" />
+<img src="vgdp.png" width="240" height="300" />
+<img src="qxwreg.png" width="240" height="300" />
+
+---
+
+# Result of Taiwan Joins RCEP - 1
+
+```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'Welfare Change in Experimental Shocks'}
+knitr::include_graphics("EVchange.png")
+``` 
+
+---
+
+# Result of Taiwan Joins RCEP - 2
+
+-   Now we switch to $\Delta$GDP after the experimental shocks
+
+
+```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'GDP Growth Rate in Experimental Shocks'}
+knitr::include_graphics("GDPchange.png")
+``` 
+
+---
+
+# Conclusions
+
+-   Primary Conclusions
+    1. RCEP might be a good option for Taiwan.
+    
+    2. Taiwan is blocked, not because of pure politcal reasons.
+    
+    3. But if the U.S. was excluded, the U.S. will hurt the most.
+
+-   Future Work
+    1. Apply Heterogeneous Shocks in different production sectors.
+    
+    2. Explore more possible shocks in policy tools.
+    
+    3. Expand the analysis to see the synergy of multiple PTAs, i.e., CPTPP and EFCA.
+    
+---
+
+# Other Projects
+
+- CGE2, with Anton Yang (Yale)
+
+- CGE3, with Paul W. Chang (Northeastern) 
+
+- ITN, International Trade Network
+
+- DE, Distance and Elections
+
+---
+
+# Thank You!
+ -   It's really nice to see you, and let me know if you stop by D.C.!
+ -   Comments and questions, please send to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+
+

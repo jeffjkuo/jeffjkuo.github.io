@@ -2,7 +2,7 @@
 title: "Precarious but Inseparable Triangle:"
 subtitle: "CGE Analysis of Taiwan Joining RCEP"
 author: "Jeffrey Kuo"
-institute: "George Washington University \\ \\par NATPA 2022 Annual Meeting"
+institute: "George Washington University \n NATPA 2022 Annual Meeting"
 date: "7-22-2022"
 output:
   xaringan::moon_reader:
