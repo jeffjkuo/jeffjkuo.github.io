@@ -26,7 +26,7 @@ class: inverse, center, middle
   - Secondary Fields: Applied Econometrics
   - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io); Email: <jeffkuo@gwu.edu>
 
-- Before GW
+- Prior to GW
   - [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, ’16)
   - [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/) (Research Assistant, ’14)
   - R.O.C. Army (Reserved Military Officer, Second Lieutenant, ’13)
@@ -37,6 +37,31 @@ class: inverse, center, middle
   - Generation: **Sunflower Movement**
 
 ---
+
+class: inverse, center, middle
+
+# Housekeeping
+
+---
+
+# Today's Talk
+
+You can 
+
+- <u>**scan**</u> to view today's slides
+    
+```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
+knitr::include_graphics("CIERtalkQRcode.png")
+```
+    
+- <u>**access**</u> to the full paper -> <https://jeffjkuo.github.io/CGE1> (still updating)
+
+- <u>**find**</u> more about my work on my website -> <https://jeffjkuo.github.io>
+  
+- <u>**email**</u> to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for more questions and comments
+
+---
+
 class: inverse, center, middle
 
 # Outline
@@ -66,48 +91,66 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# Housekeeping
+# 1. Introduction
 
----
-# Today's Talk
 
-- Scan to view today's slides 
-    
-```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
-knitr::include_graphics("CIERtalkQRcode.png")
-```
-    
-- Full paper link -> <https://jeffjkuo.github.io/CGE1>
-
-- My webpage -> <https://jeffjkuo.github.io>
-  
-- Questions or Comments, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
-
+Research Question - Motivation - Assumption - Contribution - RCEP
 ---
 
-# Introduction - Main Questions
+class:middle 
 
-- From the World's perspective
+# Research Question
+
+- For a trade bloc like RCEP
   - How much does it cost for a protective trade policy? 
-  - i.e. blocking out a good economic entity
+  - i.e., blocking out a good economic entity
 
 - From Taiwan's perspective
-  - If Taiwan joins [RCEP (Regional Comprehensive Economic Partnership)](https://rcepsec.org/), how does it affect China, the U.S., and the rest of world?
-
-- Some Relating Literature
-
-    1.  Precarious Triangle (2000\~)
-        -   [Murray Weidenbaum 2000. "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
-
-    2.  China Syndrome (2010\~)
-        -   [Autor, David H., David Dorn, and Gordon H. Hanson. 2013. "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
-        
+  - If Taiwan joins [RCEP (Regional Comprehensive Economic Partnership)](https://rcepsec.org/), how does it affect China, the U.S., and the rest of the world?
 
 ---
+class: middle
+
+# Motivation
+
+- Motivations are coming from two strings of **literature**...
+
+  1.  Precarious Triangle (2000\~)
+        -   [Murray Weidenbaum 2000. "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
+
+  2. China Syndrome (2010\~)
+        -   [Autor, David H., David Dorn, and Gordon H. Hanson. 2013. "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
+        
+- How about connecting those two topics with the CGE model?      
+  - 1 + 2 + CGE 
+
+---
+
+# Assumption
+
+- Assumption 1
+
+<div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> Taiwan has been eager and willing to join RCEP </div>
+  
+$\hspace{0em} \checkmark$  [New Southbound Policy (_CSIS China Power Project Report_, 2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
+  
+- Assumption 2
+
+<div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> China blockades Taiwan's role in international community </div>
+
+$\hspace{0em} \checkmark$  [Why Does the WHO Exclude Taiwan? (_Council on Foreign Relations_, 2020)](https://www.cfr.org/in-brief/why-does-who-exclude-taiwan)  
+
+- Assumption 3 
+
+<div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> Taiwan's exlcusion to RCEP is due to China's interference</div>
+
+$\hspace{0em} \checkmark$  [Taiwan, Frozen Out of RCEP, Explores Trade Agreement Options With US <br> (_The Diplomat_, 2020)](https://thediplomat.com/2020/11/taiwan-frozen-out-of-rcep-explores-trade-agreement-options-with-us/)  
+
+---
+
 class: inverse, left, middle
 
-# Introduction - Contribution(s) 
-
+## Contribution
 
 1. Estimate the **Cost** of **Political Compromise**
 
@@ -115,31 +158,29 @@ class: inverse, left, middle
   
 2. Re-evaluate Taiwan's Role in US-China competition, _Counter-factually_ 
 
-    - If Taiwan joins RCEP, will the U.S. hurt? Will China benefit?
-    
+  - If Taiwan joins RCEP, will the U.S. hurt? Will China benefit?
+  
+  - <span style='font-size:pt; color:pink'> although we know it is impossible...</span>
+
+3.The benefit and the loss for the countries involved were <span style='font-size:pt; color:#FF5733'>**not linear**</span>, along with the magnitude of trade liberalization
+ 
 ---
 
-# Literature Review
+# RCEP 
 
----
-
-# Model 
-
----
-
-# Key Variable
-
-- EV 
-- VGDP 
-
----
-
-# Price Linkage 
+- Regional Comprehensive Eoconomics Partnership 
 
 
 
 ---
-# Data and Model: GTAP
+class: inverse, middle, center 
+
+# Methodology 
+ a.k.a. Literature Review (in this talk)
+
+---
+
+## GTAP 
 
 -   Global Trade Analysis Project (GTAP)
     -   [GTAP Book (Thomas Hertel, 1997)](https://www.gtap.agecon.purdue.edu/products/gtap_book.asp)
@@ -159,26 +200,64 @@ class: inverse, left, middle
         -  We use the default model in the GTAP
 
 
----
-
-# RunGTAP: A GUI for Controlling GTAP
-
-![GTAP System](gtapflow.png){width="55%"}
 
 
 ---
 
-# RunGTAP
+# GTAP System
 
-RunGTAP is a simulator of the (trade) world.
+![GTAP System](gtapflow.png){width=100%}
+
+
+---
+class: inverse, middle, center
+
+# Model 
+
+Supply - Demand - Closed Economy - Open Economy
+
+
+---
+
+## Model - 1
+
+
+---
+
+## Model - 2 
+
+---
+
+## Key Variable
+
+- Equality Variation 
+
+- VGDP 
+
+---
+
+# Price Linkages
+
+
+
+---
+
+class: inverse, middle, center
+
+# Simulation
+
+~ RunGTAP is a simulator of the world economy ~
 
 ```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'Rehoboam (Westworld Season 3, HBO)'}
 knitr::include_graphics("Rehoboam.gif")
 ``` 
-
 ---
 
-# RunGTAP Interface
+## RunGTAP
+
+- A GUI for controlling GTAP experiments
+
+- RunGTAP Interface
 
 ![RunGTAP Interface](rungtapinterface.png)
 
@@ -186,7 +265,7 @@ knitr::include_graphics("Rehoboam.gif")
 
 # RunGTAP Setting
 
--   Regional Aggregation
+- Regional Aggregation
 ```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'GDP Growth Rate in Experimental Shocks'}
 knitr::include_graphics("GTAPAggregation.png")
 ``` 
@@ -196,8 +275,15 @@ knitr::include_graphics("GTAPAggregation.png")
 
 ![Policy Shock - Set Target Import Tariff = 0](shock.png)
 ---
+class: inverse, center, middle 
 
-# GTAP Model Simulation Results
+# Simulation Result
+
+---
+
+class: center, middle 
+
+# Simulation Result Clips
 
 <img src="ev.png" width="240" height="300" />
 <img src="vgdp.png" width="240" height="300" />
@@ -223,9 +309,18 @@ knitr::include_graphics("GDPchange.png")
 ``` 
 
 ---
+class: inverse, middle, center
 
 # Conclusions
 
+```{r, echo=FALSE, out.width="50%", fig.cap="Federal Reserve Board (PC:me) "}
+knitr::include_graphics("./dcpicture/frb.jpg")
+```
+
+
+---
+
+# Conclusions
 -   Primary Conclusions
     1. RCEP might be a good option for Taiwan.
     
@@ -242,20 +337,29 @@ knitr::include_graphics("GDPchange.png")
     
 ---
 
-# Other Projects
+# Other Projects 
 
-- CGE2, with Anton Yang (Yale)
+- $N=4$ 
 
-- CGE3, with Paul W. Chang (Northeastern) 
+  - CGE2, with Anton Yang (Yale)
 
-- ITN, International Trade Network
+  - CGE3, with Paul W. Chang (Northeastern) 
 
-- DE, Distance and Elections
+  - ITN, International Trade Network (Ch. 2 of dissertation)
+
+  - DE, Distance and Elections (Ch.3 of dissertation)
 
 ---
 
 # Thank You!
- -   It's really nice to see you, and let me know if you stop by D.C.!
- -   Comments and questions, please send to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+  - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+  
+  - It's really nice to see you, please let me know if you stop by D.C.
 
+<center> 
+
+ ```{r, echo=FALSE, out.width="50%", fig.cap="Georgetown Waterfront (pc:me) "}
+knitr::include_graphics("./dcpicture/waterfront.jpg")
+```
+</center>
 
