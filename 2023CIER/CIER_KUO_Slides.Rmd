@@ -165,11 +165,15 @@ class: inverse, left, middle
 3.The benefit and the loss for the countries involved were <span style='font-size:pt; color:#FF5733'>**not linear**</span>, along with the magnitude of trade liberalization
  
 ---
+class: left, middle
 
 # RCEP 
+- Regional Comprehensive Economic Partnership
+- The 15 members of the RCEP agreement
 
-- Regional Comprehensive Eoconomics Partnership 
-
+```{r, echo=FALSE,  eval = TRUE, out.width="50%", fig.align = 'center', fig.cap= ' Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration.'}
+knitr::include_graphics("rcep.png")
+```
 
 
 ---
