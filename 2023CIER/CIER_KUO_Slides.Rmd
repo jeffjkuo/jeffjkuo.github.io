@@ -212,33 +212,33 @@ class: inverse, middle, center
 ---
 class: inverse, middle, center
 
+# Data
+
+---
+
+# Data 
+
+ 
+![gtapdb1.png](gtapdb1.png)
+- In GTAP 10 
+  - Number of Sector, N = 65
+  - Number of Country, N = 141
+  - Number of Production Factors, N = 5
+  - So we basically solving a 65 x 141 x 5 model everytime.
+
+
+---
+class: inverse, middle, center
+
 # Model 
 
 Supply - Demand - Closed Economy - Open Economy
 
-
 ---
 
-## Model - 1
+## Model
 
-
----
-
-## Model - 2 
-
----
-
-## Key Variable
-
-- Equality Variation 
-
-- VGDP 
-
----
-
-# Price Linkages
-
-
+![gtapregion.png](gtapregion.png)
 
 ---
 
@@ -337,17 +337,17 @@ knitr::include_graphics("./dcpicture/frb.jpg")
     
 ---
 
-# Other Projects 
+# Other Research Projects 
 
 - $N=4$ 
 
-  - CGE2, with Anton Yang (Yale)
+  - **CGE2**, with Anton Yang (Yale)
 
-  - CGE3, with Paul W. Chang (Northeastern) 
+  - **CGE3**, with Paul W. Chang (Northeastern) 
 
-  - ITN, International Trade Network (Ch. 2 of dissertation)
+  - **ITN**, International Trade Network (Ch. 2 of dissertation)
 
-  - DE, Distance and Elections (Ch.3 of dissertation)
+  - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
 
 ---
 
