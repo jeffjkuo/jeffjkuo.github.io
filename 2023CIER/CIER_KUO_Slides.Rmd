@@ -1,5 +1,5 @@
 ---
-title: "Pacification Cost:"
+title: "Placating Cost"
 subtitle: "Trade Bloc's Cost for Easing Tensions"
 author: "Jeffrey Kuo"
 institute: "George Washington University"
@@ -91,7 +91,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# 1. Introduction
+# Introduction
 
 
 Research Question - Motivation - Assumption - Contribution - RCEP
@@ -324,20 +324,24 @@ knitr::include_graphics("./dcpicture/frb.jpg")
 
 ---
 
-# Conclusions
+# Conclusion
 -   Primary Conclusions
-    1. RCEP might be a good option for Taiwan.
+    1. RCEP might be a good option for Taiwan. 
+      - <small> It's cliché, but we show quantitative proof here. </small>
     
-    2. Taiwan is blocked, not because of pure politcal reasons.
+    2. Taiwan is blocked, not because of purely political reasons.
+      - <small> Economic benefits skew to Taiwan asymmetrically. </small> 
     
     3. But if the U.S. was excluded, the U.S. will hurt the most.
 
 -   Future Work
-    1. Apply Heterogeneous Shocks in different production sectors.
+
+    1. Apply **heterogeneous shocks** to different production sectors, according to the updated tariff reduction schedule
     
-    2. Explore more possible shocks in policy tools.
+    2. Explore more possible shocks in policy tools, i.e., like blockade 
+      - <small> This is on the horizon with Anton Yang. </small>
     
-    3. Expand the analysis to see the synergy of multiple PTAs, i.e., CPTPP and EFCA.
+    3. Expand the analysis to exam the potential PTAs, i.e., CPTPP, U.S.-Taiwan Initiative on 21st-Century Trade.
     
 ---
 
