@@ -255,11 +255,30 @@ class: middle
 ---
 class: middle
 ![production6.png](production6.png)
+
 ---
+
 class: middle
 ![production7.png](production7.png)
 ---
 
+class: middle, center
+
+![prod_code.png](prod_code1.png)
+---
+class: middle, center
+![prod_code2.png](prod_code2.png)
+---
+
+class: middle, center
+![prod_code3.png](prod_code3.png)
+
+---
+
+class: middle, center
+![prod_code4.png](prod_code4.png)
+
+---
 class: inverse, middle, center
 
 # Consumption in GTAP
@@ -287,10 +306,13 @@ class: middle, center
 ![c5.png](c5.png)
 
 ---
+class: middle, center
+![c_code.png](c_code.png)
+---
 
 class: inverse, middle, center
 
-# Price Theory
+# (Equlibrium) Price in GTAP
 
 ---
 
