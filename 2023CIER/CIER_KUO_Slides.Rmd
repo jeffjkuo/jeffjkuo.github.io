@@ -215,12 +215,105 @@ class: inverse, middle, center
 # GTAP System
 
 ![GTAP System](gtapflow.png){width=100%}
+---
+class: inverse, middle, center
+
+# Production in GTAP
+
+---
+class: middle, center
+
+
+![production1.png](production1.png)
+---
+
+class: middle, center
+
+## Firms and Products 
+
+![production2.png](production2.png)
+---
+
+class: middle, center
+
+# Nested Production
+
+![production3.png](production3.png)
+---
+class: middle
+
+# Assumption
+
+
+![production4.png](production4.png)
+
+---
+
+class: middle
+![production5.png](production5.png)
+
+---
+class: middle
+![production6.png](production6.png)
+---
+class: middle
+![production7.png](production7.png)
+---
+
+class: inverse, middle, center
+
+# Consumption in GTAP
+
+---
+class: middle, center
+![c1.png](c1.png)
+
+---
+
+class: middle, center
+![c2.png](c2.png)
+
+---
+
+class: middle, center
+![c3.png](c3.png)
+
+---
+class: middle, center
+![c4.png](c4.png)
+
+---
+class: middle, center
+![c5.png](c5.png)
+
+---
+
+class: inverse, middle, center
+
+# Price Theory
+
+---
+
+![price1.png](price1.png)
+
+---
+
+![price2.png](price2.png)
+
+---
+
+![price3.png](price3.png)
+---
+# In Open Economy
+![price_oe.png](price_oe.png)
 
 
 ---
 class: inverse, middle, center
 
 # Data
+
+![GTAPdata.png](GTAPdata.png)
 
 ---
 
@@ -234,19 +327,33 @@ class: inverse, middle, center
   - Number of Production Factors, N = 5
   - So we basically solving a 65 x 141 x 5 model everytime.
 
+---
+
+## Regional Coverage
+<center>
+```{r pressure, echo=FALSE, out.width = '75%', align='center'}
+knitr::include_graphics("gtapdb2.png")
+```
+</center>
+(Augiar et al, 2019) [DOI:10.21642/JGEA.040101AF](DOI:10.21642/JGEA.040101AF)
 
 ---
 class: inverse, middle, center
 
-# Model 
-
-Supply - Demand - Closed Economy - Open Economy
+# Model
+-A Summary- 
 
 ---
 
 ## Model
 
 ![gtapregion.png](gtapregion.png)
+---
+
+# Imports and Exports
+![gtaptrade.png](gtaptrade.png)
+
+
 
 ---
 
@@ -363,7 +470,7 @@ class: middle, left
 
 # Other Research Projects 
 
-- $N = 4$ 
+- $N = 5$ 
 
   - **CGE2**, with Anton Yang (Yale)
       - Blockade of China
@@ -375,6 +482,9 @@ class: middle, left
       - [Chaney, 2016](https://academic.oup.com/edited-volume/28058/chapter-abstract/212027713?redirectedFrom=fulltext)
       
   - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
+
+  - **TPDL**, Trade Policy Deep Learning, with Jialu Ma (Temple)
+      - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. 2023. "The Voice of Monetary Policy." American Economic Review, 113 (2): 548-84. DOI: [10.1257/aer.20220129](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)
 
 ---
 
