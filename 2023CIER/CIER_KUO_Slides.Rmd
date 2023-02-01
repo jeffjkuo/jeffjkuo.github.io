@@ -101,12 +101,16 @@ class:middle
 
 # Research Question
 
-- For a trade bloc like RCEP
-  - How much does it cost for a protective trade policy? 
-  - i.e., blocking out a good economic entity
+- For a trade bloc like RCEP,
+  - How much does it cost for a **protective trade policy**?
+  - i.e., blocking out a strong economic entity
 
-- From Taiwan's perspective
-  - If Taiwan joins [RCEP (Regional Comprehensive Economic Partnership)](https://rcepsec.org/), how does it affect China, the U.S., and the rest of the world?
+- Policy Implication: 
+  - Is **political compromise** costly for the trade bloc?
+
+- From Taiwan's perspective,
+  -  How does [RCEP](https://rcepsec.org/)+Taiwan affect U.S.-China **co-opetition**? 
+  - How would the rest of the world be affected?
 
 ---
 class: middle
@@ -315,7 +319,9 @@ knitr::include_graphics("GDPchange.png")
 ---
 class: inverse, middle, center
 
-# Conclusions
+# Conclusion
+
+Conclusion - Future Work - Concurrent Projects
 
 ```{r, echo=FALSE, out.width="50%", fig.cap="Federal Reserve Board (PC:me) "}
 knitr::include_graphics("./dcpicture/frb.jpg")
@@ -325,36 +331,49 @@ knitr::include_graphics("./dcpicture/frb.jpg")
 ---
 
 # Conclusion
+
 -   Primary Conclusions
-    1. RCEP might be a good option for Taiwan. 
+    1. Define a **new term,** and use the case of Taiwan-RCEP-China case to estimate. 
+    
+    2. Show RCEP is a good option for Taiwan. 
       - <small> It's cliché, but we show quantitative proof here. </small>
     
-    2. Taiwan is blocked, not because of purely political reasons.
+    3. Current equilibrium is not due to pure politics, of course, neither due to pure economics. 
       - <small> Economic benefits skew to Taiwan asymmetrically. </small> 
     
-    3. But if the U.S. was excluded, the U.S. will hurt the most.
+---
+class: middle, left
+# Future Work
 
--   Future Work
+1. Apply **heterogeneous shocks** to different production sectors 
 
-    1. Apply **heterogeneous shocks** to different production sectors, according to the updated tariff reduction schedule
+  - Cross reference to the updated tariff reduction schedule
     
-    2. Explore more possible shocks in policy tools, i.e., like blockade 
-      - <small> This is on the horizon with Anton Yang. </small>
+2. Explore more possible shocks in trade. 
+  
+  - i.e., like **blockade** or military drills
+  
+  - This is on the horizon with Anton Yang.
     
-    3. Expand the analysis to exam the potential PTAs, i.e., CPTPP, U.S.-Taiwan Initiative on 21st-Century Trade.
+3. Expand the analysis to exam future PTAs, or review the exisiting one. 
+
+  - i.e., CPTPP, U.S.-Taiwan Initiative on 21st-Century Trade.
     
 ---
 
 # Other Research Projects 
 
-- $N=4$ 
+- $N = 4$ 
 
   - **CGE2**, with Anton Yang (Yale)
-
+      - Blockade of China
+      
   - **CGE3**, with Paul W. Chang (Northeastern) 
-
+      - Same topic, on the financial sector
+      
   - **ITN**, International Trade Network (Ch. 2 of dissertation)
-
+      - [Chaney, 2016](https://academic.oup.com/edited-volume/28058/chapter-abstract/212027713?redirectedFrom=fulltext)
+      
   - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
 
 ---
