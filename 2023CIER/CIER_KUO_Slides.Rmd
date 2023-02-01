@@ -70,11 +70,11 @@ class: inverse, center, middle
 # Outline
 1. Introduction
 
-2. Methodology -> [Global Trade Analysis Project (GTAP)](https://www.gtap.agecon.purdue.edu/)
+2. Model -> [Global Trade Analysis Project (GTAP)](https://www.gtap.agecon.purdue.edu/)
 
 3. Data 
 
-4. Model (CGE Model Literature)
+4. Graphical Summary of Model
 
 5. Simulation 
   - Region Aggregation
