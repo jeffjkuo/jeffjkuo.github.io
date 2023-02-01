@@ -478,13 +478,15 @@ class: middle, left
   - **CGE3**, with Paul W. Chang (Northeastern) 
       - Same topic, on the financial sector
       
+  - **TPDL**, Trade Policy Deep Learning, with Jialu Ma (Temple)
+      - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. 2023. "The Voice of Monetary Policy." American Economic Review, 113 (2): 548-84. DOI: [10.1257/aer.20220129](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)
+      
   - **ITN**, International Trade Network (Ch. 2 of dissertation)
       - [Chaney, 2016](https://academic.oup.com/edited-volume/28058/chapter-abstract/212027713?redirectedFrom=fulltext)
       
   - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
 
-  - **TPDL**, Trade Policy Deep Learning, with Jialu Ma (Temple)
-      - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. 2023. "The Voice of Monetary Policy." American Economic Review, 113 (2): 548-84. DOI: [10.1257/aer.20220129](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)
+  
 
 ---
 
