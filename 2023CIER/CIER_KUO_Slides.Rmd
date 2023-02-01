@@ -183,8 +183,8 @@ knitr::include_graphics("rcep.png")
 ---
 class: inverse, middle, center 
 
-# Methodology 
- a.k.a. Literature Review (in this talk)
+# Model 
+GTAP Overview - Production - Consumption - Price - Open Economy
 
 ---
 
