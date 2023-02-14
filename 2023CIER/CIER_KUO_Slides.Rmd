@@ -22,26 +22,22 @@ class: inverse, center, middle
 # About me
 - Academic
   - Ph.D. Candidate in Economics at [GW](https://gwu.edu)
-  
   - Primary Field: International Economics
-  
-  - Secondary Field: Applied Econometrics
-  
-  - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io); Email: <jeffkuo@gwu.edu>
+  - Secondary Fields: Applied Econometrics
+  - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io)
+  - Email: <jeffkuo@gwu.edu>
 
 - Prior to GW
-
   - [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, ’16)
-  
   - [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/) (Research Assistant, ’14)
-  
   - R.O.C. Army (Reserved Military Officer, Second Lieutenant, ’13)
-  
   - [National Chengchi University](https://nccu.edu.tw) (B.A + M.S. in International Trade, ’12)
 
 - Personal
   - Hometown: Kaohsiung, Taiwan 
-  
+  - **Sunflower Movement** Generation
+  - 
+
 ---
 
 class: inverse, center, middle
@@ -525,7 +521,7 @@ class: middle, left
 
 <center> 
 
- ```{r, echo=FALSE, out.width="50%", fig.cap="Georgetown Waterfront (pc:me) "}
+```{r, echo=FALSE, out.width="50%", fig.cap="Georgetown Waterfront (pc:me) "}
 knitr::include_graphics("./dcpicture/waterfront.jpg")
 ```
 </center>
