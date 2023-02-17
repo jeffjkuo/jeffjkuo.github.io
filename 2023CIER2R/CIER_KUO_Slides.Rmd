@@ -130,17 +130,17 @@ class: inverse, left, middle
 
 ## Contribution
 
-1. Estimate the **cost** of **political compromise**
-  - This can potential apply to other scenario in the world
+1. Define a term and estimate the **cost** of <span style='font-size:pt; color:pink'>**political compromise**</span>
+  - We estimate the <span style='font-size:pt; color:pink'>**opportunity cost**</span> of excluding Taiwan
 
-2. Re-evaluate Taiwan's Role in US-China competition
+  - The result can potentially apply to another case in the world
 
-  - If Taiwan joins RCEP, will the RCEP, US, or China benefit?
+2. Re-evaluate Taiwan's role in US-China geopolitical competition
+
+  - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt?
   
-  - So we estimate the <span style='font-size:pt; color:pink'>**opportunity cost**</span> of excluding Taiwan
-
 3. The benefit and the loss for the counterparts involved were 
-  - <span style='font-size:pt; color:pink'>**not linear**</span>, along with the magnitude of trade liberalization
+  - <span style='font-size:pt; color:pink'>**non-linear**</span>, along with the magnitude of liberalization
  
 ---
 class: left, middle
