@@ -44,14 +44,15 @@ class: inverse, center, middle
 
 ---
 
-# Today's Talk
+# Today's Brief
 
 You can 
 
-- <u>**scan**</u> to view today's slides
+- <u>**scan**</u> to view today's slides 
+- [https://jeffjkuo.github.io/2023CIER2R/CIER_KUO_Slides.html](https://jeffjkuo.github.io/2023CIER2R/CIER_KUO_Slides.html)
     
 ```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
-knitr::include_graphics("CIERtalkQRcode.png")
+knitr::include_graphics("CIER2R.png")
 ```
     
 - <u>**access**</u> to the full paper -> <https://jeffjkuo.github.io/CGE1> (still updating)
@@ -215,123 +216,7 @@ GTAP Overview - Production - Consumption - Price - Open Economy
 # GTAP System
 
 ![GTAP System](gtapflow.png){width=100%}
----
-class: inverse, middle, center
-
-# Production in GTAP
-
----
-class: middle, center
-
-
-![production1.png](production1.png)
----
-
-class: middle, center
-
-## Firms and Products 
-
-![production2.png](production2.png)
----
-
-class: middle, center
-
-# Nested Production
-
-![production3.png](production3.png)
----
-class: middle
-
-# Assumption
-
-
-![production4.png](production4.png)
-
----
-
-class: middle
-![production5.png](production5.png)
-
----
-class: middle
-![production6.png](production6.png)
-
----
-
-class: middle
-![production7.png](production7.png)
----
-
-class: middle, center
-
-![prod_code.png](prod_code1.png)
----
-class: middle, center
-![prod_code2.png](prod_code2.png)
----
-
-class: middle, center
-![prod_code3.png](prod_code3.png)
-
----
-
-class: middle, center
-![prod_code4.png](prod_code4.png)
-
----
-class: inverse, middle, center
-
-# Consumption in GTAP
-
----
-class: middle, center
-![c1.png](c1.png)
-
----
-
-class: middle, center
-![c2.png](c2.png)
-
----
-
-class: middle, center
-![c3.png](c3.png)
-
----
-class: middle, center
-![c4.png](c4.png)
-
----
-class: middle, center
-![c5.png](c5.png)
-
----
-class: middle, center
-![c_code.png](c_code.png)
----
-
-class: inverse, middle, center
-
-# (Equlibrium) Price in GTAP
-
----
-
-![price1.png](price1.png)
-
----
-
-![price2.png](price2.png)
-
----
-
-![price3.png](price3.png)
----
-# In Open Economy
-![price_oe.png](price_oe.png)
-
-
----
-class: inverse, middle, center
+--- 
 
 # Data
 
