@@ -93,10 +93,10 @@ class: middle
 
 - Motivations are coming from two strings of **literature**...
 
-  1.  Precarious Triangle (2000\~)
+  1.  Precarious Triangle (2000)
         -   [Murray Weidenbaum 2000. "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
 
-  2. China Syndrome (2010\~)
+  2. China Syndrome (2010)
         -   [Autor, David H., David Dorn, and Gordon H. Hanson. 2013. "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
         
 - How about connecting those two topics with the CGE model?      
