@@ -3,7 +3,7 @@ title: "Estimating RCEP's Cost of Placation Policy"
 subtitle: ""
 author: "Jeffrey Kuo"
 institute: "George Washington University"
-date: "NSYSU, March-5-2023"
+date: "NSYSU, March-7-2023"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -344,17 +344,17 @@ class: middle, left
   - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
   
 
-<!-- --- -->
+---
 
-<!-- # Thank You! -->
-<!--   - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu) -->
+# Thank You!
+  - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
 
-<!--   - It's really nice to see you, please let me know if you stop by D.C. -->
+  - It's really nice to see you, please let me know if you stop by D.C.
 
-<!-- <center>  -->
+<center>
 
-<!--  ```{r, echo=FALSE, out.width="50%", fig.cap="Georgetown Waterfront (pc:me) "} -->
-<!-- knitr::include_graphics("./dcpicture/waterfront.jpg") -->
-<!-- ``` -->
-<!-- </center> -->
+ ```{r, echo=FALSE, out.width="50%", fig.cap="Georgetown Waterfront (pc:me) "}
+knitr::include_graphics("./dcpicture/waterfront.jpg")
+```
+</center>
 
