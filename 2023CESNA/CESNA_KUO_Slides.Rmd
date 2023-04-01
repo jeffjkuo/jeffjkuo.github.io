@@ -54,7 +54,7 @@ You can
 - <u>**scan**</u> to view today's slides
     
 ```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
-knitr::include_graphics("CIER2R.png")
+knitr::include_graphics("CESNAQRcode.png")
 ```
     
 - <u>**access**</u> to the full paper -> <https://jeffjkuo.github.io/CGE1> (still updating)
