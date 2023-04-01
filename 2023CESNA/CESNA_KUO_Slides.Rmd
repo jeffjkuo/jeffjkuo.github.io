@@ -142,6 +142,16 @@ class: middle
 -  [Taiwan, Frozen Out of RCEP, Explores Trade Agreement Options With US (2020)](https://thediplomat.com/2020/11/taiwan-frozen-out-of-rcep-explores-trade-agreement-options-with-us/)  
 
 ---
+class: inverse, center, middle
+
+# Motivation from Trade Network
+- 1996 v.s. 2016 "PC Relating Products Export Network"
+<figure>
+<img src="1996ITN_8471.png" width="300" height="300" />
+<img src="2016ITN_8471.png" width="300" height="300" />
+</figure>
+
+---
 
 class: inverse, left, middle
 
@@ -231,7 +241,7 @@ knitr::include_graphics("gtapdb2.png")
 
 ---
 
-## Circular Flow Model behind each Region
+## Circular Flow Model
 
 ![gtapregion.png](gtapregion.png)
 ---
@@ -304,22 +314,16 @@ knitr::include_graphics("GTAPAggregation.png")
 # Shock Experiment
 
 ![Policy Shock - Set Target Import Tariff = 0](shock.png)
-<!-- --- -->
-<!-- class: inverse, center, middle  -->
+---
 
-<!-- # Simulation Result -->
+class: center, middle  
 
-<!-- --- -->
+# Simulation Result Clips
 
-<!-- class: center, middle  -->
+<img src="ev.png" width="240" height="300" />
+<img src="vgdp.png" width="240" height="300" />
+<img src="qxwreg.png" width="240" height="300" />
 
-<!-- # Simulation Result Clips -->
-
-<!-- <img src="ev.png" width="240" height="300" /> -->
-<!-- <img src="vgdp.png" width="240" height="300" /> -->
-<!-- <img src="qxwreg.png" width="240" height="300" /> -->
-
-<!-- --- -->
 
 ---
 
