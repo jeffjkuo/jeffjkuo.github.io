@@ -99,10 +99,20 @@ class: middle
   - i.e., What is the cost for RCEP to block out Taiwan?
   
     - Is **political compromise** costly for a trade bloc?
+    
 
-- Policy Implication
+
+---
+
+class: middle
+
+# Policy Implication
   
-  - Estimation the cost of **lowering tension** policy.
+- Estimate the cost of **lowering tension** trade policy, by
+   
+   - Adding shocks in CGE model 
+   
+   - Simulating the counter-factual outcome
 
 - From a regional integration perspective,
 
@@ -151,27 +161,29 @@ class: middle
 
 class: inverse, left, middle
 
-## Contribution
+## Contributions
 
 1. Define a term and estimate the **cost** of &lt;span style='font-size:pt; color:pink'&gt;**political compromise**&lt;/span&gt;
-  - We estimate the &lt;span style='font-size:pt; color:pink'&gt;**opportunity cost**&lt;/span&gt; of excluding Taiwan
+  &lt;!--- We estimate the &lt;span style='font-size:pt; color:pink'&gt;**opportunity cost**&lt;/span&gt; of excluding Taiwan
 
-  - The result can potentially apply to another case in the world
+  - The result can potentially apply to another case in the world --&gt; 
 
 2. Re-evaluate Taiwan's role in US-China geopolitical competition
 
-  - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt?
+  &lt;!-- - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt? --&gt; 
   
-3. The benefit and the loss for the counterparts involved were 
-  - &lt;span style='font-size:pt; color:pink'&gt;**non-linear**&lt;/span&gt;, along with the magnitude of liberalization
+3. The welfare change for the *RCEP+Taiwan* were &lt;span style='font-size:pt; color:pink'&gt;**non-linear**&lt;/span&gt;
+
+&lt;!--along with the magnitude of liberalization--&gt; 
  
 ---
 class: left, middle
 
-# Regional Comprehensive Economic Partnership (RCEP) 
+## Regional Comprehensive Economic Partnership (RCEP) 
 
 - The 15 members of the RCEP agreement
-
+  - Australia, Brunei, Cambodia, China, Indonesia, Japan, South Korea, Laos, Malaysia, Myanmar, New Zealand, the Philippines, Singapore, Thailand, and Vietnam.
+  
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="rcep.png" alt=" Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration." width="50%" /&gt;
 &lt;p class="caption"&gt; Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration.&lt;/p&gt;
@@ -185,7 +197,7 @@ class: left, middle
 
 ---
 
-## Main Methodology - GTAP Simulation
+## Methodology - GTAP Simulation
 
 -   Global Trade Analysis Project (GTAP)
     -   [GTAP Book (Thomas Hertel, 1997)](https://www.gtap.agecon.purdue.edu/products/gtap_book.asp)
@@ -193,16 +205,19 @@ class: left, middle
     -   [GTAP Data Base](https://www.gtap.agecon.purdue.edu/databases/default.asp)
 
 -   Data
-    -   GTAP users upload each country's Input-Output (I-O) Tables
+    -   GTAP 10 Databse (2019 release) 
 
--   CGE = **C**omputational **G**eneral **E**quilibrium
-    - How supply and demand strike a balance in an economy 
+    -   Updated by the GTAP users 
+
+    -   Constructed by each country's Input-Output (I-O) Tables
+
+-   Model 
+    - [The Standard GTAP Model, Version 7](https://jgea.org/ojs/index.php/jgea/article/view/47)
     
     - Multiple markets (sectors x regions x factor) working at once
     
     - Using computers to solve high-dimensional GE model
     
-    - We use the default model in the GTAP
 
 ---
 
@@ -239,13 +254,46 @@ class: left, middle
 
 ---
 
-## Model in a nutshell
+## Model
 
 ![gtapregion.png](gtapregion.png)
 ---
 
 # Open Economy 
 ![gtaptrade.png](gtaptrade.png)
+---
+
+![production2.png](production2.png)
+
+
+---
+
+# CES Nested Production
+
+A 'firm' is a series of CES production functions
+
+  - Top level
+
+    - optimally (min cost) combine value added and intermediate aggregate
+
+  - 2nd level
+
+    - Value added nest: Optimally (min cost) combine value-added inputs
+
+    - Intermediate nest: Optimally (min cost) combine intermediate inputs
+
+
+---
+
+# Production in GEMPACK Code 
+
+![prodcode.png](prod_code1.png)
+---
+
+# Consumption in GEMPACK Code 
+
+![c_code](c_code.png)
+
 ---
 
 ## Simulation - RunGTAP
@@ -315,8 +363,9 @@ class: left, middle
 
 # Conclusion
 
-1. Define a _new term_, **placating cost**, and estimate it 
-  - We focus on the case of Taiwan-RCEP-China case
+1. Define a _new term_, **placating cost**, and estimate it.
+  - It's costly to lower the tension.
+  - We focus on the case of Taiwan-RCEP case
   - We apply the widely-used Computational GE Model
   - We apply the updated dataset with lastest sector-level I-O tables 
     
@@ -325,9 +374,9 @@ class: left, middle
   - **limitation** (banned goods across the straights)
 
 4. Provide _anothor explanation_ of current equilibrium
-  - Taiwan's exclusion is not due to pure politics
-  - Economic benefits skew to Taiwan asymmetrically 
-  - Neither due to pure economics (this is still hard to prove it) 
+  - Taiwan's exclusion is not due to pure politics.
+  - Economic benefits skew to Taiwan asymmetrically.
+  - Neither due to pure economics, nor pure politics.
 
 ---
 
@@ -370,19 +419,18 @@ class: middle, left
   - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
   
 
----
---&gt;
+--- --&gt;
 
 # Thank You!
   - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
 
-  - It's really nice to see you, please let me know if you stop by D.C.
+  - It's really nice to know you all!
 
 &lt;center&gt;
 
  &lt;div class="figure"&gt;
- &lt;img src="./dcpicture/waterfront.jpg" alt="Georgetown Waterfront (pc:me) " width="50%" /&gt;
- &lt;p class="caption"&gt;Georgetown Waterfront (pc:me) &lt;/p&gt;
+ &lt;img src="./dcpicture/waterfront.jpg" alt="Georgetown Waterfront" width="50%" /&gt;
+ &lt;p class="caption"&gt;Georgetown Waterfront&lt;/p&gt;
  &lt;/div&gt;
 &lt;/center&gt;
 
