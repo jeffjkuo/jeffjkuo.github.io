@@ -371,17 +371,14 @@ beliefs, and behaviors. Pantheon Books, New York (2019)
 ---
 
 # Chapter 2 | Data
-- UN Comtrade Database
-<!-- ![UNcomtrade.png](UNcomtrade.png) -->
+- Database
+  - [UN Comtrade Database](https://comtradeplus.un.org/)
 
-```{r, echo=FALSE, out.width="40%", fig.cap="", fig.align="center"}
-knitr::include_graphics("UNcomtrade.png")
-```
-
-
-- WITS: World Integrated Trade Solution
+- Application
+  - [World Integrated Trade Solution (WITS)](https://wits.worldbank.org/WITS/WITS/Restricted/Login.aspx)
 
 - We use the API program in R to extract the data
+  - [R Package ITNr](https://cran.r-project.org/web/packages/ITNr/index.html)
 
 - Taiwan is not included in the database as a "country." 
   - Specifically, we must find region code "nes, Asia."
