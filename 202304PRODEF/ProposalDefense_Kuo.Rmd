@@ -372,8 +372,9 @@ beliefs, and behaviors. Pantheon Books, New York (2019)
 
 # Chapter 2 | Data
 - UN Comtrade Database
+<!-- ![UNcomtrade.png](UNcomtrade.png) -->
 
-```{r, echo=FALSE, out.width="50%", fig.cap="", fig.align="center"}
+```{r, echo=FALSE, out.width="40%", fig.cap="", fig.align="center"}
 knitr::include_graphics("UNcomtrade.png")
 ```
 
