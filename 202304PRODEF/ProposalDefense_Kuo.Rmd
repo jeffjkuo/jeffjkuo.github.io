@@ -371,12 +371,13 @@ beliefs, and behaviors. Pantheon Books, New York (2019)
 ---
 
 # Chapter 2 | Data
-- UN Comtrade
-<center>
-```{r, echo=FALSE, out.width="50%", fig.cap="UN Comtrade Database"}
+- UN Comtrade Database
+
+```{r, echo=FALSE, out.width="50%", fig.cap="", fig.align="center"}
 knitr::include_graphics("UNcomtrade.png")
 ```
-</center>
+
+
 - WITS: World Integrated Trade Solution
 
 - We use the API program in R to extract the data
