@@ -70,8 +70,8 @@ knitr::opts_chunk$set(echo = TRUE)
     + Counter-example of B. Belassa's Integration Theory
     
 # Presidential Elections: Pre- v.s. Post- ECFA 
-<center> ![2008 Presidential Election Result](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/2008sharediff.png){height=50% width=30%}
-![2016 Presidential Election Result](/Users/jeffreykuo/Desktop/distancebeauty/old_data/graph/presentation/2016sharediff.png){height=50% width=30%}</center>
+<center> ![2008 Presidential Election Result](2008sharediff.png){height=50% width=30%}
+![2016 Presidential Election Result](2016sharediff.png){height=50% width=30%}</center>
   + Pattern? Which regions switch their party the most?
 
 
