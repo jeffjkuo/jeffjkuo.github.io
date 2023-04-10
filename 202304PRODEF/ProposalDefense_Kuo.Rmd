@@ -551,7 +551,7 @@ knitr::include_graphics(c("16linear.png","16quadratic.png","16cubic.png","16quar
 
 <center>
 
-```{r, echo=FALSE, out.width="50%", fig.cap="Georgetown Waterfront"}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("./dcpicture/waterfront.jpg")
 ```
 </center>
