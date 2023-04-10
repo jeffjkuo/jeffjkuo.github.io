@@ -15,33 +15,7 @@ output:
 
 class: inverse, center, middle
 
-# Hello! 
-
-<!--
-# About me
-- Academic
-  - Ph.D. Candidate in Economics at [GW](https://gwu.edu)
-  
-  - Primary Field: International Economics
-  
-  - Secondary Field: Applied Econometrics
-  
-  - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io); Email: <jeffkuo@gwu.edu>
-
-- Prior to GW
-
-  - [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, ’16)
-  
-  - [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/) (Research Assistant, ’14)
-  
-  - R.O.C. Army (Reserved Military Officer, Second Lieutenant, ’13)
-  
-  - [National Chengchi University](https://nccu.edu.tw) (B.A + M.S. in International Trade, ’12)
-
-- Personal
-  - Hometown: Kaohsiung, Taiwan
-
---> 
+# Roadmap
 
 ---
 
@@ -56,8 +30,8 @@ class: inverse, center, middle
 - For today's presentation, you can
 
   - <u>**visit**</u> [HTML link](https://jeffjkuo.github.io/202304PRODEF/ProposalDefense_Kuo.html#1), or <u>**scan**</u> the QR code to view today's slides
-```{r, echo=FALSE, out.width="15%", fig.align = 'center'}
-  knitr::include_graphics("CESNAQRcode.png")
+```{r, echo=FALSE, out.width="25%", fig.align = 'center'}
+  knitr::include_graphics("qrcode.png")
 ```
   - <u>**access**</u> to the full dissertation proposal <https://jeffjkuo.github.io/proposal_0327.pdf>
   
@@ -232,17 +206,17 @@ knitr::include_graphics("gtapdb2.png")
 </center>
 (Augiar et al, 2019) [DOI:10.21642/JGEA.040101AF](DOI:10.21642/JGEA.040101AF)
 
-<!--
----
 
-## Circular Flow Model
+<!-- --- -->
 
-![gtapregion.png](gtapregion.png)
----
+<!-- ## Circular Flow Model -->
 
-# Open Economy 
-![gtaptrade.png](gtaptrade.png)
---->
+<!-- ![gtapregion.png](gtapregion.png) -->
+<!-- --- -->
+
+
+<!-- # Open Economy  -->
+<!-- ![gtaptrade.png](gtaptrade.png) -->
 ---
 
 # Parameters
@@ -252,26 +226,26 @@ knitr::include_graphics("gtapdb2.png")
 ![GTAPdata.png](GTAPdata.png)
 
 
----
+<!-- --- -->
 
-![production2.png](production2.png)
+<!-- ![production2.png](production2.png) -->
 
 
----
+<!-- --- -->
 
-# CES Nested Production
+<!-- # CES Nested Production -->
 
-A 'firm' is a series of CES production functions
+<!-- A 'firm' is a series of CES production functions -->
 
-  - Top level
+<!--   - Top level -->
 
-    - optimally (min cost) combine value added and intermediate aggregate
+<!--     - optimally (min cost) combine value added and intermediate aggregate -->
 
-  - 2nd level
+<!--   - 2nd level -->
 
-    - Value added nest: Optimally (min cost) combine value-added inputs
+<!--     - Value added nest: Optimally (min cost) combine value-added inputs -->
 
-    - Intermediate nest: Optimally (min cost) combine intermediate inputs
+<!--     - Intermediate nest: Optimally (min cost) combine intermediate inputs -->
 
 
 ---
@@ -343,7 +317,7 @@ knitr::include_graphics("GDPchange.png")
 
 ---
 
-# Chapter 1 | Conclusion
+# Chapter 1 | Conclusions
 
 1. Define a _new term_, **placating cost**, and estimate it.
   - It's costly to lower the tension.
@@ -407,7 +381,8 @@ knitr::include_graphics("UNcomtrade.png")
 
 - We use the API program in R to extract the data
 
-- Taiwan is not included in the database as a "country." Specifically, we have to find region code "nes, Asia."
+- Taiwan is not included in the database as a "country." 
+  - Specifically, we must find region code "nes, Asia."
 
 ---
 
@@ -440,7 +415,7 @@ knitr::include_graphics("UNcomtrade.png")
 
 ---
 
-# Chapter 2 Conclusions
+# Chapter 2 | Conclusions
 
 **Main Findings**
 
