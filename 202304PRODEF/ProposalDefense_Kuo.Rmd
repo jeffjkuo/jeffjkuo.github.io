@@ -502,7 +502,7 @@ $$ X_i = W_i\delta_2 + V_i \tag{RD3} $$
 
 # Chapter 3 | Result: RD Graphs
 
-```{r, echo=FALSE,out.width="49%", out.height="50%",fig.cap="Different local polynomial assumptions",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE, out.width="49%", out.height="50%",fig.cap="Different local polynomial assumptions",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("16linear.png","16quadratic.png","16cubic.png","16quartic.png"))
 ``` 
 ---
