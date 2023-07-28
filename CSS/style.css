@@ -9,6 +9,12 @@
   float:left;
   width: 32%;
   margin: 10px 50px 10px 20px;
+  background-color: white;  
+}
+
+.picture a:hover{
+background-color:white;
+color:white;
 }
 
 
@@ -17,6 +23,12 @@ float: left;
 width: 50%;
 margin: 10px 15px 10px 0px;
 }
+
+.logo a:hover{
+background-color:white;
+color:white;
+}
+
 
 .contact {
   float:left;
