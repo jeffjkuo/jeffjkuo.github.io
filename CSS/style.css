@@ -125,7 +125,7 @@ text-align: center;
 top:10%
 overflow:hidden;*/
 color:#283747;
-background-color:#F9F6F5;
+background-color: rgba(255, 193, 0, 0.52);
 font-size: 25px;
 }
 
@@ -162,7 +162,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #CF6534;
+  color: white;
+  background-color: #9c0707;
 }
 
 /* selected link */
@@ -198,9 +199,9 @@ th {
 
 tr.noBorder td {
   border: 0;
+  opacity: 0.59;
 }
 
-.tab { text-indent:40px }
 
 ul.b {
   list-style-type: square;
@@ -222,6 +223,7 @@ ul.n {
 .boxed {
   border: 1.5px dashed navy ;
   padding: 0.5em
+  color: #e4d8d8;
 }
 
 #more {display: none;}
