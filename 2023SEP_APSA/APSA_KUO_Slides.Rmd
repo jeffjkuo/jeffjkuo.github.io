@@ -49,19 +49,17 @@ class: inverse, center, middle
 
 You can 
 
-- <u>**visit**</u> [https://jeffjkuo.github.io/2023SEP_APSA/APSA_KUO_Slides.html](https://jeffjkuo.github.io/2023SEP_APSA/APSA_KUO_Slides.html)
+- <u>**visit**</u> [https://tinyurl.com/jeffkuoAPSA](https://tinyurl.com/jeffkuoAPSA)
 
 - <u>**scan**</u> to view today's slides
     
 ```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
-knitr::include_graphics("CESNAQRcode.png")
+knitr::include_graphics("APSAQRcode.png")
 ```
     
-- <u>**access**</u> to the full paper -> <https://jeffjkuo.github.io/CGE1.pdf> (or email for updating version)
-
 - <u>**find**</u> more about my work on my website -> <https://jeffjkuo.github.io>
   
-- <u>**email**</u> to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for more questions and comments
+- <u>**email**</u> to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for questions, comments, or updated WP
 
 
 ---
@@ -82,7 +80,7 @@ class: middle
   
   - i.e., what is the cost for RCEP to block out Taiwan?
   
-    - Is **political compromise** costly for a trade bloc?
+- Are **political compromise** policies costly for a trade bloc?
     
 
 
@@ -121,21 +119,22 @@ class: middle
         - [Hertel, T. W. (1997). Global Trade Analysis: Modeling and Applications. United Kingdom: Cambridge University Press.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DulicT8AAAAJ&citation_for_view=DulicT8AAAAJ:u5HHmVD_uO8C)
 ---
 
-# Conceptual Framework
+# Facts and Assumptions
 
 **Fact 1** 
 
 <div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> Taiwan has been eager and willing to join RCEP </div>
   
-- [New Southbound Policy (2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
+- [New Southbound Policy (CSIS Report, 2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
   
 **Fact 2**
 
 <div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> China blockades Taiwan's role in international community </div>
 
 - [Why Does the WHO Exclude Taiwan? (2020)](https://www.cfr.org/in-brief/why-does-who-exclude-taiwan)  
+- [The Global Economic Disruptions from a Taiwan Conflict (2022)](https://rhg.com/research/taiwan-economic-disruptions/)
 
-**Assumption**
+**Presumption**
 
 <div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> Taiwan's exlcusion to RCEP is due to China's interference</div>
 
@@ -144,7 +143,7 @@ class: middle
 ---
 class: inverse, center, middle
 
-# Motivation from Trade Network
+# Evidence from Trade Network
 - 1996 v.s. 2016 "PC Relating Products Export Network"
 <figure>
 <img src="1996ITN_8471.png" width="300" height="300" />
@@ -157,7 +156,7 @@ class: inverse, left, middle
 
 ## Contributions
 
-1. Define a term and estimate the **cost** of <span style='font-size:pt; color:pink'>**political compromise**</span>
+1. Estimate the **cost** of <span style='font-size:pt; color:pink'>**political compromise**</span>
   <!--- We estimate the <span style='font-size:pt; color:pink'>**opportunity cost**</span> of excluding Taiwan
 
   - The result can potentially apply to another case in the world --> 
@@ -166,7 +165,8 @@ class: inverse, left, middle
 
   <!-- - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt? --> 
   
-3. The welfare change for the *RCEP+Taiwan* were <span style='font-size:pt; color:pink'>**non-linear**</span>
+3. Illustrate the correlation between welfare change and the magnitude of the shocks
+  <!-- for the *RCEP+Taiwan* were <span style='font-size:pt; color:pink'>**non-linear**</span> --> 
 
 <!--along with the magnitude of liberalization--> 
  
