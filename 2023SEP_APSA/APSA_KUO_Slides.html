@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Estimating Coercive Economic Tactics:</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jeffrey Kuo" />
+    <script src="libs/header-attrs-2.22/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Estimating Coercive Economic Tactics:
+]
+.subtitle[
+## In the Case of Taiwan’s Exclusion from RCEP
+]
+.author[
+### Jeffrey Kuo
+]
+.institute[
+### George Washington University
+]
+.date[
+### APSA CGOTS, August-31-2023
+]
+
+---
+
+
+class: inverse, center, middle
+
+# Hello! 
+
+&lt;!--
+# About me
+- Academic
+  - Ph.D. Candidate in Economics at [GW](https://gwu.edu)
+  
+  - Primary Field: International Economics
+  
+  - Secondary Field: Applied Econometrics
+  
+  - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io); Email: &lt;jeffkuo@gwu.edu&gt;
+
+- Prior to GW
+
+  - [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, ’16)
+  
+  - [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/) (Research Assistant, ’14)
+  
+  - R.O.C. Army (Reserved Military Officer, Second Lieutenant, ’13)
+  
+  - [National Chengchi University](https://nccu.edu.tw) (B.A + M.S. in International Trade, ’12)
+
+- Personal
+  - Hometown: Kaohsiung, Taiwan
+
+--&gt; 
+
+---
+
+# Today's Presentation
+
+You can 
+
+- &lt;u&gt;**visit**&lt;/u&gt; [https://jeffjkuo.github.io/2023SEP_APSA/APSA_KUO_Slides.html#1](https://jeffjkuo.github.io/2023SPE_APSA/APSA_KUO_Slides.html#)
+
+- &lt;u&gt;**scan**&lt;/u&gt; to view today's slides
+    
+&lt;img src="CESNAQRcode.png" width="30%" style="display: block; margin: auto;" /&gt;
+    
+- &lt;u&gt;**access**&lt;/u&gt; to the full paper -&gt; &lt;https://jeffjkuo.github.io/CGE1.pdf&gt; (or email for updating version)
+
+- &lt;u&gt;**find**&lt;/u&gt; more about my work on my website -&gt; &lt;https://jeffjkuo.github.io&gt;
+  
+- &lt;u&gt;**email**&lt;/u&gt; to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for more questions and comments
+
+
+---
+
+class: inverse, center, middle
+
+# Introduction
+
+---
+
+class: middle 
+
+# Main Question
+
+- For [Regional Comprehensive Economic Partnership (RCEP)]((https://rcepsec.org/),
+  
+  - How much does it cost for a **protective trade policy**?
+  
+  - i.e., what is the cost for RCEP to block out Taiwan?
+  
+    - Is **political compromise** costly for a trade bloc?
+    
+
+
+---
+
+class: middle
+
+# Policy Implication
+  
+- Estimate the cost of **lowering tension** trade policy, by
+   
+   - Adding shocks in CGE model 
+   
+   - Simulating the counter-factual outcome
+
+- From a regional integration perspective,
+
+  - How does *RCEP + Taiwan* affect U.S. and China? 
+  
+  - How would the rest of the world be affected?
+
+---
+class: middle
+
+# Motivation
+
+- Motivations are coming from three strings of **literature**
+
+  1.  Political Economy 
+        - [Murray Weidenbaum (2000). "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
+
+  2. Trade 
+        - [Autor, David H., David Dorn, and Gordon H. Hanson. (2013.) "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
+        
+  3. Computational General Equilibrium Model 
+        - [Hertel, T. W. (1997). Global Trade Analysis: Modeling and Applications. United Kingdom: Cambridge University Press.](https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=DulicT8AAAAJ&amp;citation_for_view=DulicT8AAAAJ:u5HHmVD_uO8C)
+---
+
+# Conceptual Framework
+
+**Fact 1** 
+
+&lt;div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"&gt; Taiwan has been eager and willing to join RCEP &lt;/div&gt;
+  
+- [New Southbound Policy (2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
+  
+**Fact 2**
+
+&lt;div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"&gt; China blockades Taiwan's role in international community &lt;/div&gt;
+
+- [Why Does the WHO Exclude Taiwan? (2020)](https://www.cfr.org/in-brief/why-does-who-exclude-taiwan)  
+
+**Assumption**
+
+&lt;div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"&gt; Taiwan's exlcusion to RCEP is due to China's interference&lt;/div&gt;
+
+-  [Taiwan, Frozen Out of RCEP, Explores Trade Agreement Options With US (2020)](https://thediplomat.com/2020/11/taiwan-frozen-out-of-rcep-explores-trade-agreement-options-with-us/)  
+
+---
+class: inverse, center, middle
+
+# Motivation from Trade Network
+- 1996 v.s. 2016 "PC Relating Products Export Network"
+&lt;figure&gt;
+&lt;img src="1996ITN_8471.png" width="300" height="300" /&gt;
+&lt;img src="2016ITN_8471.png" width="300" height="300" /&gt;
+&lt;/figure&gt;
+
+---
+
+class: inverse, left, middle
+
+## Contributions
+
+1. Define a term and estimate the **cost** of &lt;span style='font-size:pt; color:pink'&gt;**political compromise**&lt;/span&gt;
+  &lt;!--- We estimate the &lt;span style='font-size:pt; color:pink'&gt;**opportunity cost**&lt;/span&gt; of excluding Taiwan
+
+  - The result can potentially apply to another case in the world --&gt; 
+
+2. Re-evaluate Taiwan's role in US-China geopolitical competition
+
+  &lt;!-- - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt? --&gt; 
+  
+3. The welfare change for the *RCEP+Taiwan* were &lt;span style='font-size:pt; color:pink'&gt;**non-linear**&lt;/span&gt;
+
+&lt;!--along with the magnitude of liberalization--&gt; 
+ 
+---
+class: left, middle
+
+## Regional Comprehensive Economic Partnership (RCEP) 
+
+- The 15 members of the RCEP agreement
+  - Australia, Brunei, Cambodia, China, Indonesia, Japan, South Korea, Laos, Malaysia, Myanmar, New Zealand, the Philippines, Singapore, Thailand, and Vietnam.
+  
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="rcep.png" alt=" Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration." width="50%" /&gt;
+&lt;p class="caption"&gt; Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;!-- --- --&gt;
+
+&lt;!-- # Model  --&gt;
+&lt;!-- GTAP Overview - Production - Consumption - Price - Open Economy --&gt;
+
+---
+
+## Methodology - GTAP Simulation
+
+-   Global Trade Analysis Project (GTAP)
+    -   [GTAP Book (Thomas Hertel, 1997)](https://www.gtap.agecon.purdue.edu/products/gtap_book.asp)
+
+    -   [GTAP Data Base](https://www.gtap.agecon.purdue.edu/databases/default.asp)
+
+-   Data
+    -   GTAP 10 Databse (2019 release) 
+
+    -   Updated by the GTAP users 
+
+    -   Constructed by each country's Input-Output (I-O) Tables
+
+-   Model 
+    - [The Standard GTAP Model, Version 7](https://jgea.org/ojs/index.php/jgea/article/view/47)
+    
+    - Multiple markets (sectors x regions x factor) working at once
+    
+    - Using computers to solve high-dimensional GE model
+    
+
+---
+
+# GTAP System
+
+![GTAP System](gtapflow.png){width=100%}
+
+
+---
+
+# Data - GTAP Database Version 10
+
+![gtapdb1.png](gtapdb1.png)
+- Version 10 was released in 2018 by Center for Global Trade Analysis
+- In GTAP 10 
+  - Sector, N = 65, Country, N = 141, Production Factors, N = 5
+  - So we basically solving a 65 x 141 x 5 model everytime
+
+---
+
+## Regional Coverage
+&lt;center&gt;
+&lt;img src="gtapdb2.png" width="75%" /&gt;
+&lt;/center&gt;
+(Augiar et al, 2019) [DOI:10.21642/JGEA.040101AF](DOI:10.21642/JGEA.040101AF)
+
+---
+
+## Circular Flow Model
+
+![gtapregion.png](gtapregion.png)
+---
+
+# Open Economy 
+![gtaptrade.png](gtaptrade.png)
+---
+
+# Parameters
+
+- Parameters in GTAP model
+
+![GTAPdata.png](GTAPdata.png)
+
+
+---
+
+![production2.png](production2.png)
+
+
+---
+
+# CES Nested Production
+
+A 'firm' is a series of CES production functions
+
+  - Top level
+
+    - optimally (min cost) combine value added and intermediate aggregate
+
+  - 2nd level
+
+    - Value added nest: Optimally (min cost) combine value-added inputs
+
+    - Intermediate nest: Optimally (min cost) combine intermediate inputs
+
+
+---
+
+# Production in GEMPACK Code 
+
+![prodcode.png](prod_code1.png)
+---
+
+# Consumption in GEMPACK Code 
+
+![c_code](c_code.png)
+
+---
+
+## Simulation - RunGTAP
+
+- A GUI for controlling GTAP experiments
+
+- RunGTAP Interface
+
+![RunGTAP Interface](rungtapinterface.png)
+
+---
+
+# RunGTAP Setting
+
+- Regional Aggregation
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="GTAPAggregation.png" alt="GDP Growth Rate in Experimental Shocks" width="80%" /&gt;
+&lt;p class="caption"&gt;GDP Growth Rate in Experimental Shocks&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+# Shock Experiment
+
+![Policy Shock - Set Target Import Tariff = 0](shock.png)
+---
+
+class: center, middle  
+
+# Simulation Result Clips
+
+&lt;img src="ev.png" width="240" height="300" /&gt;
+&lt;img src="vgdp.png" width="240" height="300" /&gt;
+&lt;img src="qxwreg.png" width="240" height="300" /&gt;
+
+
+---
+
+# Result of Taiwan Joins RCEP - 1
+
+- First we tablet to EV after the experimental shocks
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="EVchange.png" alt="Welfare Change in Experimental Shocks" width="80%" /&gt;
+&lt;p class="caption"&gt;Welfare Change in Experimental Shocks&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+# Result of Taiwan Joins RCEP - 2
+
+- Then we switch to `\(\Delta\)`GDP after the experimental shocks
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="GDPchange.png" alt="GDP Growth Rate in Experimental Shocks" width="80%" /&gt;
+&lt;p class="caption"&gt;GDP Growth Rate in Experimental Shocks&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# Conclusion
+
+1. Define a _new term_, **placating cost**, and estimate it.
+  - It's costly to lower the tension.
+  - We focus on the case of Taiwan-RCEP case
+  - We apply the widely-used Computational GE Model
+  - We apply the updated dataset with lastest sector-level I-O tables 
+    
+3. Show RCEP is a _good option_ for Taiwan.
+  -  It's cliché, but we show quantitative estimation here 
+  - **limitation** (banned goods across the straights)
+
+4. Provide _anothor explanation_ of current equilibrium
+  - Taiwan's exclusion is not due to pure politics.
+  - Economic benefits skew to Taiwan asymmetrically.
+  - Neither due to pure economics, nor pure politics.
+
+---
+
+class: middle, left
+# Future Work
+
+1. Apply **heterogeneous shocks** to different production sectors 
+
+  - Cross reference to the updated tariff reduction schedule
+    
+2. Explore more possible shocks in trade. 
+  
+  - i.e., like **blockade** or military drills
+  
+  - This is on the horizon with Anton Yang.
+    
+3. Expand the analysis to exam future PTAs, or review the exisiting one. 
+
+  - i.e., CPTPP, U.S.-Taiwan Initiative on 21st-Century Trade.
+    
+---
+
+&lt;!--
+# Other Research Projects 
+
+- `\(N = 5\)` 
+
+  - **CGE2**, with Anton Yang (Yale)
+      - Blockade of China
+      
+  - **CGE3**, with Paul W. Chang (Northeastern) 
+      - Same topic, on the financial sector
+      
+  - **TPDL**, Trade Policy Deep Learning, with Jialu Ma (Temple, Fox Business School)
+      - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. 2023. "The Voice of Monetary Policy." American Economic Review, 113 (2): 548-84. DOI: [10.1257/aer.20220129](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)
+      
+  - **ITN**, International Trade Network (Ch. 2 of dissertation)
+      - [Chaney, 2016](https://academic.oup.com/edited-volume/28058/chapter-abstract/212027713?redirectedFrom=fulltext)
+      
+  - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
+  
+
+--- --&gt;
+
+# Thank You!
+  - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+
+  - Thank you for your attentions!
+
+&lt;center&gt;
+
+ &lt;img src="./dcpicture/waterfront.jpg" width="50%" /&gt;
+&lt;/center&gt;
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
