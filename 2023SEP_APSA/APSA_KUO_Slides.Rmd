@@ -49,7 +49,7 @@ class: inverse, center, middle
 
 You can 
 
-- <u>**visit**</u> [https://jeffjkuo.github.io/2023SEP_APSA/APSA_KUO_Slides.html#1](https://jeffjkuo.github.io/2023SPE_APSA/APSA_KUO_Slides.html#1)
+- <u>**visit**</u> [https://jeffjkuo.github.io/2023SEP_APSA/APSA_KUO_Slides.html](https://jeffjkuo.github.io/2023SEP_APSA/APSA_KUO_Slides.html)
 
 - <u>**scan**</u> to view today's slides
     
