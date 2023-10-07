@@ -1,0 +1,48 @@
+---
+title: "Comment on: Trade Liberalization and Intergenerational Education Mobility"
+author: "Jeffrey Kuo"
+institute: "George Washington University"
+date: "CES NA Meeting B.4., April-1-2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Review & Comment - 1
+
+- Great paper! 
+  - Robustness check section has covered most of the questions I have. 
+
+- Intergenerational education mobility has been a hot research topic. 
+  - Heckman and Mosso (2014), Cheng and Potlgea (2017).
+
+- Second upper level education = high school in the U.S.
+
+- Linking it with trade liberalization is hard. 
+  - Ahsan and Chatterjee (2017)
+  - Lin and Long (2020)
+
+- Mechanism
+  1. trade reduces the younger generation's education level - **an expanding export sector creates more job opportunities for young workers**
+  2. trade increases the younger generation's education level - **parents are richer, so they can support their kids to pursue higher degree**
+---
+
+# Review & Comment 
+- Data 
+  - Labor Market, China Census
+  - Trade Liberalization Measurement: WITS; Bartik Instrument to measure the export shock
+
+- Methodology: DiD 
+
+- Conclusion
+  - ** A reduction in export tariff reduces the probability of taking upper secondary education for chidren from low-educated families, but has negligible impact on children from high-educated families.**
+  
+- Questions
+  - Would the gender be another factor to affect household's decision?
+  - What about the number of the children in the household?
+  
+- Next: [https://jeffjkuo.github.io/2023CESNA/CESNA_KUO_Slides.html#1](jeffjkuo.github.io/2023CESNA/CESNA_KUO_Slides.html#1)
