@@ -215,6 +215,10 @@ tr.noBorder td {
 }
 
 
+ul.right {
+text-align: right;
+}
+
 ul.b {
   list-style-type: square;
   margin-top: -1px;
