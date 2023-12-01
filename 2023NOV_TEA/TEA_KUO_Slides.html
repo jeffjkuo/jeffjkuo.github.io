@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Estimating Coercive Economic Tactics:</title>
+    <title>Forming the Silicon Shield: A Graphical Network Analysis</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jeffrey Kuo" />
     <script src="libs/header-attrs-2.20/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-progressBar-0.0.1/progress-bar.js"></script>
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
+class: left, inverse, title-slide
 
 .title[
-# Estimating Coercive Economic Tactics:
+# Forming the Silicon Shield: A Graphical Network Analysis
 ]
 .subtitle[
-## In the Case of Taiwan’s Exclusion from RCEP
+## In global trade, how important is Taiwan’s (PC) industry?
 ]
 .author[
 ### Jeffrey Kuo
 ]
 .institute[
-### George Washington University
+### George Washington University &amp; CIER
 ]
 .date[
-### APSA CGOTS, August-31-2023
+### Taiwan Economic Association, December-2-2023
 ]
 
 ---
 
-
 class: inverse, center, middle
+
+<style>.xe__progress-bar__container {
+  bottom:0;
+  opacity: 1;
+  position:absolute;
+  right:0;
+  left: 0;
+}
+.xe__progress-bar {
+  height: 0.25em;
+  background-color: teal;
+  width: calc(var(--slide-current) / var(--slide-total) * 100%);
+}
+.remark-visible .xe__progress-bar {
+  animation: xe__progress-bar__wipe 200ms forwards;
+  animation-timing-function: cubic-bezier(.86,0,.07,1);
+}
+@keyframes xe__progress-bar__wipe {
+  0% { width: calc(var(--slide-previous) / var(--slide-total) * 100%); }
+  100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
+}</style>
+
 
 # Hello! 
 
-&lt;!--
-# About me
-- Academic
-  - Ph.D. Candidate in Economics at [GW](https://gwu.edu)
-  
-  - Primary Field: International Economics
-  
-  - Secondary Field: Applied Econometrics
-  
-  - Website: [https://jeffjkuo.github.io](https://jeffjkuo.github.io); Email: &lt;jeffkuo@gwu.edu&gt;
+The plan changed...
 
-- Prior to GW
+I was hoping to be in Taipei by now.
 
-  - [Syracuse University](https://syr.edu) (M.A. Economics at Maxwell School, ’16)
-  
-  - [Institute of Economics, Academia Sinica](https://www.econ.sinica.edu.tw/) (Research Assistant, ’14)
-  
-  - R.O.C. Army (Reserved Military Officer, Second Lieutenant, ’13)
-  
-  - [National Chengchi University](https://nccu.edu.tw) (B.A + M.S. in International Trade, ’12)
 
-- Personal
-  - Hometown: Kaohsiung, Taiwan
+```
+## 😩
+```
 
---&gt; 
 
 ---
 
@@ -73,66 +79,45 @@ You can
     
 &lt;img src="APSAQRcode.png" width="30%" style="display: block; margin: auto;" /&gt;
     
-- &lt;u&gt;**find**&lt;/u&gt; more about my work on my website -&gt; &lt;https://jeffjkuo.github.io&gt;
+- &lt;u&gt;**find**&lt;/u&gt; more about my latest work -&gt; &lt;https://jeffjkuo.github.io&gt;
   
 - &lt;u&gt;**email**&lt;/u&gt; to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for questions, comments, or updated WP
 
-
 ---
-
-class: inverse, center, middle
+class: center, middle, inverse 
 
 # Introduction
 
 ---
 
-class: middle 
+class: 
 
-# Main Question
+## Main Questions
 
-- For [Regional Comprehensive Economic Partnership (RCEP)]((https://rcepsec.org/),
+- What was the process of building the world's PC manufacturing center?
+
+- How do we measure the role of the industry in global trade? 
+  - **degree of centrality**
+
+- Does the trade liberalization change play any role?
+
+- Could we demonstrate the evolution by using International Trade Network analysis?
+
+- Are we still in **center** of the trade network now?
+
+## Contributions
+
+  - Develop an algorithm to analyze Taiwan's role in global trade graphically.
+    - Does not have to be limited to PC; the algorithm potentially could expand to other industries. 
   
-  - How much does it cost for a **protective trade policy**?
+  - Demonstrate the evolution of the centrality of the Taiwan-PC industry.
   
-  - i.e., what is the cost for RCEP to block out Taiwan?
-  
-- Are **political compromise** policies costly for a trade bloc?
-    
-
-
 ---
 
-class: middle
+class: center, middle, inverse
 
-# Policy Implication
-  
-- Estimate the cost of **lowering tension** trade policy, by
-   
-   - Adding shocks in CGE model 
-   
-   - Simulating the counter-factual outcome
+# Context
 
-- From a regional integration perspective,
-
-  - How does *RCEP + Taiwan* affect U.S. and China? 
-  
-  - How would the rest of the world be affected?
-
----
-class: middle
-
-# Motivation
-
-- Motivations are coming from three strings of **literature**
-
-  1.  Political Economy 
-        - [Murray Weidenbaum (2000). "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
-
-  2. Trade 
-        - [Autor, David H., David Dorn, and Gordon H. Hanson. (2013.) "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
-        
-  3. Computational General Equilibrium Model 
-        - [Hertel, T. W. (1997). Global Trade Analysis: Modeling and Applications. United Kingdom: Cambridge University Press.](https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=DulicT8AAAAJ&amp;citation_for_view=DulicT8AAAAJ:u5HHmVD_uO8C)
 ---
 
 # Facts and Assumptions
@@ -440,6 +425,7 @@ class: middle, left
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
+"nature": null,
 "highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false

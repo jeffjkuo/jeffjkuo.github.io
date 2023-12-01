@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Estimating Coercive Economic Tactics:</title>
+    <title>Estimating RCEP’s Cost of Placation Policy</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jeffrey Kuo" />
-    <script src="libs/header-attrs-2.20/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.19/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -13,10 +13,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Estimating Coercive Economic Tactics:
-]
-.subtitle[
-## In the Case of Taiwan’s Exclusion from RCEP
+# Estimating RCEP’s Cost of Placation Policy
 ]
 .author[
 ### Jeffrey Kuo
@@ -25,7 +22,7 @@ class: center, middle, inverse, title-slide
 ### George Washington University
 ]
 .date[
-### APSA CGOTS, August-31-2023
+### NSYSU, March-7-2023
 ]
 
 ---
@@ -35,7 +32,8 @@ class: inverse, center, middle
 
 # Hello! 
 
-&lt;!--
+---
+
 # About me
 - Academic
   - Ph.D. Candidate in Economics at [GW](https://gwu.edu)
@@ -59,23 +57,23 @@ class: inverse, center, middle
 - Personal
   - Hometown: Kaohsiung, Taiwan
 
---&gt; 
-
 ---
 
-# Today's Presentation
+# Today's Presentations
 
 You can 
 
-- &lt;u&gt;**visit**&lt;/u&gt; [https://tinyurl.com/jeffkuoAPSA](https://tinyurl.com/jeffkuoAPSA)
+- &lt;u&gt;**visit**&lt;/u&gt; [https://jeffjkuo.github.io/2023NSYSU/NSYSU_KUO_Slides.html#1](jeffjkuo.github.io/2023NSYSU/NSYSU_KUO_Slides.html#1)
 
 - &lt;u&gt;**scan**&lt;/u&gt; to view today's slides
     
-&lt;img src="APSAQRcode.png" width="30%" style="display: block; margin: auto;" /&gt;
+&lt;img src="CIER2R.png" width="30%" style="display: block; margin: auto;" /&gt;
     
+- &lt;u&gt;**access**&lt;/u&gt; to the full paper -&gt; &lt;https://jeffjkuo.github.io/CGE1&gt; (still updating)
+
 - &lt;u&gt;**find**&lt;/u&gt; more about my work on my website -&gt; &lt;https://jeffjkuo.github.io&gt;
   
-- &lt;u&gt;**email**&lt;/u&gt; to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for questions, comments, or updated WP
+- &lt;u&gt;**email**&lt;/u&gt; to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for more questions and comments
 
 
 ---
@@ -86,36 +84,19 @@ class: inverse, center, middle
 
 ---
 
-class: middle 
+class:middle 
 
 # Main Question
 
-- For [Regional Comprehensive Economic Partnership (RCEP)]((https://rcepsec.org/),
-  
+- For a trade bloc like RCEP,
   - How much does it cost for a **protective trade policy**?
-  
-  - i.e., what is the cost for RCEP to block out Taiwan?
-  
-- Are **political compromise** policies costly for a trade bloc?
-    
+  - i.e., blocking out a strong economic entity
 
+- Policy Implication: 
+  - Is **political compromise** costly for the trade bloc?
 
----
-
-class: middle
-
-# Policy Implication
-  
-- Estimate the cost of **lowering tension** trade policy, by
-   
-   - Adding shocks in CGE model 
-   
-   - Simulating the counter-factual outcome
-
-- From a regional integration perspective,
-
-  - How does *RCEP + Taiwan* affect U.S. and China? 
-  
+- From Taiwan's perspective,
+  - How does [RCEP](https://rcepsec.org/)+Taiwan affect U.S.-China **co-opetition**? 
   - How would the rest of the world be affected?
 
 ---
@@ -123,77 +104,64 @@ class: middle
 
 # Motivation
 
-- Motivations are coming from three strings of **literature**
+- Motivations are coming from two strings of **literature**...
 
-  1.  Political Economy 
-        - [Murray Weidenbaum (2000). "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
+  1.  Precarious Triangle (2000)
+        -   [Murray Weidenbaum 2000. "United States-China-Taiwan: A Precarious Triangle." Challenge, Vol. 43, No. 5, pp. 92-106](https://www.jstor.org/stable/40722032)
 
-  2. Trade 
-        - [Autor, David H., David Dorn, and Gordon H. Hanson. (2013.) "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
+  2. China Syndrome (2010)
+        -   [Autor, David H., David Dorn, and Gordon H. Hanson. 2013. "The China Syndrome: Local Labor Market Effects of Import Competition in the United States." American Economic Review, 103 (6): 2121-68.](https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121)
         
-  3. Computational General Equilibrium Model 
-        - [Hertel, T. W. (1997). Global Trade Analysis: Modeling and Applications. United Kingdom: Cambridge University Press.](https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=DulicT8AAAAJ&amp;citation_for_view=DulicT8AAAAJ:u5HHmVD_uO8C)
+- How about connecting those two topics with the CGE model?      
+  - 1 + 2 + CGE 
+
 ---
 
-# Facts and Assumptions
+# Assumption
 
-**Fact 1** 
+**Assumption 1** 
 
 &lt;div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"&gt; Taiwan has been eager and willing to join RCEP &lt;/div&gt;
   
-- [New Southbound Policy (CSIS Report, 2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
+- [New Southbound Policy (_CSIS China Power Project Report_, 2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
   
-**Fact 2**
+**Assumption 2**
 
 &lt;div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"&gt; China blockades Taiwan's role in international community &lt;/div&gt;
 
-- [Why Does the WHO Exclude Taiwan? (2020)](https://www.cfr.org/in-brief/why-does-who-exclude-taiwan)  
-- [The Global Economic Disruptions from a Taiwan Conflict (2022)](https://rhg.com/research/taiwan-economic-disruptions/)
+- [Why Does the WHO Exclude Taiwan? (_Council on Foreign Relations_, 2020)](https://www.cfr.org/in-brief/why-does-who-exclude-taiwan)  
 
-**Presumption**
+**Assumption 3**
 
 &lt;div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"&gt; Taiwan's exlcusion to RCEP is due to China's interference&lt;/div&gt;
 
--  [Taiwan, Frozen Out of RCEP, Explores Trade Agreement Options With US (2020)](https://thediplomat.com/2020/11/taiwan-frozen-out-of-rcep-explores-trade-agreement-options-with-us/)  
-
----
-class: inverse, center, middle
-
-# Evidence from Trade Network
-- 1996 v.s. 2016 "PC Relating Products Export Network"
-&lt;figure&gt;
-&lt;img src="1996ITN_8471.png" width="300" height="300" /&gt;
-&lt;img src="2016ITN_8471.png" width="300" height="300" /&gt;
-&lt;/figure&gt;
+-  [Taiwan, Frozen Out of RCEP, Explores Trade Agreement Options With US (_The Diplomat_, 2020)](https://thediplomat.com/2020/11/taiwan-frozen-out-of-rcep-explores-trade-agreement-options-with-us/)  
 
 ---
 
 class: inverse, left, middle
 
-## Contributions
+## Contribution
 
-1. Estimate the **cost** of &lt;span style='font-size:pt; color:pink'&gt;**political compromise**&lt;/span&gt;
-  &lt;!--- We estimate the &lt;span style='font-size:pt; color:pink'&gt;**opportunity cost**&lt;/span&gt; of excluding Taiwan
+1. Define a term and estimate the **cost** of &lt;span style='font-size:pt; color:pink'&gt;**political compromise**&lt;/span&gt;
+  - We estimate the &lt;span style='font-size:pt; color:pink'&gt;**opportunity cost**&lt;/span&gt; of excluding Taiwan
 
-  - The result can potentially apply to another case in the world --&gt; 
+  - The result can potentially apply to another case in the world
 
 2. Re-evaluate Taiwan's role in US-China geopolitical competition
 
-  &lt;!-- - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt? --&gt; 
+  - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt?
   
-3. Illustrate the correlation between welfare change and the magnitude of the shocks
-  &lt;!-- for the *RCEP+Taiwan* were &lt;span style='font-size:pt; color:pink'&gt;**non-linear**&lt;/span&gt; --&gt; 
-
-&lt;!--along with the magnitude of liberalization--&gt; 
+3. The benefit and the loss for the counterparts involved were 
+  - &lt;span style='font-size:pt; color:pink'&gt;**non-linear**&lt;/span&gt;, along with the magnitude of liberalization
  
 ---
 class: left, middle
 
-## Regional Comprehensive Economic Partnership (RCEP) 
-
+# RCEP 
+- Regional Comprehensive Economic Partnership
 - The 15 members of the RCEP agreement
-  - Australia, Brunei, Cambodia, China, Indonesia, Japan, South Korea, Laos, Malaysia, Myanmar, New Zealand, the Philippines, Singapore, Thailand, and Vietnam.
-  
+
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="rcep.png" alt=" Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration." width="50%" /&gt;
 &lt;p class="caption"&gt; Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration.&lt;/p&gt;
@@ -207,7 +175,7 @@ class: left, middle
 
 ---
 
-## Methodology - GTAP Simulation
+## Main Methodology - GTAP Simulation
 
 -   Global Trade Analysis Project (GTAP)
     -   [GTAP Book (Thomas Hertel, 1997)](https://www.gtap.agecon.purdue.edu/products/gtap_book.asp)
@@ -215,19 +183,16 @@ class: left, middle
     -   [GTAP Data Base](https://www.gtap.agecon.purdue.edu/databases/default.asp)
 
 -   Data
-    -   GTAP 10 Databse (2019 release) 
+    -   GTAP users upload each country's Input-Output (I-O) Tables
 
-    -   Updated by the GTAP users 
-
-    -   Constructed by each country's Input-Output (I-O) Tables
-
--   Model 
-    - [The Standard GTAP Model, Version 7](https://jgea.org/ojs/index.php/jgea/article/view/47)
+-   CGE = **C**omputational **G**eneral **E**quilibrium
+    - How supply and demand strike a balance in an economy 
     
     - Multiple markets (sectors x regions x factor) working at once
     
     - Using computers to solve high-dimensional GE model
     
+    - We use the default model in the GTAP
 
 ---
 
@@ -248,63 +213,29 @@ class: left, middle
 
 ---
 
+# Data - Snapshot of the Database
+
+![GTAPdata.png](GTAPdata.png)
+
+---
+
+
 ## Regional Coverage
 &lt;center&gt;
 &lt;img src="gtapdb2.png" width="75%" /&gt;
 &lt;/center&gt;
 (Augiar et al, 2019) [DOI:10.21642/JGEA.040101AF](DOI:10.21642/JGEA.040101AF)
 
+
 ---
 
-## Circular Flow Model
+## Model in a nutshell
 
 ![gtapregion.png](gtapregion.png)
 ---
 
 # Open Economy 
 ![gtaptrade.png](gtaptrade.png)
----
-
-# Parameters
-
-- Parameters in GTAP model
-
-![GTAPdata.png](GTAPdata.png)
-
-
----
-
-![production2.png](production2.png)
-
-
----
-
-# CES Nested Production
-
-A 'firm' is a series of CES production functions
-
-  - Top level
-
-    - optimally (min cost) combine value added and intermediate aggregate
-
-  - 2nd level
-
-    - Value added nest: Optimally (min cost) combine value-added inputs
-
-    - Intermediate nest: Optimally (min cost) combine intermediate inputs
-
-
----
-
-# Production in GEMPACK Code 
-
-![prodcode.png](prod_code1.png)
----
-
-# Consumption in GEMPACK Code 
-
-![c_code](c_code.png)
-
 ---
 
 ## Simulation - RunGTAP
@@ -330,16 +261,22 @@ A 'firm' is a series of CES production functions
 # Shock Experiment
 
 ![Policy Shock - Set Target Import Tariff = 0](shock.png)
----
+&lt;!-- --- --&gt;
+&lt;!-- class: inverse, center, middle  --&gt;
 
-class: center, middle  
+&lt;!-- # Simulation Result --&gt;
 
-# Simulation Result Clips
+&lt;!-- --- --&gt;
 
-&lt;img src="ev.png" width="240" height="300" /&gt;
-&lt;img src="vgdp.png" width="240" height="300" /&gt;
-&lt;img src="qxwreg.png" width="240" height="300" /&gt;
+&lt;!-- class: center, middle  --&gt;
 
+&lt;!-- # Simulation Result Clips --&gt;
+
+&lt;!-- &lt;img src="ev.png" width="240" height="300" /&gt; --&gt;
+&lt;!-- &lt;img src="vgdp.png" width="240" height="300" /&gt; --&gt;
+&lt;!-- &lt;img src="qxwreg.png" width="240" height="300" /&gt; --&gt;
+
+&lt;!-- --- --&gt;
 
 ---
 
@@ -368,9 +305,8 @@ class: center, middle
 
 # Conclusion
 
-1. Define a _new term_, **placating cost**, and estimate it.
-  - It's costly to lower the tension.
-  - We focus on the case of Taiwan-RCEP case
+1. Define a _new term_, **placating cost**, and estimate it 
+  - We focus on the case of Taiwan-RCEP-China case
   - We apply the widely-used Computational GE Model
   - We apply the updated dataset with lastest sector-level I-O tables 
     
@@ -379,9 +315,9 @@ class: center, middle
   - **limitation** (banned goods across the straights)
 
 4. Provide _anothor explanation_ of current equilibrium
-  - Taiwan's exclusion is not due to pure politics.
-  - Economic benefits skew to Taiwan asymmetrically.
-  - Neither due to pure economics, nor pure politics.
+  - Taiwan's exclusion is not due to pure politics
+  - Economic benefits skew to Taiwan asymmetrically 
+  - Neither due to pure economics (this is still hard to prove it) 
 
 ---
 
@@ -404,7 +340,6 @@ class: middle, left
     
 ---
 
-&lt;!--
 # Other Research Projects 
 
 - `\(N = 5\)` 
@@ -424,16 +359,19 @@ class: middle, left
   - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
   
 
---- --&gt;
+---
 
 # Thank You!
   - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
 
-  - Thank you for your attentions!
+  - It's really nice to see you, please let me know if you stop by D.C.
 
 &lt;center&gt;
 
- &lt;img src="./dcpicture/waterfront.jpg" width="50%" /&gt;
+ &lt;div class="figure"&gt;
+ &lt;img src="./dcpicture/waterfront.jpg" alt="Georgetown Waterfront (pc:me) " width="50%" /&gt;
+ &lt;p class="caption"&gt;Georgetown Waterfront (pc:me) &lt;/p&gt;
+ &lt;/div&gt;
 &lt;/center&gt;
 
     </textarea>
