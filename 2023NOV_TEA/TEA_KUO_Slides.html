@@ -58,11 +58,15 @@ class: inverse, center, middle
 
 # Hello! 
 
-### The plan changed, I was hoping to be in Taipei. 😩
+### The plan changed, I was hoping to be in Taipei. 
 
 --
 
-### Thank you for including me in this session. 😄
+### 😩
+
+--
+
+### Hopefully, the internet works.
 
 ---
 
@@ -70,11 +74,15 @@ class: inverse, center, middle
 
 You can 
 
-- &lt;u&gt;**visit**&lt;/u&gt; [https://tinyurl.com/jeffkuoTEA2023](https://tinyurl.com/jeffkuoAPSA)
+- &lt;u&gt;**visit**&lt;/u&gt; [https://tinyurl.com/JEFFKUOTEA23](https://tinyurl.com/JEFFKUOTEA23)
 
 --
 
 - &lt;u&gt;**scan**&lt;/u&gt; to view today's slides
+
+&lt;center&gt;
+&lt;img src="JEFFKUOTEA23.png" width="15%"/&gt;
+&lt;/center&gt;
 
 --
 
@@ -111,7 +119,7 @@ class:
 
 ## Contributions
 
-  - Develop an algorithm to analyze Taiwan's role in global trade graphically.
+  - Develop an &lt;u&gt;algorithm&lt;/u&gt; to analyze Taiwan's role in global trade network graphically.
     - It does &lt;u&gt;not&lt;/u&gt; limit to PC industry; the algorithm potentially could expand to other industries. 
   
   - Demonstrate the &lt;u&gt;evolution&lt;/u&gt; of the centrality of the Taiwan-PC industry.
@@ -123,14 +131,14 @@ class: center, middle, inverse
 
 ---
 
-## TSMC Global Operations
+## TSMC Global Operation
 &lt;center&gt;
 &lt;img src="TSMC.png" width="95%"/&gt;
 &lt;/center&gt;
 
 ---
 
-## Silicon Shield?
+## Formation of Silicon Shield?
 
 .pull-left[
 .pull-left[
@@ -228,24 +236,22 @@ class: inverse, center, middle
  - In the international trade network, the nodes we have here are "countries."
  
 - ITN is a "directed" network 
- 
   - A network is _directed_ if it is possible that `\(g_{ij} \neq g_{ji}\)` for all nodes `\(i\)` and `\(j\)`.
  
 - Degree and Network Density
-  
-  - _Degree_ of a node is the number of links that the node gets involved, which is the cardinality of the node's neighborhood. The node i's degree in a network g, denoted `\(d_i(g)\)`, is 
-  
-  `\(d_i(g) =  #{j: g_{ji}=1} = # N_i(g)\)`
+  - _Degree_ of a node is the number of links that the node gets involved, which is the cardinality of the node's neighborhood. The node i's degree in a network g, denoted `\(d_i(g)\)`, is `$$d_i(g) = \# \{j: g_{ji}=1 \} = \# N_i(g)$$`
+
+  - _Network Density_: the relative fraction of links that are present, and is simply the average degree divided by `\(n-1\)`
 ---
 
-# Network (cont.)
-- Micro Perspective 
+# Network: centrality degree of nodes
+
+- Why Centrality Matter?
+  - It's an important trait for a node `\(i\)` in network `\(g\)`
   
   - Measures of centrality can be categorized into four main groups depending on the types of statistics on which they are based. 
 
-  - Centrality: 
-      
-      1. Degree: how connected a node is. (**which we focus in this project**)
+       1. Degree: how connected a node is. (**which we focus in this project**)
     
       2. Closeness: how easily a node can reach other nodes.
     
@@ -253,23 +259,38 @@ class: inverse, center, middle
       
       4. Neighbors' Characteristics: how important, central, or influential a node's neighbors are. 
       
-- Macro Perspective
+- Other Network's Characteristics 
   
-  - Degree Distribution and Network Density
+  - Degree Distribution: a description of the relative frequencies of nodes that have different degrees. 
+  - Diameter: The largest distance between any two nodes in the network. 
+  - Cliquishness, Cohesiveness, and Clustering
   
 ---
 class: inverse, middle, center
-
+background-image: url(worldbank.jpeg)
+background-size: 70%
 #Data
 
 ---
 
-## World International Trade Solution 
+## Data Sources
 
-- WITS &amp; UNCOMTRADE
+For product level, Harmonized System's Product Code, there are two database we can use. 
 
-
+- World International Trade Solution (WITS) - https://wits.worldbank.org/
+ - Maintained by World Bank Group
  
+  - WITS provides international merchandise trade, tariff and non-tariff measures (NTM) data. Browse the Country profile section to obtain countries exports, imports and tariff statistics along with relevant development data.
+ 
+ - Taiwan's country code "Other Asia, nes"
+
+- UN Comtrade Database - https://comtradeplus.un.org/
+
+  - They provide the API service. So we choose this one for now. 
+  
+- Harmonized System (HS) Codes
+  - International Trade Administration (ITS) - https://www.trade.gov/harmonized-system-hs-codes
+  - HS system is a global product classification system. To export, the firms need to know the HS code for their products.
 
 ---
 
@@ -279,47 +300,84 @@ class: inverse, middle, center
     
 ---
 
-# Algorithm
+# Algorithm 
 
-1. In
+- The following steps show how we plot the International Trade Network diagram.
 
-2. Download the data from WITS. 
+  1. Download the data from UN Comtrade database. 
 
-3. 
+  2. Find all the HS-code associated with "computer"
+   
+      - In the HS code system, it is called "data process machines" 
+  
+  3. Set up the time and periods that we would like to plot. 
+
+  4. Deciding which side we are focusing on: "imports" or "exports." 
+  5. Clean up the data due to the naming problem of "Taiwan" in the UN database. 
+  
+  6. Plot it in R.  
 
 ---
 
 # Results
 
+- Using the 1996, 2001, 2006, 2011, 2016's PC Industry's Network as an example. 
+- 1996 is the starting point of the data. 
+
+  &lt;img src="1996ITN_8471.png" width="90%"/&gt;
+  
+---
+
+# Results (cont.)
+- 2001
+   
+  &lt;img src="2001ITN_8471.png" width="80%"/&gt;
 
 ---
+
+# Results (cont.)
+- 2006
+   
+  &lt;img src="2006ITN_8471.png" width="80%"/&gt;
+
+---
+
+# Results (cont.)
+- 2011
+   
+  &lt;img src="2011ITN_8471.png" width="80%"/&gt;
+
+---
+
+# Results (cont.)
+- 2016
+   
+  &lt;img src="2016ITN_8471.png" width="80%"/&gt;
+
 
 ---
 
 class: middle
 
-# Conclusion
+## Conclusion
 
+- We can draw two major conclusions by comparing the five-year network graphs. 
 
-- By comparing the five year span network graphs: there are two major conclusions we can draw. 
+  1. From the plotted results, we found the "centrality" for the PC manufacturing industry; Taiwan moved toward the sphere, while China moved toward the center of the network. 
+  
+  2. Intra-continental trade (color linkages) reduces while inter-continental trade (grey linkages) increases.  
+  
+  3. Global networks are more dense. 
 
-  1. From the plotted out results, we found the     "centrality" for of the PC-manufacturing industry
+## Future Work
 
-  2. 
+  1. Expand this to the other industries, and compare the PC industry to other industries in the trade liberalization era. 
 
-  3.
+    - So that maybe we can find another intangible "shield."
 
----
+  2. Expand the current exercise to a macro-perspective, try to find out the _density of the network_ and the _degree of distribution_
 
-class:
-
-# Future Work
-
-1. Expand this to the other industries, and compare the PC industry to other industries in the trade liberalization era. 
-
-2. Expand the current exercise to a macro-perspective, try to find out the _density of the network_ and the _degree of distribution_
-
-3. Connect the results to the dynamic Computational General Equilibrium model.
+  3. Connect the results to the dynamic Computational General Equilibrium model.
     
 ---
 class: middle, center
