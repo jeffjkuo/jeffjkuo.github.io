@@ -75,13 +75,13 @@ class:
 
 --
 
-- How do we measure the <u>role</u> of the industry in global trade?
+- How do we measure the <u>role</u> of a country's industry in global trade?
 
   - **degree of centrality** in the trade network
 
 --
 
-- Could we demonstrate the <u>evolution</u> by using International Trade Network analysis?
+- Could we demonstrate the <u>evolution</u> of the role by using International Trade Network analysis?
 
 --
 
@@ -92,7 +92,7 @@ class:
   - Develop an <u>algorithm</u> to analyze Taiwan's role in global trade network graphically.
     - It does <u>not</u> limit to PC industry; the algorithm potentially could expand to other industries. 
   
-  - Demonstrate the <u>evolution</u> of the centrality of the Taiwan-PC industry.
+  - Graphically demonstrate the <u>evolution</u> of the centrality of the Taiwan-PC industry.
   
 ---
 class: center, middle, inverse
