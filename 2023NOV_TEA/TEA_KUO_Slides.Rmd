@@ -1,6 +1,6 @@
 ---
 title: "Forming the Silicon Shield: A Graphical Network Analysis"
-subtitle: "In global trade, how important is Taiwan's (PC) industry?"
+subtitle: "How important is Taiwan's (PC) industry in global trade?"
 author: "Jeffrey Kuo"
 institute: "George Washington University & CIER"
 date: "Taiwan Economic Association, December-2-2023"
@@ -9,45 +9,44 @@ output:
     lib_dir: libs
     nature:
       nature:
-      titleSlideClass: ["left","inverse"]
+      ratio: "16:9"
+      titleSlideClass: ["middle","inverse","center"]
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
+      countIncrementalSlides: ture
 ---
+
 class: inverse, center, middle
+
 
 ```{r xaringanExtra, echo = FALSE}
   xaringanExtra::use_progress_bar(color = "teal", location = "bottom")
 ```
 
-
 # Hello! 
 
-The plan changed...
+### The plan changed, I was hoping to be in Taipei. `r emo::ji("weary")`
 
-I was hoping to be in Taipei by now.
+--
 
-```{r, echo=FALSE, include = TRUE} 
-emo::ji("weary") 
-``` 
-
+### Thank you for including me in this session. `r emo::ji("smile")`
 
 ---
 
-# Today's Presentation
+# For Today's Presentation, 
 
 You can 
 
-- <u>**visit**</u> [https://tinyurl.com/jeffkuoAPSA](https://tinyurl.com/jeffkuoAPSA)
+- <u>**visit**</u> [https://tinyurl.com/jeffkuoTEA2023](https://tinyurl.com/jeffkuoAPSA)
+
+--
 
 - <u>**scan**</u> to view today's slides
-    
-```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
-knitr::include_graphics("APSAQRcode.png")
-```
-    
-- <u>**find**</u> more about my latest work -> <https://jeffjkuo.github.io>
-  
+
+--
+
+- <u>**find**</u> more about my work -> <https://jeffjkuo.github.io>
+
 - <u>**email**</u> to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for questions, comments, or updated WP
 
 ---
@@ -61,330 +60,245 @@ class:
 
 ## Main Questions
 
-- What was the process of building the world's PC manufacturing center?
+- Could we identify the <u>process</u> of Taiwan building the world's PC manufacturing center?
 
-- How do we measure the role of the industry in global trade? 
-  - **degree of centrality**
+--
 
-- Does the trade liberalization change play any role?
+- How do we measure the <u>role</u> of the industry in global trade?
 
-- Could we demonstrate the evolution by using International Trade Network analysis?
+  - **degree of centrality** in the trade network
 
-- Are we still in **center** of the trade network now?
+--
+
+- Could we demonstrate the <u>evolution</u> by using International Trade Network analysis?
+
+--
+
+- Is Taiwan still in <u>center</u> of the global trade network now?
 
 ## Contributions
 
   - Develop an algorithm to analyze Taiwan's role in global trade graphically.
-    - Does not have to be limited to PC; the algorithm potentially could expand to other industries. 
+    - It does <u>not</u> limit to PC industry; the algorithm potentially could expand to other industries. 
   
-  - Demonstrate the evolution of the centrality of the Taiwan-PC industry.
+  - Demonstrate the <u>evolution</u> of the centrality of the Taiwan-PC industry.
   
 ---
-
 class: center, middle, inverse
 
 # Context
 
 ---
 
-# Facts and Assumptions
-
-**Fact 1** 
-
-<div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> Taiwan has been eager and willing to join RCEP </div>
-  
-- [New Southbound Policy (CSIS Report, 2018)](https://www.csis.org/programs/china-power-project/taiwan/new-southbound-policy)  
-  
-**Fact 2**
-
-<div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> China blockades Taiwan's role in international community </div>
-
-- [Why Does the WHO Exclude Taiwan? (2020)](https://www.cfr.org/in-brief/why-does-who-exclude-taiwan)  
-- [The Global Economic Disruptions from a Taiwan Conflict (2022)](https://rhg.com/research/taiwan-economic-disruptions/)
-
-**Presumption**
-
-<div style="background-color: #cfc ; padding: 10px; border: 1px solid green; text-align: center"> Taiwan's exlcusion to RCEP is due to China's interference</div>
-
--  [Taiwan, Frozen Out of RCEP, Explores Trade Agreement Options With US (2020)](https://thediplomat.com/2020/11/taiwan-frozen-out-of-rcep-explores-trade-agreement-options-with-us/)  
+## TSMC Global Operations
+<center>
+<img src="TSMC.png" width="95%"/>
+</center>
 
 ---
+
+## Silicon Shield?
+
+.pull-left[
+.pull-left[
+[**Silicon Shield**](https://www.amazon.sg/Silicon-Shield-Taiwans-Protection-Against/dp/1928704891)
+
+(Addison, 2001)
+
+![](siliconshield.png)
+Taiwan's Protection Against Chinese Attack
+
+]
+
+.pull-right[
+**Why Taiwan Matters?** 
+
+(Rigger, 2011)
+
+![](whytaiwanmatters.png)
+Samll Island, Global Powerhouse
+
+
+]]
+
+.pull-right[
+.pull-left[
+
+Chip War 
+
+(Miller, 2022)
+
+![](chipwar.png)
+The Fight for the World's Most Critical Technology
+]
+
+.pull-right[
+[**World on the Brink**](https://www.amazon.com/)
+
+(Alperovitch, 2024)
+![](worldonthebrink.png)
+How America Can Beat China in the Race for 21st Centry
+]]
+
+
+---
+
 class: inverse, center, middle
 
-# Evidence from Trade Network
-- 1996 v.s. 2016 "PC Relating Products Export Network"
+# Theory 
+
 <figure>
 <img src="1996ITN_8471.png" width="300" height="300" />
 <img src="2016ITN_8471.png" width="300" height="300" />
 </figure>
+1996 <--- v.s. --->  2016 
+
+"PC Relating Products Export Network"
 
 ---
 
-class: inverse, left, middle
+# International Trade Network
 
-## Contributions
+- International trade data can be analyzed using a network perspective, where the network is a set of countries linked by weighted and directed trade ties. 
 
-1. Estimate the **cost** of <span style='font-size:pt; color:pink'>**political compromise**</span>
-  <!--- We estimate the <span style='font-size:pt; color:pink'>**opportunity cost**</span> of excluding Taiwan
+--
 
-  - The result can potentially apply to another case in the world --> 
-
-2. Re-evaluate Taiwan's role in US-China geopolitical competition
-
-  <!-- - If Taiwan joins RCEP, will the RCEP, US, or China benefit or hurt? --> 
+- International Trade Network (ITN) has various name, aka
   
-3. Illustrate the correlation between welfare change and the magnitude of the shocks
-  <!-- for the *RCEP+Taiwan* were <span style='font-size:pt; color:pink'>**non-linear**</span> --> 
+  - World Trade Web (WTW)
+  
+  - World Trade Network (WTN)
 
-<!--along with the magnitude of liberalization--> 
+--
+
+- To build up the network in the International Trade setting, we need some of the attributes. 
+  
+  - Region 
+  - Income Level
+  - GDP
+  - GDP per capita 
+  - GDP growth
+  - FDI
+
+---
+
+# Network  
+
+- M.O. Jackson (2008) - Social and Economic Networks
+
+- Nodes and Players 
+
+ - The set $N=\{1,...,n\}$ is the _nodes_ that are involved in a network of relationships.
  
----
-class: left, middle
-
-## Regional Comprehensive Economic Partnership (RCEP) 
-
-- The 15 members of the RCEP agreement
-  - Australia, Brunei, Cambodia, China, Indonesia, Japan, South Korea, Laos, Malaysia, Myanmar, New Zealand, the Philippines, Singapore, Thailand, and Vietnam.
+ - Sometimes ones refer it "vertices," "individuals," "agents," or "players."
+ 
+ - In the international trade network, the nodes we have here are "countries."
+ 
+- ITN is a "directed" network 
+ 
+  - A network is _directed_ if it is possible that $g_{ij} \neq g_{ji}$ for all nodes $i$ and $j$.
+ 
+- Degree and Network Density
   
-```{r, echo=FALSE,  eval = TRUE, out.width="50%", fig.align = 'center', fig.cap= ' Sources: World Bank; UN Comtrade, Gaulier and Zignago (2010) illustration.'}
-knitr::include_graphics("rcep.png")
-```
-
-
-<!-- --- -->
-
-<!-- # Model  -->
-<!-- GTAP Overview - Production - Consumption - Price - Open Economy -->
-
+  - _Degree_ of a node is the number of links that the node gets involved, which is the cardinality of the node's neighborhood. The node i's degree in a network g, denoted $d_i(g)$, is 
+  
+  $d_i(g) =  #{j: g_{ji}=1} = # N_i(g)$
 ---
 
-## Methodology - GTAP Simulation
+# Network (cont.)
+- Micro Perspective 
+  
+  - Measures of centrality can be categorized into four main groups depending on the types of statistics on which they are based. 
 
--   Global Trade Analysis Project (GTAP)
-    -   [GTAP Book (Thomas Hertel, 1997)](https://www.gtap.agecon.purdue.edu/products/gtap_book.asp)
-
-    -   [GTAP Data Base](https://www.gtap.agecon.purdue.edu/databases/default.asp)
-
--   Data
-    -   GTAP 10 Databse (2019 release) 
-
-    -   Updated by the GTAP users 
-
-    -   Constructed by each country's Input-Output (I-O) Tables
-
--   Model 
-    - [The Standard GTAP Model, Version 7](https://jgea.org/ojs/index.php/jgea/article/view/47)
+  - Centrality: 
+      
+      1. Degree: how connected a node is. (**which we focus in this project**)
     
-    - Multiple markets (sectors x regions x factor) working at once
+      2. Closeness: how easily a node can reach other nodes.
     
-    - Using computers to solve high-dimensional GE model
+      3. Betweenness: how important a node is in terms of connecting other nodes.
+      
+      4. Neighbors' Characteristics: how important, central, or influential a node's neighbors are. 
+      
+- Macro Perspective
+  
+  - Degree Distribution and Network Density
+  
+---
+class: inverse, middle, center
+
+#Data
+
+---
+
+## World International Trade Solution 
+
+- WITS & UNCOMTRADE
+
+
+ 
+
+---
+
+class: inverse, middle, center
+
+# Methodology (Algorithm)
     
+---
+
+# Algorithm
+
+1. In
+
+2. Download the data from WITS. 
+
+3. 
 
 ---
 
-# GTAP System
-
-![GTAP System](gtapflow.png){width=100%}
-
-
----
-
-# Data - GTAP Database Version 10
-
-![gtapdb1.png](gtapdb1.png)
-- Version 10 was released in 2018 by Center for Global Trade Analysis
-- In GTAP 10 
-  - Sector, N = 65, Country, N = 141, Production Factors, N = 5
-  - So we basically solving a 65 x 141 x 5 model everytime
-
----
-
-## Regional Coverage
-<center>
-```{r pressure, echo=FALSE, out.width = '75%', align='center'}
-knitr::include_graphics("gtapdb2.png")
-```
-</center>
-(Augiar et al, 2019) [DOI:10.21642/JGEA.040101AF](DOI:10.21642/JGEA.040101AF)
-
----
-
-## Circular Flow Model
-
-![gtapregion.png](gtapregion.png)
----
-
-# Open Economy 
-![gtaptrade.png](gtaptrade.png)
----
-
-# Parameters
-
-- Parameters in GTAP model
-
-![GTAPdata.png](GTAPdata.png)
+# Results
 
 
 ---
 
-![production2.png](production2.png)
-
-
 ---
 
-# CES Nested Production
-
-A 'firm' is a series of CES production functions
-
-  - Top level
-
-    - optimally (min cost) combine value added and intermediate aggregate
-
-  - 2nd level
-
-    - Value added nest: Optimally (min cost) combine value-added inputs
-
-    - Intermediate nest: Optimally (min cost) combine intermediate inputs
-
-
----
-
-# Production in GEMPACK Code 
-
-![prodcode.png](prod_code1.png)
----
-
-# Consumption in GEMPACK Code 
-
-![c_code](c_code.png)
-
----
-
-## Simulation - RunGTAP
-
-- A GUI for controlling GTAP experiments
-
-- RunGTAP Interface
-
-![RunGTAP Interface](rungtapinterface.png)
-
----
-
-# RunGTAP Setting
-
-- Regional Aggregation
-```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'GDP Growth Rate in Experimental Shocks'}
-knitr::include_graphics("GTAPAggregation.png")
-``` 
-
----
-
-# Shock Experiment
-
-![Policy Shock - Set Target Import Tariff = 0](shock.png)
----
-
-class: center, middle  
-
-# Simulation Result Clips
-
-<img src="ev.png" width="240" height="300" />
-<img src="vgdp.png" width="240" height="300" />
-<img src="qxwreg.png" width="240" height="300" />
-
-
----
-
-# Result of Taiwan Joins RCEP - 1
-
-- First we tablet to EV after the experimental shocks
-
-```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'Welfare Change in Experimental Shocks'}
-knitr::include_graphics("EVchange.png")
-``` 
-
----
-
-# Result of Taiwan Joins RCEP - 2
-
-- Then we switch to $\Delta$GDP after the experimental shocks
-
-```{r, echo=FALSE, out.width="80%", fig.align = 'center', fig.cap= 'GDP Growth Rate in Experimental Shocks'}
-knitr::include_graphics("GDPchange.png")
-``` 
-
-
----
+class: middle
 
 # Conclusion
 
-1. Define a _new term_, **placating cost**, and estimate it.
-  - It's costly to lower the tension.
-  - We focus on the case of Taiwan-RCEP case
-  - We apply the widely-used Computational GE Model
-  - We apply the updated dataset with lastest sector-level I-O tables 
-    
-3. Show RCEP is a _good option_ for Taiwan.
-  -  It's cliché, but we show quantitative estimation here 
-  - **limitation** (banned goods across the straights)
 
-4. Provide _anothor explanation_ of current equilibrium
-  - Taiwan's exclusion is not due to pure politics.
-  - Economic benefits skew to Taiwan asymmetrically.
-  - Neither due to pure economics, nor pure politics.
+- By comparing the five year span network graphs: there are two major conclusions we can draw. 
+
+  1. From the plotted out results, we found the     "centrality" for of the PC-manufacturing industry
+
+  2. 
+
+  3.
 
 ---
 
-class: middle, left
+class:
+
 # Future Work
 
-1. Apply **heterogeneous shocks** to different production sectors 
+1. Expand this to the other industries, and compare the PC industry to other industries in the trade liberalization era. 
 
-  - Cross reference to the updated tariff reduction schedule
-    
-2. Explore more possible shocks in trade. 
-  
-  - i.e., like **blockade** or military drills
-  
-  - This is on the horizon with Anton Yang.
-    
-3. Expand the analysis to exam future PTAs, or review the exisiting one. 
+2. Expand the current exercise to a macro-perspective, try to find out the _density of the network_ and the _degree of distribution_
 
-  - i.e., CPTPP, U.S.-Taiwan Initiative on 21st-Century Trade.
+3. Connect the results to the dynamic Computational General Equilibrium model.
     
 ---
-
-<!--
-# Other Research Projects 
-
-- $N = 5$ 
-
-  - **CGE2**, with Anton Yang (Yale)
-      - Blockade of China
-      
-  - **CGE3**, with Paul W. Chang (Northeastern) 
-      - Same topic, on the financial sector
-      
-  - **TPDL**, Trade Policy Deep Learning, with Jialu Ma (Temple, Fox Business School)
-      - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. 2023. "The Voice of Monetary Policy." American Economic Review, 113 (2): 548-84. DOI: [10.1257/aer.20220129](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)
-      
-  - **ITN**, International Trade Network (Ch. 2 of dissertation)
-      - [Chaney, 2016](https://academic.oup.com/edited-volume/28058/chapter-abstract/212027713?redirectedFrom=fulltext)
-      
-  - **DBE**, New Patterns of Taiwan's Elections (Ch.3 of dissertation)
-  
-
---- -->
+class: middle, center
 
 # Thank You!
-  - Comments and questions, please email to [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+   
+   [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+   
+   Call for co-authors!  
+   
+  <img src="waterfront.jpg" width="35%"/>
 
-  - Thank you for your attentions!
+   This presentation is made by RMarkdown - [xaringan](https://github.com/yihui/xaringan) (Hsieh, 2016)
 
-<center>
-
- ```{r, echo=FALSE, out.width="50%", fig.cap=""}
-knitr::include_graphics("./dcpicture/waterfront.jpg")
-```
-</center>
 
