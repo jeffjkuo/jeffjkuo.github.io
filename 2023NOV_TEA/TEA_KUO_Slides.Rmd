@@ -170,7 +170,7 @@ class: inverse, center, middle
 
 # International Trade Network
 
-- International trade data can be analyzed using a network perspective, where the network is a set of countries linked by weighted and directed trade ties. 
+- International trade data can be analyzed using a network perspective, where the network is a set of countries linked by weighted and directed trade ties. ([Serrano et al., 2009](https://www.pnas.org/doi/10.1073/pnas.0808904106))
 
 --
 
@@ -195,7 +195,7 @@ class: inverse, center, middle
 
 # Network  
 
-- M.O. Jackson (2008) - Social and Economic Networks
+- M.O. Jackson (2008) - [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book)
 
 - Nodes and Players 
 
