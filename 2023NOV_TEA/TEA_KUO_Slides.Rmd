@@ -29,12 +29,15 @@ class: inverse, center, middle
 
 --
 
-### `r emo::ji("weary")`
+### `r emo::ji("weary")` `r emo::ji("weary")` `r emo::ji("weary")`
 
 --
 
-### Hopefully, the internet works.
+### Hopefully, Google Meet and the internet will work out well.
 
+--
+
+`r emo::ji("pray")`
 ---
 
 # For Today's Presentation, 
