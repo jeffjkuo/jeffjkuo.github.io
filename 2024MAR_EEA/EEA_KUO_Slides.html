@@ -86,7 +86,7 @@ You can
 
 - &lt;u&gt;**find**&lt;/u&gt; more about my work -&gt; &lt;https://jeffjkuo.github.io&gt;
 
-- &lt;u&gt;**email**&lt;/u&gt; to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for questions, comments, or updated WP
+- &lt;u&gt;**email**&lt;/u&gt; to [jeffkuo@gwu.edu](jeffkuo@gwu.edu), for questions, comments, or updated working paper version
 
 ---
 class: center, middle, inverse 
@@ -101,7 +101,7 @@ class:
 
 - Could we identify the historical &lt;u&gt;process&lt;/u&gt; of Taiwan becoming the Tech Hub?
 
- - Two industries we are particularly interested in: _Personal Computers_ and _Integrated Circuit_
+ - Two industries we are particularly interested in: &lt;u&gt;Personal Computers&lt;/u&gt; and &lt;u&gt;Integrated Circuit&lt;/u&gt;
 
 --
 
@@ -115,15 +115,23 @@ class:
 
 --
 
-- Is Taiwan still in &lt;u&gt;center&lt;/u&gt; of the global trade network now?
+- Is Taiwan still in the &lt;u&gt;center&lt;/u&gt; of the &lt;u&gt;personal computers&lt;/u&gt; or &lt;integrated circuit&gt; trade network now?
 
-## Contributions
+---
 
-  - Develop an &lt;u&gt;algorithm&lt;/u&gt; to analyze Taiwan's role in global trade network graphically.
+## Potential Contributions
+
+  - Develop an &lt;u&gt;algorithm&lt;/u&gt; to analyze country's role in global trade network graphically. 
+  
+    - And it could applied to the product-level.
+    
     - It does &lt;u&gt;not&lt;/u&gt; limit to PC industry; the algorithm potentially could expand to other industries. 
   
-  - Graphically demonstrate the &lt;u&gt;evolution&lt;/u&gt; of the centrality of the Taiwan-PC industry.
+  - Graphically demonstrate the &lt;u&gt;evolution&lt;/u&gt; of the centrality of the Taiwan's Tech industries.
   
+  - Compare the evolution of the two important tech industries. 
+  
+  - Analyze the long-term dynamics between those two.
 ---
 class: center, middle, inverse
 
@@ -198,6 +206,26 @@ class: inverse, center, middle
 
 ---
 
+# Why Network?
+
+- Why network analysis is a good fit to trade data?
+
+ - Network can highlight the traits that traditional empirical analysis can't do. 
+ 
+ - For example, 
+
+      - Homophily (Jackson, 2014; Banerjee et al., 2013)
+
+      - Externality (Ballester et al.; Jackson, 2014; Jackson et al., 2016)
+
+      - Diffusion and Clusters (Choi et al. 2010; Banerjee et al., 2013)
+
+      - Key Player (Ballester et al., 2006)
+
+      - Formation of the Network (Cabrales et al., 2011; Jackson, 2014; Jackson et al, 2016; Corominas-Bosch,2004)
+
+---
+
 # International Trade Network
 
 - International trade data can be analyzed using a network perspective, where the network is a set of countries linked by weighted and directed trade ties. ([Serrano et al., 2009](https://www.pnas.org/doi/10.1073/pnas.0808904106))
@@ -223,7 +251,7 @@ class: inverse, center, middle
 
 ---
 
-# Network  
+# Network Literature
 
 - M.O. Jackson (2008) - [Social and Economic Networks](https://web.stanford.edu/~jacksonm/books.html#book)
 
@@ -246,12 +274,13 @@ class: inverse, center, middle
 
 # Network: centrality degree of nodes
 
-- Why Centrality Matter?
+- Why centrality matters?
+
   - It's an important trait for a node `\(i\)` in network `\(g\)`
   
   - Measures of centrality can be categorized into four main groups depending on the types of statistics on which they are based. 
 
-       1. Degree: how connected a node is. (**which we focus in this project**)
+      1. Degree: how connected a node is. (**which we focus in this project**)
     
       2. Closeness: how easily a node can reach other nodes.
     
@@ -278,17 +307,20 @@ background-size: 70%
 For product level, Harmonized System's Product Code, there are two database we can use. 
 
 - World International Trade Solution (WITS) - https://wits.worldbank.org/
- - Maintained by World Bank Group
+  - Maintained by World Bank Group
  
-  - WITS provides international merchandise trade, tariff and non-tariff measures (NTM) data. Browse the Country profile section to obtain countries exports, imports and tariff statistics along with relevant development data.
+  - WITS provides international merchandise trade, tariff and non-tariff measures (NTM) data. Browse the country profile section to obtain countries exports, imports and tariff statistics along with relevant development data.
  
  - Taiwan's country code "Other Asia, nes"
 
+ - No API. 
+ 
 - UN Comtrade Database - https://comtradeplus.un.org/
 
   - They provide the API service. So we choose this one for now. 
   
 - Harmonized System (HS) Codes
+
   - International Trade Administration (ITS) - https://www.trade.gov/harmonized-system-hs-codes
   - HS system is a global product classification system. To export, the firms need to know the HS code for their products.
 
@@ -296,12 +328,13 @@ For product level, Harmonized System's Product Code, there are two database we c
 
 class: inverse, middle, center
 
-# Methodology 
-- Explain the algorithm
-    
+# Methodology (Algorithm)
+
 ---
 
 # Algorithm 
+
+- From trade flow data to graphical network
 
 - The following steps show how we plot the network diagram and calculate the parameters.
 
@@ -314,6 +347,7 @@ class: inverse, middle, center
   3. Set up the time and periods that we would like to plot. 
 
   4. Deciding which side we are focusing on: "imports" or "exports." 
+  
   5. Clean up the data due to the naming problem of "Taiwan" in the UN database. 
   
   6. Plot it in R.  
@@ -374,25 +408,26 @@ class: middle
 
   1. Expand this to the other industries, and compare the PC industry to other industries in the trade liberalization era. 
 
-    - So that maybe we can find another intangible "shield."
+    - So that we maybe can find a new "shield" for Taiwan.
 
-  2. Expand the current exercise to a macro-perspective, try to find out the _density of the network_ and the _degree of distribution_
+  2. Expand the current exercise to a macro-perspective network analysis, try to find out the _density of the network_ and the _degree of distribution_
 
-  3. Connect the results to the dynamic Computational General Equilibrium model.
-    
+
 ---
-class: middle, center
+class: middle, left
 
 # Thank You!
    
-   [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
+   - Again, my email: [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
    
-   - I will join CIER in Taipei this summer! 
+   - I will join [CIER](https://www.cier.edu.tw) in Taipei this summer! 
    
    - Any comments on this paper will be highly appreciated. 
-  &lt;img src="waterfront.jpg" width="35%"/&gt;
 
-   This presentation is made by RMarkdown - [xaringan](https://github.com/yihui/xaringan) (Hsieh, 2016)
+   - This presentation is made by RMarkdown [xaringan](https://github.com/yihui/xaringan) (Hsieh, 2016)
+
+
+   &lt;center&gt; &lt;img src="waterfront.jpg" width="30%" capation = "Georgetown Waterfront Park"/&gt; &lt;/center&gt;
 
 
     </textarea>
