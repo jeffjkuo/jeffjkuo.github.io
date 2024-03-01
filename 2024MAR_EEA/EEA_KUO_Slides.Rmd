@@ -28,18 +28,18 @@ class: inverse, left, middle
 
 --
 
-### $\cdot$ One of my dissertation chapter
+### $\cdot$ It is also one of my dissertation chapter
 
 --
 
-### $\cdot$ Any suggestions and comments are all welcomed! `r emo::ji("pray")`
+### $\cdot$ Any suggestion or comment are all welcomed! `r emo::ji("pray")`
 ---
 
 # For Today's Presentation, 
 
 You can 
 
-- <u>**visit**</u> [https://tinyurl.com/JEFFKUOEEA24](https://tinyurl.com/JEFFKUOEEA24)
+- <u>**sync**</u> from [https://tinyurl.com/JEFFKUOEEA24](https://tinyurl.com/JEFFKUOEEA24)
 
 --
 
@@ -66,13 +66,15 @@ class:
 
 ## Main Questions
 
-- Could we identify the <u>process</u> of Taiwan building the world's PC manufacturing center?
+- Could we identify the historical <u>process</u> of Taiwan becoming the Tech Hub?
+
+ - Two industries we are particularly interested in: _Personal Computers_ and _Integrated Circuit_
 
 --
 
-- How do we measure the <u>role</u> of a country's industry in global trade?
+- How do we measure the <u>role</u> of a country's industry in global trade network?
 
-  - **degree of centrality** in the trade network
+  - **degree of centrality**
 
 --
 
@@ -261,17 +263,18 @@ For product level, Harmonized System's Product Code, there are two database we c
 
 class: inverse, middle, center
 
-# Methodology (Algorithm)
+# Methodology 
+- Explain the algorithm
     
 ---
 
 # Algorithm 
 
-- The following steps show how we plot the International Trade Network diagram.
+- The following steps show how we plot the network diagram and calculate the parameters.
 
-  1. Download the data from UN Comtrade database. 
+  1. Download the data from UN Comtrade database by using the API.
 
-  2. Find all the HS-code associated with "computer"
+  2. Find all the HS-code associated with "personal computer" and "integrated circuit."
    
       - In the HS code system, it is called "data process machines" 
   
@@ -351,8 +354,9 @@ class: middle, center
    
    [jeffkuo@gwu.edu](jeffkuo@gwu.edu)
    
-   Call for co-authors!  
+   - I will join CIER in Taipei this summer! 
    
+   - Any comments on this paper will be highly appreciated. 
   <img src="waterfront.jpg" width="35%"/>
 
    This presentation is made by RMarkdown - [xaringan](https://github.com/yihui/xaringan) (Hsieh, 2016)
