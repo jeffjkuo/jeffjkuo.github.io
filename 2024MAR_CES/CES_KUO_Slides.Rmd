@@ -1,9 +1,9 @@
 ---
 title: "Forming the Silicon Shield: A Graphical Network Analysis"
-subtitle: "How Important is Taiwan's Tech industry in Global Trade?"
+subtitle: "How Important is Taiwan's Tech Industry in Global Trade?"
 author: "Jeffrey Kuo"
 institute: "George Washington University"
-date: "Eastern Economic Association, March-1-2024"
+date: "The Chinese Economists Society North America Conference, March-30-2024"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -28,10 +28,6 @@ class: inverse, left, middle
 
 --
 
-### $\cdot$ It is also one of my dissertation chapter
-
---
-
 ### $\cdot$ Any suggestion or comment are all welcomed! `r emo::ji("pray")`
 ---
 
@@ -39,14 +35,14 @@ class: inverse, left, middle
 
 You can 
 
-- <u>**sync**</u> from [https://tinyurl.com/JEFFKUOEEA24](https://tinyurl.com/JEFFKUOEEA24)
+- <u>**sync**</u> from [https://tinyurl.com/JEFFKUOCES24](https://jeffjkuo.github.io/2024MAR_CES/CES_KUO_Slides.html#1)
 
 --
 
 - <u>**scan**</u> to view today's slides
 
 <center>
-<img src="JEFFKUOEEA24.png" width="15%"/>
+<img src="JEFFKUOCES24.png" width="15%"/>
 </center>
 
 --

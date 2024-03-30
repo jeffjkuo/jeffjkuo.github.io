@@ -1,0 +1,46 @@
+---
+title: "Discussion"
+author: "Jeffrey Kuo"
+date: "2024-03-30"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Paper Review
+
+- Paper Title: China's Intellectual-property Supply Chain and Evidence of Under-reported U.S. to Tax Haven Transactions
+
+- Abstract
+
+1. This empirical paper identified the  
+2. 
+
+- Service Sector
+
+
+## Great Paper!
+
+- The paper is very readable!
+
+  - The whole paper is very readable and well constructed. Even though I don't have a lot exposure on the Intellectual-property issues, I can still understand the author's research motivations. 
+  
+  - The Figure 1 is especially helpful to set up the idea of "Tax Haven."
+
+- The identification is clear! 
+
+  - 
+  
+## Things I want to know a bit more...
+
+- The definition of the "MNE". Do you have a list in your dataset? Does it include the financial sector?
+
+-
+
+-
+
+## Link to Presentation
+
+- [https://jeffjkuo.github.io/2024MAR_CES/CES_KUO_Slides.html#1](https://jeffjkuo.github.io/2024MAR_CES/CES_KUO_Slides.html#1)
