@@ -13,33 +13,35 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Paper Title: China's Intellectual-property Supply Chain and Evidence of Under-reported U.S. to Tax Haven Transactions
 
-- Abstract
+- Abstract Review
 
-1. This empirical paper identified the  
-2. 
+  1. This empirical paper identified an "intangible" intellectual property transfer to tax-heaven countries.
 
-- Service Sector
+  2. Results: This kind of "manipulation" for technology-intensive MNEs is around 35%
 
+  3. Service Sector - OCED and WTO's Balance Trade in Service Datasets (BaTiS)
 
+  4. Fixed-effect Regression Model
+  
 ## Great Paper!
 
 - The paper is very readable!
 
-  - The whole paper is very readable and well constructed. Even though I don't have a lot exposure on the Intellectual-property issues, I can still understand the author's research motivations. 
+  - The whole paper is well-constructed. Even though I don't have a lot exposure on the Intellectual-property and trade-in-service topics, I can still understand the author's research motivations. 
   
-  - The Figure 1 is especially helpful to set up the idea of "Tax Haven."
+  - The Figure 1 is especially helpful to set up the idea of "Tax Haven" and the mechcanism of "US - Tax Haven - China" linkage. 
 
-- The identification is clear! 
+- The identification of empirical model is very clear! 
 
-  - 
+  - Great discussion starting from the Gravity model. And the graphical illustration of the "Under Reported Transfer to Tax Havens" is helpful to the audience too.
   
 ## Things I want to know a bit more...
 
-- The definition of the "MNE". Do you have a list in your dataset? Does it include the financial sector?
+- The author uses an example of APPLE.Inc. But if you can provide some numbers inside of the example, I thought it would be better. i.e., However much taxes does this manipulation save in terms of the taxes? (maybe it is taken as common knowledge in the IP papers?)
 
--
+- The definition of the "MNE". Do you have a list in your dataset? Does it include the financial sector? Does this mechanism only apply to the technological sector?
 
--
+- The dichotomy of the "tax haven" seems a bit arbitrary, it is based on Gevenen et al (2022). But is there another way to identify those countries? Or is there other indices can capture the level of "Tax Haven?" (since this is highly related to the regression results.)
 
 ## Link to Presentation
 

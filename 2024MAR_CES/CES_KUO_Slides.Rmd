@@ -98,10 +98,16 @@ class:
 ---
 class: center, middle, inverse
 
-# Context
+# Two Industries
 
 ---
 
+## Personal Computer 
+<center> 
+<img src="PC2024.png" width="95%"/>
+</center>
+
+---
 ## TSMC Global Operation
 <center>
 <img src="TSMC.png" width="95%"/>
