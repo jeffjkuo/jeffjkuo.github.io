@@ -102,11 +102,13 @@ class: center, middle, inverse
 
 ---
 
-## Personal Computer 
-<center> 
-<img src="PC2024.png" width="95%"/>
-</center>
+## Personal Computer
+- Top 10 Computer Equipment & Peripherals manufacturing companies in Taiwan 
 
+<center> 
+<img src="PC2024.png" width="45%"/>
+</center>
+Source: zoominfo.com
 ---
 ## TSMC Global Operation
 <center>
