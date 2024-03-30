@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
   - The whole paper is well-constructed. Even though I don't have a lot exposure on the Intellectual-property and trade-in-service topics, I can still understand the author's research motivations. 
   
-  - The Figure 1 is especially helpful to set up the idea of "Tax Haven" and the mechcanism of "US - Tax Haven - China" linkage. 
+  - The Figure 1 is especially helpful to set up the idea of "Tax Haven" and the mechanism of "US - Tax Haven - China" linkage. 
 
 - The identification of empirical model is very clear! 
 
@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE)
   
 ## Things I want to know a bit more...
 
-- The author uses an example of APPLE.Inc. But if you can provide some numbers inside of the example, I thought it would be better. i.e., However much taxes does this manipulation save in terms of the taxes? (maybe it is taken as common knowledge in the IP papers?)
+- The author uses an example of APPLE.Inc. But if you can provide some numbers inside of the example, I thought it would be better. i.e., However much does this manipulation save in terms of the monetary unit? (maybe it is taken as common knowledge in the IP papers?)
 
 - The definition of the "MNE". Do you have a list in your dataset? Does it include the financial sector? Does this mechanism only apply to the technological sector?
 
