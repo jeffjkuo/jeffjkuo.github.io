@@ -5,16 +5,18 @@
   box-sizing:border-box;
 }
 
+
 .picture{
   float:left;
   width: 32%;
   margin: 10px 50px 10px 20px;
-  background-color: white;  
+  /* background-color removed to eliminate hover effect */
 }
 
+
 .picture a:hover{
-background-color:white;
-color:white;
+  /* background-color removed to eliminate hover effect */
+  color:inherit;
 }
 
 
