@@ -1,3 +1,35 @@
+/* Force remove hover/focus/active background from Taiwan flag image and its link (most specific) */
+a[href="https://en.wikipedia.org/wiki/Taiwan"]:hover,
+a[href="https://en.wikipedia.org/wiki/Taiwan"]:focus,
+a[href="https://en.wikipedia.org/wiki/Taiwan"]:active,
+a[href="https://en.wikipedia.org/wiki/Taiwan"] > img:hover,
+a[href="https://en.wikipedia.org/wiki/Taiwan"] > img:focus,
+a[href="https://en.wikipedia.org/wiki/Taiwan"] > img:active {
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+/* Remove hover/focus/active background and outline from Taiwan national flag image and link */
+.picture a[href*="taiwan"]:hover,
+.picture a[href*="taiwan"]:focus,
+.picture a[href*="taiwan"]:active,
+.picture a[href*="taiwan"] img:hover,
+.picture a[href*="taiwan"] img:focus,
+.picture a[href*="taiwan"] img:active {
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+/* Remove hover background color on Taiwan national flag */
+a[href*="taiwan"]:hover, a[href*="taiwan"]:focus, a[href*="taiwan"] img:hover, a[href*="taiwan"] img:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
 .button1 {
   background-color: #ffc107 !important;
   color: #222 !important;
