@@ -98,6 +98,13 @@ div[style*="display: flex"] a img:focus {
   background-color: transparent !important;
   box-shadow: none !important;
 }
+
+/* Increase social media icon size (override HTML attributes if present) */
+.sociallogo img {
+  width: 36px !important;
+  height: 36px !important;
+  vertical-align: middle;
+}
 /* Remove hover background color on pictures and their links */
 .picture:hover, .picture a:hover {
   background-color: transparent !important;
@@ -157,7 +164,7 @@ color:white;
 
 .column2of2 {
 float: left;
-width: 620px
+width: 620px;
 margin: 20px;
 }
 
@@ -344,7 +351,7 @@ ul.n {
 
 .boxed {
   border: 1.5px dashed navy ;
-  padding: 0.5em
+  padding: 0.5em;
   color: #e4d8d8;
 }
 
