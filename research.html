@@ -10,6 +10,174 @@
   
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 
+  <style>
+    .research-page {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.62;
+      color: #1d1d1f;
+      background: #f5f5f7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .research-page #website {
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 1.8rem 1.25rem 3rem;
+      box-sizing: border-box;
+    }
+
+    .research-page .column2of2 {
+      width: 100%;
+      margin: 0;
+      float: none;
+      padding: 4.6rem 2rem 2.4rem;
+      background: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    }
+
+    .research-page .menu {
+      position: static;
+      width: auto;
+      margin: 0 0 1.2rem;
+      font-size: 15px;
+      display: block;
+      background: transparent;
+      overflow: visible;
+    }
+
+    .research-page nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      justify-content: flex-start;
+    }
+
+    .research-page nav li {
+      margin: 0;
+    }
+
+    .research-page nav li a {
+      display: inline-block;
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      color: #3a3a3c;
+      text-decoration: none;
+      border: 1px solid #e5e5ea;
+      font-weight: 500;
+      font-size: 0.8rem;
+      letter-spacing: 0.01em;
+      transition: all 0.2s ease;
+    }
+
+    .research-page nav li a:hover,
+    .research-page nav li a:focus {
+      color: #111;
+      background: #f2f2f7;
+      border-color: #d2d2d7;
+    }
+
+    .research-page h1 {
+      font-size: 2.35rem;
+      font-weight: 600;
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      margin: 0.4rem 0 1.05rem;
+      color: #1d1d1f;
+    }
+
+    .research-page h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin: 2.25rem 0 0.85rem;
+      color: #424245;
+    }
+
+    .research-page mark {
+      display: inline-block;
+      background: #f2f2f7;
+      color: #3a3a3c;
+      border: 1px solid #e5e5ea;
+      border-radius: 10px;
+      padding: 0.45rem 0.7rem;
+      margin-bottom: 1rem;
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    .research-page mark u {
+      text-decoration: none;
+    }
+
+    .research-page dl {
+      margin: 0;
+    }
+
+    .research-page dt {
+      font-weight: 550;
+      margin-top: 1.2rem;
+      line-height: 1.45;
+      color: #1d1d1f;
+    }
+
+    .research-page dd {
+      margin: 0.23rem 0 0.5rem 1rem;
+      color: #515154;
+      font-size: 0.94em;
+    }
+
+    .research-page ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+    }
+
+    .research-page li {
+      margin-bottom: 0.3rem;
+      color: #3a3a3c;
+    }
+
+    .research-page a {
+      color: #0066cc;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 102, 204, 0.25);
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .research-page a:hover,
+    .research-page a:focus {
+      color: #004a99;
+      border-bottom-color: rgba(0, 74, 153, 0.45);
+    }
+
+    .research-page a[style*="color:black"] {
+      color: #1d1d1f !important;
+      border-bottom-color: rgba(29, 29, 31, 0.22);
+    }
+
+    @media (max-width: 768px) {
+      .research-page {
+        font-size: 17px;
+      }
+
+      .research-page #website {
+        padding: 0.7rem 0.7rem 2rem;
+      }
+
+      .research-page .column2of2 {
+        padding: 3.7rem 1rem 1.4rem;
+        border-radius: 14px;
+      }
+
+      .research-page h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -22,7 +190,7 @@
   gtag('config', 'G-3JBT7W25JJ');
 </script>
 
-<body>
+<body class="research-page">
 <div id="website">
   <div class = "column2of2">
     <nav class=menu>
@@ -35,64 +203,41 @@
     </nav>
     <h1> Research </h1>
 	
-	<mark>Please see my <u><a href="http://jeffjkuo.github.io/jeffkuoCV.pdf">academic CV</a></u> for the latest update! </mark>
-	
-    <h2> Refereed Journal </h2>
+  <mark>Please see my <u><a href="http://jeffjkuo.github.io/jeffkuoCV.pdf">academic CV</a></u> for the latest update! </mark>
 
-    <dt> [1] <a href=http://doi.org/10.1002/bse.2817 target="_blank">Environmental Self-regulation for Sustainable Development: Can Internal Carbon Pricing Enhance Financial Performance?</a> </dt>
-	
-	<tr>
-		<td>
-			<dd><a href= https://doi.org/10.1002/bse.2817 target="_blank" style=color:black> Business Strategy and the Environment (2021)</a></dd>
-			
-			<dd>DOI: <a href=http://doi.org/10.1002/bse.2817 target="_blank">http://doi.org/10.1002/bse.2817</a></dd>
-			
-			<dd>Coauthor: <u><a href="https://www.linkedin.com/in/jialuma/" target=_blank>Jialu Ma</a></u> (Temple University, <a href="https://www.fox.temple.edu/" target="_blank">Fox School of Business</a>)</dd>
-		</td>
-	</tr>
-    <!--<dd> <font size=2> Impact Factor: 10.302 (2020), 5.483 (2019) </dd>
-      <dd> 2020 Journal Citation Reports (Clarivate Analytics): 9/153 (Business) 5/125 (Environmental Studies) 12/226 (Management) </dd>
-      <dd> 2019 Journal Citation Reports (Clarivate Analytics): 19/152 (Business)  10/123 (Environmental Studies)  21/226 (Management)</dd></font> -->
+  <h2> Paper </h2>
+  <dl>
+    <dt>[1] Estimating the Cost of Appeasing China: Taiwan’s Exclusion from the RCEP</dt>
+    <dd><a href="https://globaltaiwan.org/issues/vol-10-issue-17/" target="_blank" style="color:black"><i>Global Taiwan Brief</i></a>, 10(17), pp 4-7, 2025</dd>
+    <dd><a href="https://globaltaiwan.org/issues/vol-10-issue-17/" target="_blank">https://globaltaiwan.org/issues/vol-10-issue-17/</a></dd>
 
-	<h2>Current Research</h2>
-	
-	<dt> [3] The Silicon Shield: How Has International Trade Shaped the IT Industry? </dt>
-	
-	<br>
-	
-	<dt> [2] Pacification Cost: Estimate Trade Bloc’s Price of De-escalating Tension</dt>
-	
-	<br>
-	
-	<dt> [1] Importing Sentiment: How Does Bilateral Trade Agreement Realign Political Ideology?</dt>
+    <dt>[2] <a href="http://doi.org/10.1002/bse.2817" target="_blank">Environmental Self-regulation for Sustainable Development: Can Internal Carbon Pricing Enhance Financial Performance?</a> (with Jialu Ma)</dt>
+    <dd><a href="https://onlinelibrary.wiley.com/journal/10990836" target="_blank" style="color:black"><i>Business Strategy and the Environment</i></a>, 30(8), 3517-3527, 2021</dd>
+    <dd><a href="http://doi.org/10.1002/bse.2817" target="_blank">http://doi.org/10.1002/bse.2817</a></dd>
 
+    <dt>[3] <a href="https://jeffjkuo.github.io/paper/icpemission/MaKuo2020AIBSEHK.pdf" target="_blank">Can Internal Carbon Pricing Reduce Carbon Emissions of Multinational Enterprises?</a> (with Jialu Ma)</dt>
+    <dd><a href="https://www.researchgate.net/publication/352198331_Can_Internal_Carbon_Pricing_Reduce_Carbon_Emissions_of_Multinational_Enterprise" target="_blank" style="color:black"><i>Academy of International Business Southeast Asia Annual Conference Proceedings</i></a>, pp. 51-52, 2020</dd>
+    <dd><a href="https://www.researchgate.net/publication/352198331" target="_blank">https://www.researchgate.net/publication/352198331</a></dd>
 
+    <dt>[4] <a href="https://drive.google.com/file/d/1ZxyWQdZAYKL1j4fkglCw80lwl-_AdX_k/view" target="_blank">Plausible Causes and Solutions to Wage Stagnation of Taiwan</a> (with <a href="http://www.pp.u-tokyo.ac.jp/en/faculty/chen-stacey/" target="_blank">Stacey H. Chen</a>)</dt>
+    <dd><a href="https://reading.udn.com/v2/bookDesc.do?id=60563" target="_blank" style="color:black"><i>The R.O.C. Economic Yearbook 2014</i></a>, pp. 32-39, 2014</dd>
+    <dd><a href="https://gprivate.com/6hkfu" target="_blank">https://gprivate.com/6hkfu</a></dd>
 
+    <dt>[5] <a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">Non-cooperative and Cooperative Fiscal Policies in a Two-country Differential Games Model</a></dt>
+    <dd><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank" style="color:black"><i>National Chengchi University Electronic Theses and Dissertations</i></a>, 2012</dd>
+    <dd><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">http://nccur.lib.nccu.edu.tw/handle/140.119/54905</a></dd>
+  </dl>
 
-      <h2> Other Publication </h2>
-      <tr><dt> [3] <a href="https://jeffjkuo.github.io/paper/icpemission/MaKuo2020AIBSEHK.pdf" target="_blank"> Can Internal Carbon Pricing Reduce Carbon Emissions of Multinational Enterprise? </a></dt></tr>
-      <tr>
-        <td>
-        <dd> <a href="https://jeffjkuo.github.io/paper/icpemission/MaKuo2020AIBSEHK.pdf" target="_blank">
-        <!--<dd> <img src=paper/AIBSAC20cover.png height=165 width=127.5 style="border:1px solid black; float: left; margin: 0px 20px 20px -20px"> </dd>-->
-        <dd style="text-indent: 0px"> <a href="https://sbus.hsu.edu.hk/en/aib/aib-asiapacific-conference-2021/elementor-23462/" target="_blank" style=color:black> Academy of International Business Southeast Asia Annual Conference Proceedings (2020)</a>, pp. 51-52. Coauthor: <u><a href="https://www.linkedin.com/in/jialuma/" target=_blank>Jialu Ma</a></u> (Temple University, Fox School of Business)</dd>
-      </p>
-
-      <p><dt> [2] <a href="/paper/Chen and Kuo (2014) Plausible Causes and Solutions to Wage Stagnation of Taiwan.pdf" target="_blank">  Plausible Causes and Solutions to Wage Stagnation of Taiwan </a> </dt>
-        <dd> <a href="/paper/Chen and Kuo (2014) Plausible Causes and Solutions to Wage Stagnation of Taiwan.pdf" target="_blank">
-        <!--  <img src=paper/EconYB14cover.png height=165 width=127.5 style="border:1px solid black; float: left; margin: 0px 30px 20px -20px"></a> </dd>-->
-        <dd> <a href="https://reading.udn.com/v2/bookDesc.do?id=60563" target="_blank" style="color:black"> The R.O.C. Economy Year Book (2014)</a>, published by Economic Daily News, pp. 32-39.</dd>
-        <dd> Coauthor: <a href ="http://www.pp.u-tokyo.ac.jp/en/faculty/chen-stacey/" style="text-decoration: none" target="_blank"><u>Stacey H. Chen</u></a> (University of Tokyo, Graduate School of Public Policy)
-        </p>
-
-
-        <dt> [1] <a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank"> Non-cooperative and Cooperative Fiscal Policies in a Two-country Differential Games Model </a></dt>
-        <dd> <a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">
-          <!--<img src=paper/MT2012cover2.png height=165 width=127.5 style="border:1px solid black; float: left; margin: 0px 30px 20px -20px"><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank"> </dd>-->
-          <dd style="text-indent: 0px"> <a href="http://thesis.lib.nccu.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dallcdr&s=id=%22G1003510081%22.&searchmode=basic" target="_blank" style="color:black">National Chengchi University Institutional Repository (2012)</a></dd>
-          <dd style="text-indent: 0px"> Handle Link: <a href=http://nccur.lib.nccu.edu.tw/handle/140.119/54905 target=_blank>http://nccur.lib.nccu.edu.tw/handle/140.119/54905</a></dd>
-          <dd style="text-indent: 0px"> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.26282.80323" target=_blank>10.13140/RG.2.2.26282.80323</a></dd>
-        </dl>
+  <h2> Dissertation Chapters </h2>
+  <ul>
+    <li><i>Taiwan's Role in Globalization: Pre- and Post-US-China Trade War</i>
+      <ul>
+        <li>Chapter 1, Estimating the GE Effects of Including Taiwan into RCEP</li>
+        <li>Chapter 2, A Graphical Network Analysis of the Evolution of Taiwan's ICT Industry</li>
+        <li>Chapter 3, How do ECFA-Tourists Redraw the Ideological Boundaries in Taiwan? (<i>under revision</i>)</li>
+      </ul>
+    </li>
+  </ul>
 
 
   
