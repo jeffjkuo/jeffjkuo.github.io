@@ -26,8 +26,326 @@ gtag('config', 'G-3JBT7W25JJ');
 	<title>Jeffrey Kuo 郭哲瑋</title>
 	
 	<link href = "/CSS/style.css" type="text/css" rel="stylesheet" />
+	<style>
+		.home-page {
+			font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.62;
+			color: #1d1d1f;
+			background: #f5f5f7;
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+		}
+
+		.home-page #website {
+			width: 100%;
+			max-width: 980px;
+			margin: 0 auto;
+			padding: 1.8rem 1.25rem 3rem;
+			box-sizing: border-box;
+		}
+
+		.home-page .menu {
+			position: static;
+			width: auto;
+			margin: 0 0 1.3rem;
+			font-size: 16px;
+			display: block;
+			background: transparent;
+			overflow: visible;
+			left: auto;
+			top: auto;
+		}
+
+		.home-page nav ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.35rem;
+			justify-content: flex-start;
+			width: 100%;
+		}
+
+		.home-page nav li {
+			margin: 0;
+		}
+
+		.home-page nav li a {
+			display: inline-block;
+			padding: 0.32rem 0.78rem;
+			border-radius: 999px;
+			color: #3a3a3c;
+			text-decoration: none;
+			border: 1px solid #e5e5ea;
+			font-weight: 500;
+			font-size: 0.88rem;
+			letter-spacing: 0.01em;
+			transition: all 0.2s ease;
+		}
+
+		.home-page nav li a:hover,
+		.home-page nav li a:focus {
+			color: #ffffff;
+			background: #0a66c2;
+			border-color: #0a66c2;
+			box-shadow: 0 2px 10px rgba(10, 102, 194, 0.28);
+		}
+
+		.home-page .nav-logo-item {
+			display: inline-flex;
+			align-items: center;
+			margin-left: auto;
+		}
+
+		.home-page .nav-logo-link {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.35rem;
+			padding: 0.24rem 0.48rem;
+			border-radius: 10px;
+			border: 1px solid #e5e5ea;
+			background: #fbfbfd;
+			border-bottom: none;
+			white-space: nowrap;
+		}
+
+		.home-page .nav-logo-link img {
+			height: 22px;
+			width: auto;
+			display: block;
+		}
+
+		.home-page .nav-logo-label {
+			font-size: 0.8rem;
+			font-weight: 600;
+			letter-spacing: 0.02em;
+			color: #3a3a3c;
+		}
+
+		.home-page .row {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: space-between;
+			gap: 1.3rem;
+			margin-bottom: 1.1rem;
+			padding: 1.3rem;
+			background: #ffffff;
+			border-radius: 18px;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+		}
+
+		.home-page .picture,
+		.home-page .contact {
+			float: none;
+			width: auto;
+			margin: 0;
+		}
+
+		.home-page .picture {
+			flex: 1 1 380px;
+			max-width: 520px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.home-page .picture img {
+			width: 208px;
+			height: 208px;
+			object-fit: cover;
+			border-radius: 24px !important;
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+		}
+
+		.home-page .contact {
+			flex: 1 1 380px;
+			max-width: 520px;
+			padding-top: 0.15rem;
+		}
+
+		.home-page .contact br:first-child {
+			display: none;
+		}
+
+		.home-page .contact font[size="6"] {
+			font-size: 2.05rem;
+			line-height: 1.2 !important;
+			letter-spacing: -0.02em;
+		}
+
+		.home-page .contact font[size="4"] {
+			font-size: 1rem;
+		}
+
+		.home-page .contact ul.b {
+			margin: 0.45rem 0 0.9rem;
+			padding-left: 1.7rem;
+			margin-left: 0.15rem;
+		}
+
+		.home-page .contact ul.b li {
+			margin-bottom: 0.25rem;
+		}
+
+		.home-page .sociallogo {
+			display: flex;
+			gap: 0.55rem;
+			flex-wrap: wrap;
+			margin-top: 0.25rem;
+		}
+
+		.home-page .sociallogo a {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 38px;
+			height: 38px;
+			border-radius: 50%;
+			background: #f5f5f7;
+			border: 1px solid #e5e5ea;
+			border-bottom: none;
+			transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+		}
+
+		.home-page .sociallogo a:hover,
+		.home-page .sociallogo a:focus {
+			transform: translateY(-1px);
+			background: #deebfa;
+			border-color: #9fc3ea;
+		}
+
+		.home-page .sociallogo img {
+			width: 18px !important;
+			height: 18px !important;
+		}
+
+
+		.home-page .column2of2 {
+			width: 100%;
+			margin: 0;
+			float: none;
+			padding: 1.8rem 2rem 2.2rem;
+			background: #ffffff;
+			border-radius: 18px;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+		}
+
+		.home-page h3 {
+			font-size: 2rem;
+			font-weight: 600;
+			line-height: 1.14;
+			letter-spacing: -0.02em;
+			margin: 0.2rem 0 1rem;
+			color: #1d1d1f;
+		}
+
+		.home-page p {
+			color: #3a3a3c;
+		}
+
+		.home-page a {
+			color: #0066cc;
+			text-decoration: none;
+			border-bottom: 1px solid rgba(0, 102, 204, 0.25);
+			transition: color 0.2s ease, border-color 0.2s ease;
+		}
+
+		.home-page a:hover,
+		.home-page a:focus {
+			color: #003f8a;
+			border-bottom-color: rgba(0, 63, 138, 0.9);
+			border-bottom-width: 2px;
+			background: rgba(10, 102, 194, 0.08);
+		}
+
+		.home-page .button1 {
+			background: #f2f2f7 !important;
+			color: #1d1d1f !important;
+			border: 1px solid #d2d2d7 !important;
+			border-radius: 10px !important;
+			padding: 0.38rem 0.8rem !important;
+			font-weight: 500 !important;
+		}
+
+		.home-page .button1:hover,
+		.home-page .button1:focus {
+			background: #dfeefe !important;
+			border-color: #9fc3ea !important;
+			color: #0b3b8c !important;
+		}
+
+		.home-page hr {
+			border: 0;
+			border-top: 1px solid #e5e5ea;
+			margin: 1.1rem 0 1.3rem;
+		}
+
+		.home-page .moving-alert {
+			display: flex;
+			align-items: center;
+			gap: 0.45rem;
+			padding: 0.48rem 0.78rem;
+			margin: 0 auto 0.8rem;
+			width: fit-content;
+			background: #f2f2f7;
+			border: 1px solid #e5e5ea;
+			border-radius: 10px;
+			font-size: 0.9rem;
+			font-weight: 500;
+			color: #1d1d1f;
+		}
+
+		.home-page .moving-alert a {
+			border-bottom: none;
+			font-weight: 600;
+		}
+
+		@media (max-width: 768px) {
+			.home-page {
+				font-size: 17px;
+			}
+
+			.home-page #website {
+				padding: 0.7rem 0.7rem 2rem;
+			}
+
+			.home-page .column2of2 {
+				padding: 1.3rem 1rem 1.6rem;
+				border-radius: 14px;
+			}
+
+			.home-page .row {
+				padding: 1rem;
+				gap: 0.9rem;
+			}
+
+			.home-page .picture,
+			.home-page .contact {
+				flex: 1 1 100%;
+				max-width: 100%;
+			}
+
+			.home-page .picture {
+				text-align: center;
+			}
+
+			.home-page .picture img {
+				width: 170px;
+				height: 170px;
+			}
+
+			.home-page h3 {
+				font-size: 1.65rem;
+			}
+
+			.home-page .moving-alert {
+				width: 100%;
+				justify-content: center;
+			}
+		}
+	</style>
 </head>
-<body>
+<body class="home-page">
 	<div id="website">
 		<!-- Navigator Buttons -->
 		<div style="width:900px; max-width:100%; margin:0 auto;">
@@ -35,10 +353,9 @@ gtag('config', 'G-3JBT7W25JJ');
 			<ul>
 				<li><a href="#hello">Hello</a></li>
 								<li><a href="jeffkuoCV.pdf">Vitae</a></li>
-				<li><a href="research.html">Papers</a></li>
-				<li><a href="teaching.html">Teach</a></li>
-				<li><a href="officehour.html">Meetup</a></li>
-				<li><a href="chinese.html">中文</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="teaching.html">Teaching</a></li>
+				<li class="nav-logo-item"><a class="nav-logo-link" href="https://www.nkust.edu.tw/" target="_blank"><img src="images/nkust-logo.png" alt="NKUST logo" /><span class="nav-logo-label">NKUST</span></a></li>
 
 				<!-- <li><a href="seminarinfo.html">Seminar</a></li>  -->
 			</ul>
@@ -52,11 +369,11 @@ gtag('config', 'G-3JBT7W25JJ');
 					<p><a href="https://venues.gwu.edu/university-yard" target="_blank">
 				<img style= "border-radius: 25px" src = "images/newheadshot.png" height = 180 /></a></p>
 			</div>
-			
+
 			<div class = "contact">
 				<br><font face = "" size=6 style="line-height:1.5"><b>Jeffrey Kuo</b></font>
 				<br>
-				<font size="4" style="line-height:1"><a style="text-decoration: none" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=jeffkuo@gwu.edu">  <span class="">&#128231;</span> &#160; jeffkuo [at] gwu.edu</a> </font>
+				<font size="4" style="line-height:1"><a style="text-decoration: none" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=jeffkuo@nkust.edu.tw">  <span class="">&#128231;</span> &#160; jeffkuo [at] nkust.edu.tw</a> </font>
 				
 				<br>
 
@@ -66,8 +383,8 @@ gtag('config', 'G-3JBT7W25JJ');
 				<font size="4"><span class="">&#127919;</span> &#160; Research Fields </font>
 				<font size="4">
 					<ul class="b">
+						<li><a href="https://en.wikipedia.org/wiki/Environmental_economics"> Environmental Economics</a></li>
 						<li><a href="https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Trade">International Trade</a></li>
-						<li><a href="https://en.wikipedia.org/wiki/Econometrics"> Applied Econometrics</a></li>
 					</ul>
 				</font>
 	
@@ -82,22 +399,17 @@ gtag('config', 'G-3JBT7W25JJ');
 									<img src = "images/twittericon.svg" height =25 width =25 /></a>
 								<a href="https://www.youtube.com/channel/UCtT9g8itTPXaFCbrt3GWjwg" target="_blank">
 									<img src = "images/youtubeicon.svg" height =25 width =25 /></a>
-								<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=jeffkuo@gwu.edu" target="_blank">
+								<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=jeffkuo@nkust.edu.tw" target="_blank">
 									<img alt="Gmail icon (2020)" src="images/gmailicon.svg" width=25 height=25 /></a>
 								</div>
 				</p>
 					<!-- </ul> -->
 						</div>
 						
-						<div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; margin-left: 60px; max-width:900px;">
-							<br>
-							<a href="https://en.wikipedia.org/wiki/National_Kaohsiung_University_of_Science_and_Technology" target="_blank">
-								<img src = "images/nkust-logo.png" style= "border-radius: 5px; width: 210px; height: auto; max-width: 100%;" alt="National Kaohsiung University of Science and Technology logo" /></a>
-						</div>
-						
 					</div>
 						
 						<div class = "column2of2">
+								<div class="moving-alert">&#11088; Moving Alert! <a href="https://www.linkedin.com/pulse/moving-alert-jeffrey-kuo-zaarc/" target="_blank">Read the article on LinkedIn</a></div>
 							<div id="hello" style="position:relative; top:-80px; height:0;"></div>
 								
 																												
@@ -106,15 +418,15 @@ gtag('config', 'G-3JBT7W25JJ');
 										<h3><font face="">Hello!</font></h3>
 										
 										<p style="text-indent: 40px; text-align: justify; text-justify:inter-ideograph">
-Greetings! I am an economist and a recent graduate of George Washington University. Previously, I served as a lecturer in international economics and macroeconomics in the Department of Economics at GWU. I also held positions as a teaching assistant, research assistant, and research fellow at the Elliott School of International Affairs and the Sigur Center for Asian Studies.
+Greetings! As announced in my Moving Alert update, I joined the National Kaohsiung University of Science and Technology as an Assistant Research Fellow on July 1, 2026. This transition marks the end of a 12-year journey in the United States as a student, teaching assistant, lecturer, think-tank contributor, consultant, and economist.
 	<p style=" text-indent:40px; text-align: justify; text-justify:inter-ideograph">
-My research interests focus on trade agreements and economic integration in the Indo-Pacific region, particularly concerning Taiwan. Currently, I am involved in several research projects that examine the potential impacts of various trade agreement issues from the perspectives of both firms and governments.
+I am deeply grateful to the institutions, mentors, colleagues, and policy networks that shaped this path, including the Department of Economics at Syracuse University, the McDonough School of Business at Georgetown University, the Center for Global Trade Analysis at Purdue University, Fox School of Business at Temple University, George Washington University Libraries and the Academic Innovation Department, the Chung-Hua Institution for Economic Research, and partners across Washington D.C., New York, Philadelphia, West Lafayette, and Madrid.
 </p>
 	<p style=" text-indent:40px; text-align: justify; text-justify:inter-ideograph">
 
-Before my time at GWU, I earned a master's degree in Economics from Syracuse University, located in scenic upstate New York. Prior to that, I graduated with honors from National Chengchi University in Taipei, where I received a combined BS/MS degree in International Business.											</p>
+Before my doctoral years in Washington D.C., I earned a master's degree in Economics from Syracuse University in scenic upstate New York. Prior to that, I graduated with honors from National Chengchi University in Taipei, where I completed a combined BS/MS degree in International Business.										</p>
 </p>	
-<p style=" text-indent:40px; text-align: justify; text-justify:inter-ideograph"> As a native of Taiwan, I have always been fascinated by the intersection of economics and politics, especially in the context of international trade. My academic journey has taken me from Taiwan to the United States, where I have had the opportunity to study and conduct research in some of the world's leading institutions. I am capable of a wide range of skills for economic research, including a solid analytical background in economic modeling, computational economics, and econometrics. In particular, I am interested in analyzing the impacts of preferential trade agreements as well as the behavior of multinational corporations under globalization.</p> 
+<p style=" text-indent:40px; text-align: justify; text-justify:inter-ideograph"> As a native of Taiwan, I have long been fascinated by the intersection of economics and politics, especially in the context of international trade. My academic journey has taken me from Taiwan to the United States, where I had opportunities to study and conduct research at leading institutions. I work across economic modeling, computational economics, and econometrics, with particular interest in the impacts of preferential trade agreements and the behavior of multinational firms under globalization.</p> 
     
 	<div style="display: flex; justify-content: center; gap: 40px; align-items: flex-start;">
 		<div style="text-align: center;">
@@ -129,15 +441,15 @@ Before my time at GWU, I earned a master's degree in Economics from Syracuse Uni
 		</div>
 		<div style="text-align: center;">
 			<a href="https://en.wikipedia.org/wiki/Washington,_D.C." target="_blank">
-			<img style="border-radius: 25px;" src="images/dc1.jpeg" height="250" width="250" alt="Washington, DC" /></a>
-			<div style="margin-top:8px; font-size: 15px; color: #555;">Washington, DC – Where I Grow</div>
+			<img style="border-radius: 25px;" src="images/dc1.jpeg" height="250" width="250" alt="Washington D.C." /></a>
+			<div style="margin-top:8px; font-size: 15px; color: #555;">Washington D.C. – Where I Grow</div>
 		</div>
 		</div>
 										
 	<p style="text-indent: 40px; text-align:justify; text-justify:inter-ideograph">
-	My dissertation research focuses on the political economy of trade agreements, with a particular emphasis on Taiwan's role in the global economy. I have been fortunate to work with esteemed professors and researchers in the field, which has greatly enriched my understanding of international economics. My research has been published in various academic journals, and I have presented my findings at numerous conferences and workshops.</p>
+	My dissertation research examines the political economy of trade agreements, with particular emphasis on Taiwan's role in the global economy. Working with outstanding faculty and researchers has deepened my understanding of international economics, and my work has been presented at conferences and workshops across academic and policy communities.</p>
 	<p style="text-indent: 40px; text-align:justify; text-justify:inter-ideograph">
-	I am passionate about teaching and mentoring students, and I strive to create an engaging and inclusive learning environment. I believe that education is a powerful tool for social change, and I am committed to helping my students develop the skills and knowledge they need to succeed in their careers. In addition to my teaching responsibilities, I am also involved in various research projects and collaborations with colleagues both within and outside of GW.</p>
+	I am passionate about teaching and mentoring students, and I strive to build an engaging and inclusive learning environment. I believe education is a powerful instrument for social progress, and I am committed to helping students develop the analytical skills and policy intuition needed for their careers. Alongside teaching, I continue to collaborate on research projects with scholars and practitioners in Taiwan and abroad.</p>
 
 										<p style="text-indent: 40px; text-align:justify; text-justify:inter-ideograph">
 											
