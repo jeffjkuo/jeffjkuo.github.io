@@ -6,12 +6,145 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
-	<link href="/CSS/style.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/style.css" type="text/css" rel="stylesheet" />
+    <style>
+        .home-page {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.62;
+            color: #1d1d1f;
+            background: #f5f5f7;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        .home-page #website {
+            width: 100%;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 1.8rem 1.25rem 3rem;
+            box-sizing: border-box;
+        }
+
+        .home-page .menu {
+            position: static;
+            width: auto;
+            margin: 0 0 1.3rem;
+            font-size: 16px;
+            display: block;
+            background: transparent;
+            overflow: visible;
+            left: auto;
+            top: auto;
+        }
+
+        .home-page nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            justify-content: flex-start;
+            width: 100%;
+        }
+
+        .home-page nav li {
+            margin: 0;
+        }
+
+        .home-page nav li a {
+            display: inline-block;
+            padding: 0.32rem 0.78rem;
+            border-radius: 999px;
+            color: #3a3a3c;
+            text-decoration: none;
+            border: 1px solid #e5e5ea;
+            font-weight: 500;
+            font-size: 0.88rem;
+            letter-spacing: 0.01em;
+            transition: all 0.2s ease;
+        }
+
+        .home-page nav li a:hover,
+        .home-page nav li a:focus {
+            color: #ffffff;
+            background: #0a66c2;
+            border-color: #0a66c2;
+            box-shadow: 0 2px 10px rgba(10, 102, 194, 0.28);
+        }
+
+        .home-page .column2of2 {
+            width: 100%;
+            margin: 0;
+            float: none;
+            padding: 1.8rem 2rem 2.2rem;
+            box-sizing: border-box;
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+        }
+
+        .home-page h1 {
+            font-size: 2.05rem;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin: 0.2rem 0 1rem;
+        }
+
+        .home-page h2 {
+            font-size: 1.45rem;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            margin: 1.6rem 0 0.8rem;
+        }
+
+        .home-page p,
+        .home-page li {
+            color: #3a3a3c;
+        }
+
+        .home-page a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0, 102, 204, 0.25);
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .home-page a:hover,
+        .home-page a:focus {
+            color: #003f8a;
+            border-bottom-color: rgba(0, 63, 138, 0.9);
+            border-bottom-width: 2px;
+            background: rgba(10, 102, 194, 0.08);
+        }
+
+        .home-page ul {
+            margin: 0.5rem 0 0.8rem;
+            padding-left: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .home-page {
+                font-size: 17px;
+            }
+
+            .home-page #website {
+                padding: 0.7rem 0.7rem 2rem;
+            }
+
+            .home-page .column2of2 {
+                padding: 1.3rem 1rem 1.6rem;
+                border-radius: 14px;
+            }
+
+            .home-page h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 </head>
-<body>
+<body class="home-page">
 	<div id="website">
 		<!-- Navigator Buttons only -->
-		<div style="width:900px; max-width:100%; margin:0 auto;">
+        <div style="width:100%; margin:0 auto;">
 			<nav class="menu">
 				<ul>
 					<li><a href="#hello">關於</a></li>
@@ -23,67 +156,64 @@
                 </ul>
 			</nav>
 		
-            <div id="content" style="width:900px; max-width:100%; margin:0 auto;">
+            <div id="content" class="column2of2">
                 <h1 id="hello">郭哲瑋</h1>
+
+                <h2>現職</h2>
+                <ul>
+                    <li>國立高雄科技大學 全球運籌研究發展中心 助理研究員</li>
+                </ul>
+                <h2>經歷</h2>
+                <ul>
+                    <li>中華經濟研究院 區域發展研究中心 顧問（2022-2025）</li>
+                    <li>美國喬治華盛頓大學 政治學系碩士學程 R語言編程助教（2024-2025）</li>
+                    <li>臺美經濟繁榮夥伴對話工作會議 中華民國經濟部 駐美顧問（2024）</li>
+                    <li>美國喬治華盛頓大學 席格爾亞洲研究中心 研究員（2022-2023）</li>
+                    <li>臺美二十一世紀貿易倡議 中華經濟研究院 駐美諮詢專家（2023）</li>
+                    <li>美國喬治華盛頓大學 經濟學系大學部 總體經濟學講師（2023）</li>
+                    <li>美國喬治華盛頓大學 國際企業系 研究助理（2021-2022）</li>
+                    <li>美國喬治華盛頓大學 應用經濟碩士學程 國際經濟學講師（2020）</li>
+                    <li>美國喬治華盛頓大學 應用經濟碩士學程 首席助教（2019-2021）</li>
+                    <li>美國喬治華盛頓大學 經濟學系大學部 助教（2018-2019）</li>
+                    <li>美國喬治華盛頓大學 經濟學 博士候選人（2016-2025）</li>
+                    <li>美國雪城大學 NCAA學生運動員 輔導教師（2016）</li>
+                    <li>美國雪城大學 經濟學系大學部 助教（2014-2015）</li>
+                    <li>中央研究院經濟研究所 研究助理（2013-2014）</li>
+                    <li>中華民國教育部 公費留學-經濟與管理學門 正取（2013）</li>
+                    <li>中華民國陸軍 少尉預官（2012-2013）</li>
+                    <li>國立政治大學 國際經營與貿易系(學、碩) 助教（2010-2012）</li>
+                </ul>
 
                 <h2>學歷</h2>
                 <ul>
-                   <li>美國 喬治華盛頓大學 經濟學 研究碩士</li>
-                   <li>美國 喬治華盛頓大學 經濟學 理學碩士</li>
-                   <li>美國 雪城大學      經濟學 文學碩士</li>
-                   <li>國立政治大學 國際經營與貿易學 碩士</li>
-                   <li>國立政治大學 國際經營與貿易學 學士</li>
-                </ul>
-
-                <h2>經歷</h2>
-                <ul>
-                    <li>美國 喬治華盛頓大學 經濟學 博士候選人</li>
-                    <li>美國 喬治華盛頓大學 政治學系碩士班 國關實證研究課程助教 (2024-2025)</li>
-                    <li>第五屆臺美經濟繁榮夥伴對話 工作會議顧問 (2023-24)</li>
-                    <li>美國 喬治華盛頓大學 席格爾亞洲研究中心 研究員 (2022-2023)</li>
-                    <li>臺美二十一世紀貿易倡議 駐美談判顧問 (2022-23)</li>
-                    <li>美國 喬治華盛頓大學 經濟學系 總體經濟學講師 (2023)</li>
-                    <li>美國 喬治華盛頓大學 國際企業系 研究助理 (2021-2022)</li>
-                    <li>美國 喬治華盛頓大學 經濟學系碩士班 國際經濟學講師 (2020)</li>
-                    <li>美國 喬治華盛頓大學 經濟學系碩士班 首席教學助理 (2019-2021)</li>
-                    <li>美國 喬治華盛頓大學 經濟學系 教學助理 (2018-2019)</li>
-                    <li>美國 雪城大學 史帝文森教育中心 NCAA學生運動員輔導教師 (2016)</li>
-                    <li>美國 雪城大學 經濟學系 教學助理 (2014-2015)</li>
-                    <li>中央研究院 經濟研究所 研究助理 (2013-2014)</li>
-                    <li>中華民國 教育部公費留學 經濟與管理學門 正取 (2013)</li>
-                    <li>中華民國 陸軍 少尉預官 (2012-2013)</li>
-                    <li>國立政治大學 國際經營與貿易系 國際金融課程助教 (2010-2012)</li>
+                   <li>美國喬治華盛頓大學 經濟學 研究碩士</li>
+                   <li>美國喬治華盛頓大學 經濟學 理學碩士</li>
+                   <li>美國雪城大學      經濟學 文學碩士</li>
+                   <li>國立政治大學 國際經營與貿易 碩士</li>
+                   <li>國立政治大學 國際經營與貿易 學士</li>
                 </ul>
                 
-                <h2>研究領域</h2>
+                <h2>領域</h2>
                 <ul>
-                    <li>區域經濟整合</li>
-                    <li>貿易政策分析</li>
-                    <li>自由貿易協定</li>
-                    <li>美國印太政策</li>
-                    <li>多邊貿易體系</li>
+                    <li>氣候變遷</li>
+                    <li>區域整合</li>
+                    <li>多邊貿易</li>
+                    <li>臺美關係</li>
+                    
                 </ul>
                 
                 <h2>榮譽</h2>
                 <ul>
-                    <li>北美教授人協會 傑出青年學者獎 (2021、2022)</li>
-                    <li>美國 喬治華盛頓大學 博士班獎學金 (2018-2021)</li>
-                    <li>美國 雪城大學 博士班獎學金 (2014-2015)</li>
-                    <li>中華民國 教育部公費留學 (2014-2017)</li>
-                    <li>國立政治大學 國際經營與貿易學系 五年一貫榮譽學程畢業 (2012)</li>
+                    <li>北美教授人協會 傑出青年學者獎 (2021、2022) [USD $800]x2 </li>
+                    <li>美國喬治華盛頓大學 哥倫比亞文理學院 博士生暑期研究獎 (2022) [USD $5,000]</li>
+                    <li>美國喬治華盛頓大學 博士班部分獎學金 (2017-2022) [Tuition: USD $38,772 + Stipend:$26,100]x3.5</li>
+                    <li>美國雪城大學 博士班全額獎學金 (2014-2015) [Tuition: USD $24,138 + Stipend: $15,000]x1.5</li>
+                    <li>中華民國 教育部公費留學 (2014-2017) [Tuition: USD $38,772 (approx. GW-AC2016), Stipend: USD $16,000 x3]</li>
+                    <li>國立政治大學 國際經營與貿易學系 五年一貫榮譽學程 (2012)</li>
                 </ul>
-                
-                <h2>著作</h2>
-                <p> 見 <a href="https://jeffjkuo.github.io/research.html"> http://jeffjkuo.github.io/research.html</a></p>
-
-                <h2>關於</h2>
-                <p> 您好！我是畢業於國立政治大學、美國雪城大學及美國喬治華盛頓大學的經濟學人及分析師，專注於國際貿易議題的研究與教學。
-                    我熱衷於探索如何利用先進的經濟學模型與資料來解決現實世界中關於經濟整合、貿易協議、多邊主義所衍伸的問題。
-                    我曾在喬治華盛頓大學教授兩門課程，包括國際經濟學以及總體經濟學，並在雪城大學、喬治華盛頓大學擔任多堂數學分析、數理統計學、計量經濟學課程助教。
-                    課堂中，我致力於創造互動且實踐導向的學習環境，幫助學生掌握最新的經濟學理論與研究方法。</p>
-                
+                  
                 <h2>聯絡方式</h2>
-                <p>如果您對我的研究或教學有任何問題，歡迎透過電子郵件與我聯繫：jeffkuo(at)gwu(dot)edu</p>
+                <p>如果您對我的研究或教學有任何問題，歡迎透過電子郵件與我聯繫：jeffkuo&lt;at&gt;nkust.edu.tw</p>
         </div>
 	</div>
 </body>
