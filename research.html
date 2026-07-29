@@ -130,14 +130,77 @@
       font-size: 0.94em;
     }
 
-    .research-page ul {
-      margin-top: 0.5rem;
-      padding-left: 1.2rem;
+    .research-page .publication-list {
+      margin: 0.25rem 0 0;
+      padding: 0;
+      display: grid;
+      gap: 0.8rem;
     }
 
-    .research-page li {
-      margin-bottom: 0.3rem;
+    .research-page .publication-entry {
+      padding: 0.9rem 1rem;
+      border: 1px solid #e6e6eb;
+      border-radius: 14px;
+      background: linear-gradient(180deg, #fdfdfe 0%, #f7f7fa 100%);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    }
+
+    .research-page .publication-title {
+      margin-top: 0;
+      padding: 0;
+      font-weight: 600;
+      line-height: 1.45;
+      color: #1d1d1f;
+    }
+
+    .research-page .publication-meta {
+      margin: 0.2rem 0 0 0;
+      padding: 0;
+      color: #515154;
+      font-size: 0.94em;
+    }
+
+    .research-page .publication-meta + .publication-meta {
+      margin-top: 0.2rem;
+    }
+
+    .research-page .working-paper-list {
+      margin: 0.25rem 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 0.6rem;
+    }
+
+    .research-page .working-paper-list > li {
+      padding: 0.8rem 0.95rem;
+      border-left: 3px solid #0a84ff;
+      border-radius: 12px;
+      background: #f8fbff;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
       color: #3a3a3c;
+    }
+
+    .research-page .chapter-list {
+      margin: 0.45rem 0 0;
+      padding: 0 0 0 1rem;
+      list-style: none;
+    }
+
+    .research-page .chapter-list li {
+      margin-bottom: 0.35rem;
+      padding-left: 0.5rem;
+      position: relative;
+      color: #3a3a3c;
+    }
+
+    .research-page .chapter-list li::before {
+      content: "•";
+      color: #0a84ff;
+      position: absolute;
+      left: -0.55rem;
+      top: 0;
+      line-height: 1.2;
     }
 
     .research-page a {
@@ -205,38 +268,52 @@
 	
   <mark>Please see my <u><a href="http://jeffjkuo.github.io/jeffkuoCV.pdf">academic CV</a></u> for the latest update! </mark>
 
-  <h2> Paper </h2>
-  <dl>
-    <dt>[1] Estimating the Cost of Appeasing China: Taiwan’s Exclusion from the RCEP</dt>
-    <dd><a href="https://globaltaiwan.org/issues/vol-10-issue-17/" target="_blank" style="color:black"><i>Global Taiwan Brief</i></a>, 10(17), pp 4-7, 2025</dd>
-    <dd><a href="https://globaltaiwan.org/issues/vol-10-issue-17/" target="_blank">https://globaltaiwan.org/issues/vol-10-issue-17/</a></dd>
+  <h2> Publication </h2>
+  <div class="publication-list">
+    <div class="publication-entry">
+      <div class="publication-title">[6] Assessing the Economic Impact of the Trump-Xi Meeting on Taiwan (with <a href="https://www.cier.edu.tw/member/%E5%90%B3%E8%8B%A5%E7%91%8B/" target="_blank">Sabrina Jo-Wei Wu</a>)</div>
+      <div class="publication-meta"><i>Economic Outlook Bimonthly</i>, forthcoming, July 2026</div>
+    </div>
 
-    <dt>[2] <a href="http://doi.org/10.1002/bse.2817" target="_blank">Environmental Self-regulation for Sustainable Development: Can Internal Carbon Pricing Enhance Financial Performance?</a> (with Jialu Ma)</dt>
-    <dd><a href="https://onlinelibrary.wiley.com/journal/10990836" target="_blank" style="color:black"><i>Business Strategy and the Environment</i></a>, 30(8), 3517-3527, 2021</dd>
-    <dd><a href="http://doi.org/10.1002/bse.2817" target="_blank">http://doi.org/10.1002/bse.2817</a></dd>
+    <div class="publication-entry">
+      <div class="publication-title">[5] Estimating the Cost of Appeasing China: Taiwan’s Exclusion from the RCEP</div>
+      <div class="publication-meta"><a href="https://globaltaiwan.org/issues/vol-10-issue-17/" target="_blank" style="color:black"><i>Global Taiwan Brief</i></a>, 10(17), pp 4-7, 2025</div>
+      <div class="publication-meta"><a href="https://globaltaiwan.org/issues/vol-10-issue-17/" target="_blank">https://globaltaiwan.org/issues/vol-10-issue-17/</a></div>
+    </div>
 
-    <dt>[3] <a href="https://jeffjkuo.github.io/paper/icpemission/MaKuo2020AIBSEHK.pdf" target="_blank">Can Internal Carbon Pricing Reduce Carbon Emissions of Multinational Enterprises?</a> (with Jialu Ma)</dt>
-    <dd><a href="https://www.researchgate.net/publication/352198331_Can_Internal_Carbon_Pricing_Reduce_Carbon_Emissions_of_Multinational_Enterprise" target="_blank" style="color:black"><i>Academy of International Business Southeast Asia Annual Conference Proceedings</i></a>, pp. 51-52, 2020</dd>
-    <dd><a href="https://www.researchgate.net/publication/352198331" target="_blank">https://www.researchgate.net/publication/352198331</a></dd>
+    <div class="publication-entry">
+      <div class="publication-title">[4] <a href="https://drive.google.com/file/d/1ZxyWQdZAYKL1j4fkglCw80lwl-_AdX_k/view" target="_blank">Plausible Causes and Solutions to Wage Stagnation of Taiwan</a> (with <a href="http://www.pp.u-tokyo.ac.jp/en/faculty/chen-stacey/" target="_blank">Stacey H. Chen</a>)</div>
+      <div class="publication-meta"><a href="https://reading.udn.com/v2/bookDesc.do?id=60563" target="_blank" style="color:black"><i>The R.O.C. Economic Yearbook 2014</i></a>, pp. 32-39, 2014</div>
+      <div class="publication-meta"><a href="https://gprivate.com/6hkfu" target="_blank">https://gprivate.com/6hkfu</a></div>
+    </div>
 
-    <dt>[4] <a href="https://drive.google.com/file/d/1ZxyWQdZAYKL1j4fkglCw80lwl-_AdX_k/view" target="_blank">Plausible Causes and Solutions to Wage Stagnation of Taiwan</a> (with <a href="http://www.pp.u-tokyo.ac.jp/en/faculty/chen-stacey/" target="_blank">Stacey H. Chen</a>)</dt>
-    <dd><a href="https://reading.udn.com/v2/bookDesc.do?id=60563" target="_blank" style="color:black"><i>The R.O.C. Economic Yearbook 2014</i></a>, pp. 32-39, 2014</dd>
-    <dd><a href="https://gprivate.com/6hkfu" target="_blank">https://gprivate.com/6hkfu</a></dd>
+    <div class="publication-entry">
+      <div class="publication-title">[3] <a href="https://jeffjkuo.github.io/paper/icpemission/MaKuo2020AIBSEHK.pdf" target="_blank">Can Internal Carbon Pricing Reduce Carbon Emissions of Multinational Enterprises?</a> (with Jialu Ma)</div>
+      <div class="publication-meta"><a href="https://www.researchgate.net/publication/352198331_Can_Internal_Carbon_Pricing_Reduce_Carbon_Emissions_of_Multinational_Enterprise" target="_blank" style="color:black"><i>Academy of International Business Southeast Asia Annual Conference Proceedings</i></a>, pp. 51-52, 2020</div>
+      <div class="publication-meta"><a href="https://www.researchgate.net/publication/352198331" target="_blank">https://www.researchgate.net/publication/352198331</a></div>
+    </div>
 
-    <dt>[5] <a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">Non-cooperative and Cooperative Fiscal Policies in a Two-country Differential Games Model</a></dt>
-    <dd><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank" style="color:black"><i>National Chengchi University Electronic Theses and Dissertations</i></a>, 2012</dd>
-    <dd><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">http://nccur.lib.nccu.edu.tw/handle/140.119/54905</a></dd>
-  </dl>
+    <div class="publication-entry">
+      <div class="publication-title">[2] <a href="http://doi.org/10.1002/bse.2817" target="_blank">Environmental Self-regulation for Sustainable Development: Can Internal Carbon Pricing Enhance Financial Performance?</a> (with Jialu Ma)</div>
+      <div class="publication-meta"><a href="https://onlinelibrary.wiley.com/journal/10990836" target="_blank" style="color:black"><i>Business Strategy and the Environment</i></a>, 30(8), 3517-3527, 2021</div>
+      <div class="publication-meta"><a href="http://doi.org/10.1002/bse.2817" target="_blank">http://doi.org/10.1002/bse.2817</a></div>
+    </div>
 
-  <h2> Dissertation Chapters </h2>
-  <ul>
-    <li><i>Taiwan's Role in Globalization: Pre- and Post-US-China Trade War</i>
-      <ul>
-        <li>Chapter 1, Estimating the GE Effects of Including Taiwan into RCEP</li>
-        <li>Chapter 2, A Graphical Network Analysis of the Evolution of Taiwan's ICT Industry</li>
-        <li>Chapter 3, How do ECFA-Tourists Redraw the Ideological Boundaries in Taiwan? (<i>under revision</i>)</li>
+    <div class="publication-entry">
+      <div class="publication-title">[1] <a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">Non-cooperative and Cooperative Fiscal Policies in a Two-country Differential Games Model</a></div>
+      <div class="publication-meta"><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank" style="color:black"><i>National Chengchi University Electronic Theses and Dissertations</i></a>, 2012</div>
+      <div class="publication-meta"><a href="http://nccur.lib.nccu.edu.tw/handle/140.119/54905" target="_blank">http://nccur.lib.nccu.edu.tw/handle/140.119/54905</a></div>
+    </div>
+  </div>
+
+  <h2> Working Paper </h2>
+  <p style="margin:0 0 0.6rem; font-size:0.9rem; color:#6e6e73;"><i>These are chapters in Ph.D. dissertation, entitled "Taiwan's Role in Globalization: Pre- and Post-Sino-US Trade War"</i></p>
+  <ul class="working-paper-list">
+          <ul class="chapter-list">
+        <li>[1] Estimating the GE Effects of Including Taiwan into RCEP</li>
+        <li>[2] Network Analysis of the Evolution of Taiwan's ICT Industry</li>
+        <li>[3] How do ECFA-Tourists Redraw the Ideological Boundaries in Taiwan? (<i>under revision</i>)</li>
       </ul>
-    </li>
   </ul>
 
 
