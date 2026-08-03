@@ -297,7 +297,29 @@ gtag('config', 'G-3JBT7W25JJ');
 			color: #1d1d1f;
 		}
 
-		.home-page .moving-alert a {
+		.home-page .alert-stack {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.45rem;
+			margin: 0 auto 0.8rem;
+			width: fit-content;
+		}
+
+		.home-page .alert-banner {
+			display: flex;
+			align-items: center;
+			gap: 0.45rem;
+			padding: 0.48rem 0.78rem;
+			background: #f2f2f7;
+			border: 1px solid #e5e5ea;
+			border-radius: 10px;
+			font-size: 0.9rem;
+			font-weight: 500;
+			color: #1d1d1f;
+		}
+
+		.home-page .alert-banner a {
 			border-bottom: none;
 			font-weight: 600;
 		}
@@ -414,6 +436,10 @@ gtag('config', 'G-3JBT7W25JJ');
 				width: 100%;
 				justify-content: center;
 			}
+
+			.home-page .alert-stack {
+				width: 100%;
+			}
 		}
 	</style>
 </head>
@@ -456,7 +482,7 @@ gtag('config', 'G-3JBT7W25JJ');
 				<font size="4"><span class="">&#127919;</span> &#160; Research Fields </font>
 				<font size="4">
 					<ul class="b">
-						<li><a href="https://en.wikipedia.org/wiki/Environmental_economics"> Environmental Economics</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/Environmental_economics"> Climate Change</a></li>
 						<li><a href="https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Trade">International Trade</a></li>
 					</ul>
 				</font>
@@ -482,7 +508,10 @@ gtag('config', 'G-3JBT7W25JJ');
 					</div>
 						
 						<div class = "column2of2">
-								<div class="moving-alert">&#11088; Moving Alert! <a href="https://www.linkedin.com/pulse/moving-alert-jeffrey-kuo-zaarc/" target="_blank">Read the article on LinkedIn</a></div>
+								<div class="alert-stack">
+									<div class="alert-banner">&#11088; New Publication! <a href="https://reurl.cc/be2jp6" target="_blank">LinkedIn Announcement Link</a></div>
+									<div class="alert-banner">&#11088; Moving Alert! <a href="https://www.linkedin.com/pulse/moving-alert-jeffrey-kuo-zaarc/" target="_blank">Read the article on LinkedIn</a></div>
+								</div>
 							<div id="hello" style="position:relative; top:-80px; height:0;"></div>
 								
 																												
