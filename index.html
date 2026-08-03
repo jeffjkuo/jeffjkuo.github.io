@@ -609,19 +609,12 @@ Before my doctoral years in Washington D.C., I earned a master's degree in Econo
 									(function () {
 										var storageKey = 'visitorCounterData';
 										var saved = localStorage.getItem(storageKey);
-										var data = saved ? JSON.parse(saved) : { today: '', count: 0, total: 0 };
-										var now = new Date();
-										var today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
-										if (data.today !== today) {
-											data.today = today;
-											data.count = 0;
-										}
-										data.count += 1;
+										var data = saved ? JSON.parse(saved) : { total: 0 };
 										data.total += 1;
 										localStorage.setItem(storageKey, JSON.stringify(data));
 										var counter = document.getElementById('visitorCounter');
 										if (counter) {
-											counter.innerHTML = '<span class="footer-stat"><strong>' + data.count + '</strong> today</span> • <span class="footer-stat"><strong>' + data.total + '</strong> total</span>';
+											counter.innerHTML = '<span class="footer-stat"><strong>Visits:</strong> ' + data.total + '</span>';
 										}
 									})();
 								</script>
