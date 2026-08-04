@@ -607,14 +607,32 @@ Before my doctoral years in Washington D.C., I earned a master's degree in Econo
 								</div>
 								<script type="text/javascript">
 									(function () {
-										var storageKey = 'visitorCounterData';
-										var saved = localStorage.getItem(storageKey);
-										var data = saved ? JSON.parse(saved) : { total: 0 };
-										data.total += 1;
-										localStorage.setItem(storageKey, JSON.stringify(data));
 										var counter = document.getElementById('visitorCounter');
-										if (counter) {
-											counter.innerHTML = '<span class="footer-stat"><strong>Visits:</strong> ' + data.total + '</span>';
+										if (!counter) {
+											return;
 										}
+
+										if (window.location.protocol === 'file:') {
+											counter.innerHTML = '<span class="footer-stat"><strong>Visits:</strong> unavailable in local preview</span>';
+											return;
+										}
+
+										var namespace = 'jeffrey-kuo-homepage';
+										var key = 'index-total-visits';
+										var endpoint = 'https://api.countapi.xyz/hit/' + encodeURIComponent(namespace) + '/' + encodeURIComponent(key);
+
+										fetch(endpoint, { cache: 'no-store' })
+											.then(function (response) {
+												if (!response.ok) {
+													throw new Error('Counter request failed');
+												}
+												return response.json();
+											})
+											.then(function (data) {
+												counter.innerHTML = '<span class="footer-stat"><strong>Visits:</strong> ' + data.value + '</span>';
+											})
+											.catch(function () {
+												counter.innerHTML = '<span class="footer-stat"><strong>Visits:</strong> temporarily unavailable</span>';
+											});
 									})();
 								</script>
