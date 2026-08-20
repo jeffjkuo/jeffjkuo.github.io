@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163646272-1"></script>
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JBT7W25JJ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+	dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+gtag('config', 'G-3JBT7W25JJ');
+	</script>
+	
+		<meta charset=“UTF-8”>
+	
+	<title>Jeffrey Kuo 郭哲瑋</title>
+	
+	<link href = "/CSS/style.css" type="text/css" rel="stylesheet" />
+	<style>
+		.home-page {
+			font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.62;
+			color: #1d1d1f;
+			background: #f5f5f7;
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+		}
+
+		.home-page #website {
+			width: 100%;
+			max-width: 980px;
+			margin: 0 auto;
+			padding: 1.8rem 1.25rem 3rem;
+			box-sizing: border-box;
+		}
+
+		.home-page .menu {
+			position: static;
+			width: auto;
+			margin: 0 0 1.3rem;
+			font-size: 16px;
+			display: block;
+			background: transparent;
+			overflow: visible;
+			left: auto;
+			top: auto;
+		}
+
+		.home-page nav ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.35rem;
+			justify-content: flex-start;
+			width: 100%;
+		}
+
+		.home-page nav li {
+			margin: 0;
+		}
+
+		.home-page nav li a {
+			display: inline-block;
+			padding: 0.32rem 0.78rem;
+			border-radius: 999px;
+			color: #3a3a3c;
+			text-decoration: none;
+			border: 1px solid #e5e5ea;
+			font-weight: 500;
+			font-size: 0.88rem;
+			letter-spacing: 0.01em;
+			transition: all 0.2s ease;
+		}
+
+		.home-page nav li a:hover,
+		.home-page nav li a:focus {
+			color: #ffffff;
+			background: #0a66c2;
+			border-color: #0a66c2;
+			box-shadow: 0 2px 10px rgba(10, 102, 194, 0.28);
+		}
+
+		.home-page .nav-logo-item {
+			display: inline-flex;
+			align-items: center;
+			margin-left: auto;
+		}
+
+		.home-page .nav-logo-link {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.35rem;
+			padding: 0.24rem 0.48rem;
+			border-radius: 10px;
+			border: 1px solid #e5e5ea;
+			background: #fbfbfd;
+			border-bottom: none;
+			white-space: nowrap;
+		}
+
+		.home-page .nav-logo-link img {
+			height: 22px;
+			width: auto;
+			display: block;
+		}
+
+		.home-page .nav-logo-label {
+			font-size: 0.8rem;
+			font-weight: 600;
+			letter-spacing: 0.02em;
+			color: #3a3a3c;
+		}
+
+		.home-page .nav-center-link {
+			padding-left: 0.4rem;
+			padding-right: 0.4rem;
+		}
+
+		.home-page .nav-center-badge {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 28px;
+			height: 22px;
+			border-radius: 6px;
+			background: linear-gradient(180deg, #0d4ea3 0%, #123c7a 100%);
+			color: #ffffff;
+			font-size: 0.62rem;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			line-height: 1;
+		}
+
+		.home-page .row {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: space-between;
+			gap: 1.3rem;
+			margin-bottom: 1.1rem;
+			padding: 1.3rem;
+			box-sizing: border-box;
+			background: #ffffff;
+			border-radius: 18px;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+		}
+
+		.home-page .picture,
+		.home-page .contact {
+			float: none;
+			width: auto;
+			margin: 0;
+		}
+
+		.home-page .picture {
+			flex: 1 1 380px;
+			max-width: 520px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.home-page .picture img {
+			width: 208px;
+			height: 208px;
+			object-fit: cover;
+			border-radius: 24px !important;
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+		}
+
+		.home-page .contact {
+			flex: 1 1 380px;
+			max-width: 520px;
+			padding-top: 0.15rem;
+		}
+
+		.home-page .contact br:first-child {
+			display: none;
+		}
+
+		.home-page .contact font[size="6"] {
+			font-size: 2.05rem;
+			line-height: 1.2 !important;
+			letter-spacing: -0.02em;
+		}
+
+		.home-page .contact font[size="4"] {
+			font-size: 1rem;
+		}
+
+		.home-page .contact ul.b {
+			margin: 0.45rem 0 0.9rem;
+			padding-left: 1.7rem;
+			margin-left: 0.15rem;
+		}
+
+		.home-page .contact ul.b li {
+			margin-bottom: 0.25rem;
+		}
+
+		.home-page .sociallogo {
+			display: flex;
+			gap: 0.55rem;
+			flex-wrap: wrap;
+			margin-top: 0.25rem;
+		}
+
+		.home-page .sociallogo a {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 38px;
+			height: 38px;
+			border-radius: 50%;
+			background: #f5f5f7;
+			border: 1px solid #e5e5ea;
+			border-bottom: none;
+			transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+		}
+
+		.home-page .sociallogo a:hover,
+		.home-page .sociallogo a:focus {
+			transform: translateY(-1px);
+			background: #deebfa;
+			border-color: #9fc3ea;
+		}
+
+		.home-page .sociallogo img {
+			width: 18px !important;
+			height: 18px !important;
+		}
+
+
+		.home-page .column2of2 {
+			width: 100%;
+			margin: 0;
+			float: none;
+			padding: 1.8rem 2rem 2.2rem;
+			box-sizing: border-box;
+			background: #ffffff;
+			border-radius: 18px;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+		}
+
+		.home-page h3 {
+			font-size: 2rem;
+			font-weight: 600;
+			line-height: 1.14;
+			letter-spacing: -0.02em;
+			margin: 0.2rem 0 1rem;
+			color: #1d1d1f;
+		}
+
+		.home-page p {
+			color: #3a3a3c;
+		}
+
+		.home-page a {
+			color: #0066cc;
+			text-decoration: none;
+			border-bottom: 1px solid rgba(0, 102, 204, 0.25);
+			transition: color 0.2s ease, border-color 0.2s ease;
+		}
+
+		.home-page a:hover,
+		.home-page a:focus {
+			color: #003f8a;
+			border-bottom-color: rgba(0, 63, 138, 0.9);
+			border-bottom-width: 2px;
+			background: rgba(10, 102, 194, 0.08);
+		}
+
+		.home-page .button1 {
+			background: #f2f2f7 !important;
+			color: #1d1d1f !important;
+			border: 1px solid #d2d2d7 !important;
+			border-radius: 10px !important;
+			padding: 0.38rem 0.8rem !important;
+			font-weight: 500 !important;
+		}
+
+		.home-page .button1:hover,
+		.home-page .button1:focus {
+			background: #dfeefe !important;
+			border-color: #9fc3ea !important;
+			color: #0b3b8c !important;
+		}
+
+		.home-page hr {
+			border: 0;
+			border-top: 1px solid #e5e5ea;
+			margin: 1.1rem 0 1.3rem;
+		}
+
+		.home-page .moving-alert {
+			display: flex;
+			align-items: center;
+			gap: 0.45rem;
+			padding: 0.48rem 0.78rem;
+			margin: 0 auto 0.8rem;
+			width: fit-content;
+			background: #f2f2f7;
+			border: 1px solid #e5e5ea;
+			border-radius: 10px;
+			font-size: 0.9rem;
+			font-weight: 500;
+			color: #1d1d1f;
+		}
+
+		.home-page .alert-stack {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.45rem;
+			margin: 0 auto 0.8rem;
+			width: fit-content;
+		}
+
+		.home-page .alert-banner {
+			display: flex;
+			align-items: center;
+			gap: 0.45rem;
+			padding: 0.48rem 0.78rem;
+			background: #f2f2f7;
+			border: 1px solid #e5e5ea;
+			border-radius: 10px;
+			font-size: 0.9rem;
+			font-weight: 500;
+			color: #1d1d1f;
+		}
+
+		.home-page .alert-banner a {
+			border-bottom: none;
+			font-weight: 600;
+		}
+
+		.home-page .footer-shell {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.5rem;
+			margin: 1rem auto 0;
+			padding-top: 0.35rem;
+		}
+
+		.home-page .footer-note {
+			margin: 0;
+			font-size: 0.84rem;
+			line-height: 1.65;
+			color: #6e6e73;
+			text-align: center;
+			max-width: 640px;
+		}
+
+		.home-page .footer-note a {
+			color: #0a66c2;
+			text-decoration: none;
+		}
+
+		.home-page .footer-card {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			width: min(100%, 900px);
+			gap: 0.75rem;
+			padding: 0.68rem 1rem;
+			background: linear-gradient(180deg, #ffffff 0%, #f7f7fa 100%);
+			border: 1px solid rgba(15, 23, 42, 0.08);
+			border-radius: 999px;
+			box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.06);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			white-space: nowrap;
+		}
+
+		.home-page .footer-card .footer-timestamp {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 0.84rem;
+			color: #1d1d1f;
+			line-height: 1.3;
+		}
+
+		.home-page .footer-card .footer-meta {
+			margin-left: auto;
+			font-size: 0.84rem;
+			color: #6e6e73;
+			line-height: 1.3;
+		}
+
+		.home-page .footer-card .footer-stat {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.22rem;
+			font-size: 0.84rem;
+			font-weight: 600;
+			color: #1d1d1f;
+		}
+
+		.home-page .footer-card .footer-stat strong {
+			font-weight: 700;
+			color: #0a66c2;
+		}
+
+		@media (max-width: 768px) {
+			.home-page {
+				font-size: 17px;
+			}
+
+			.home-page #website {
+				padding: 0.7rem 0.7rem 2rem;
+			}
+
+			.home-page .column2of2 {
+				padding: 1.3rem 1rem 1.6rem;
+				border-radius: 14px;
+			}
+
+			.home-page .row {
+				padding: 1rem;
+				gap: 0.9rem;
+			}
+
+			.home-page .picture,
+			.home-page .contact {
+				flex: 1 1 100%;
+				max-width: 100%;
+			}
+
+			.home-page .picture {
+				text-align: center;
+			}
+
+			.home-page .picture img {
+				width: 170px;
+				height: 170px;
+			}
+
+			.home-page h3 {
+				font-size: 1.65rem;
+			}
+
+			.home-page .moving-alert {
+				width: 100%;
+				justify-content: center;
+			}
+
+			.home-page .alert-stack {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body class="home-page">
+	<div id="website">
+		<!-- Navigator Buttons -->
+		<div style="width:900px; max-width:100%; margin:0 auto;">
+			<nav class="menu">
+			<ul>
+				<li><a href="#hello">Hello</a></li>
+								<li><a href="jeffkuoCV.pdf">Vitae</a></li>
+				<li><a href="teaching.html">Teaching</a></li>
+				<li class="nav-logo-item">
+					<a class="nav-logo-link" href="https://eng.nkust.edu.tw/" target="_blank"><img src="images/nkust-logo.png" alt="NKUST logo" /><span class="nav-logo-label">NKUST</span></a>
+					<a class="nav-logo-link nav-center-link" href="https://mmp.nkust.edu.tw/Center/CenterContent/19" target="_blank"><span class="nav-center-badge">GLDC</span></a>
+				</li>
+
+				<!-- <li><a href="seminarinfo.html">Seminar</a></li>  -->
+			</ul>
+			</nav>
+		</div>
+			<div class="row">
+				<div class = "picture">
+					<!-- <p> <img src = "images/IMG_3818.JPG" height = 270 /> </p> -->
+					<p><a href="https://venues.gwu.edu/university-yard" target="_blank">
+					<img style= "border-radius: 25px" src = "images/newheadshot.png" height = 180 /></a></p>
+				</div>
+
+				<div class = "contact">
+					<br><font face = "" size=6 style="line-height:1.5"><b>Jeffrey Kuo</b></font>
+					<br>
+					<font size="4" style="line-height:1.3; color:#3a3a3c;">Assistant Research Fellow</font>
+					<br>
+					<a href="https://eng.nkust.edu.tw/" target="_blank" style="display:inline-block; font-size: 16px; line-height:1.3; color:#3a3a3c; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px;">National Kaohsiung University of Science and Technology</a>
+					<br>
+					<font size="4" style="line-height:1"><span aria-label="Chinese name">🀄</span> &#160; 中文姓名: <a href="chinese.html">郭哲瑋</a></font>
+					<br>
+					<font size="4" style="line-height:1"><a style="text-decoration: none" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=jeffkuo@nkust.edu.tw">  <span class="">&#128231;</span> &#160; jeffkuo [at] nkust.edu.tw</a> </font>
+					<br>
+
+					<font size="4"><span class="">&#127919;</span> &#160; Research Field 1: <a href="https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Trade">International Trade</a></font>
+					<br>
+					<font size="4"><span class="">&#127919;</span> &#160; Research Field 2: Applied Econometrics (<a href="https://www.r-project.org/" target="_blank">R</a> and <a href="https://www.stata.com/" target="_blank">Stata</a>)</font>
+
+					<p style="text-align:left;"></p>
+
+					<div class="sociallogo">
+						<a href="https://orcid.org/0000-0001-9562-8666" target="_blank">
+						<img src="images/orcid.svg" height =25 width =25 /></a>
+						<a href="https://www.linkedin.com/in/jeffjkuo" target="_blank">
+							<img src = "images/linkedin.svg" height =25 width =25 /></a>
+						<a href="https://twitter.com/jeffjkuo" target="_blank">
+							<img src = "images/twittericon.svg" height =25 width =25 /></a>
+						<a href="https://www.youtube.com/channel/UCtT9g8itTPXaFCbrt3GWjwg" target="_blank">
+							<img src = "images/youtubeicon.svg" height =25 width =25 /></a>
+						<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=jeffkuo@nkust.edu.tw" target="_blank">
+							<img alt="Gmail icon (2020)" src="images/gmailicon.svg" width=25 height=25 /></a>
+					</div>
+				</div>
+			</div>
+
+	
+		
+						<div class = "column2of2">
+								<div class="alert-stack">
+								</div>
+							<div id="hello" style="position:relative; top:-80px; height:0;"></div>
+
+								<hr>
+
+	<div style="display: flex; justify-content: center; gap: 40px; align-items: flex-start;">
+		<div style="text-align: center;">
+			<a href="https://en.wikipedia.org/wiki/Kaohsiung" target="_blank">
+			<img style="border-radius: 25px;" src="images/khh1.jpeg" height="250" width="250" alt="Kaohsiung, Taiwan" title="Kaohsiung Music Center" /></a>
+			<div style="margin-top:8px; font-size: 15px; color: #555;">Kaohsiung, Taiwan</div>
+			<a href="https://en.wikipedia.org/wiki/Kaohsiung_Music_Center" target="_blank" style="display: inline-block; margin-top:4px; font-size: 14px; color: #6d8fb3; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px;">Kaohsiung Music Center</a>
+		</div>
+		<div style="text-align: center;">
+			<a href="https://en.wikipedia.org/wiki/Washington,_D.C." target="_blank">
+			<img style="border-radius: 25px;" src="images/dc1.jpeg" height="250" width="250" alt="Washington D.C." title="Pennsylvenia Avenue NW" /></a>
+			<div style="margin-top:8px; font-size: 15px; color: #555;">Washington, D.C.</div>
+			<a href="https://en.wikipedia.org/wiki/Pennsylvania_Avenue" target="_blank" style="display: inline-block; margin-top:4px; font-size: 14px; color: #6d8fb3; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px;">Pennsylvenia Avenue NW</a>
+		</div>
+		<div style="text-align: center;">
+			<a href="https://en.wikipedia.org/wiki/Syracuse,_New_York" target="_blank">
+			<img style="border-radius: 25px;" src="images/cuse1.JPG" height="250" width="250" alt="Syracuse, NY" title="Crouse College of Fine Arts" /></a>
+			<div style="margin-top:8px; font-size: 15px; color: #555;">Syracuse, NY</div>
+			<a href="https://en.wikipedia.org/wiki/Crouse_College" target="_blank" style="display: inline-block; margin-top:4px; font-size: 14px; color: #6d8fb3; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px;">Crouse College of Fine Arts</a>
+		</div>
+		</div>
+
+	<p style="text-align:center; margin: 1.5rem 0 0; display:flex; justify-content:center; flex-wrap:wrap; gap:0.6rem;">
+		<button class="button1" onclick="window.location.href='personal-statement.html';">Personal Statement</button>
+		<button class="button1" onclick="window.location.href='research-statement.html';">Research Statement</button>
+		<button class="button1" onclick="window.location.href='jeffkuoCV.pdf';">CV</button>
+		<button class="button1" onclick="window.location.href='jeffkuoshortbio.docx';">Short Bio</button>
+	</p>
+							<div class="footer-shell">
+								<p class="footer-note">This webpage is subject to <a href="https://docs.github.com/en/github/site-policy/dmca-takedown-policy" target="_blank">Digital Millennium Copyright Act</a></p>
+								<div class="footer-card">
+									<div class="footer-timestamp">
+										<script type="text/javascript">
+											var lastUpdated = new Date(document.lastModified);
+											var formattedTime = lastUpdated.toLocaleString(undefined, { timeZoneName: 'short' });
+											formattedTime = formattedTime.replace(/GMT[+-]\d+/i, 'Taiwan Time').replace(/UTC[+-]\d+/i, 'Taiwan Time').replace(/HKT/i, 'Taiwan Time');
+											document.write("Last updated on " + formattedTime);
+										</script>
+									</div>
+										<div class="footer-meta"><script src="https://Counter.hacc.cc/Counter.asp?Name=icecreamcat&Dir=057"></script></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</body>
+			</html>
